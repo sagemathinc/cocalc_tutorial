@@ -26,10 +26,10 @@ Paying users get more resources and support - vital if you are to rely on it for
 * Section 0 - [Getting Started](./getting_started/getting_started.md)
 * Section 1 - Overview of what you can *easily* do in SMC?
 * Section 2 - What can't you do in SMC?
-* Section 3 - Creating a course full of students
+* Section 3 - [Creating a course](./creating_a_course/creating_course.md)
 * Section 4 - Assignments
-* Section 5 - Costs
+* Section 5 - [Upgrading to premium accounts](./premium/premium.md) - Strongly recommended to ensure solid course performance
 
 ## Further resources
 
-* Grading in [SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
+* [Grading in SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
