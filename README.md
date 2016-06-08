@@ -1,5 +1,7 @@
 Notes for an introduction to Jupyter notebooks and Sage Math Cloud for lecturers.
 
+There isn't much here yet! Probably best to come back soon!
+
 ## Jupyter Notebooks
 
 Lorem ipsum.....
@@ -25,4 +27,8 @@ Paying users get more resources and support - vital if you are to rely on it for
 * Section 2 - What can't you do in SMC?
 * Section 3 - Creating a course full of students
 * Section 4 - Assignments
-* section 5 - Costs
+* Section 5 - Costs
+
+## Further resources
+
+* Grading in [SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
