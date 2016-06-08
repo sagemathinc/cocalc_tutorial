@@ -10,7 +10,9 @@ In this section we are going to create a project containing a course.
 
 ![Create new course project](./assets/create_new_course_project.png )
 
+* The new project will appear at the top of the project list. Click on its  title to open it.
 
+![Project list](assets/course_list.png)
 
 ## Exercise idea
 
@@ -28,5 +30,7 @@ Lecturer monitors and comments using the collaborative notebook tools
 Lecturer marks the assignment and returns them to students
 
 ## Resources
+
+A brief video from UCLA on course management in SageMathCloud
 
 [![SMC Course Management](./assets/smc_course_management.png)](https://www.youtube.com/watch?v=oqCVNue0uL0)
