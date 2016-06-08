@@ -1,6 +1,16 @@
 # Creating a course
 
-lorem ipsum...
+In this section we are going to create a project containing a course.
+
+* Log into SageMathCloud and click on the **projects** icon in the top left hand corner of the screen.
+
+![Projects icon](./assets/projects.png)
+
+* Click on **Create New Project**, fill out the **Title** and **Description** and click on **Create Project**
+
+![Create new course project](./assets/create_new_course_project.png )
+
+
 
 ## Exercise idea
 

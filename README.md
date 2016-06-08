@@ -33,3 +33,4 @@ Paying users get more resources and support - vital if you are to rely on it for
 ## Further resources
 
 * [Grading in SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
+* [SageMathCloud on github](https://github.com/sagemathinc/smc) - The whole system is open source
