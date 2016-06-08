@@ -16,3 +16,7 @@ Students work through the lecture notebook and completes the assignment.
 Lecturer monitors and comments using the collaborative notebook tools
 
 Lecturer marks the assignment and returns them to students
+
+## Resources
+
+[![SMC Course Management](./assets/smc_course_management.png)](https://www.youtube.com/watch?v=oqCVNue0uL0)
