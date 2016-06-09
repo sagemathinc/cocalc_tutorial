@@ -20,11 +20,10 @@ Paying users get more resources and support - vital if you are to rely on it for
 ## Course material
 
 * Section 0 - [Getting Started](./getting_started/getting_started.md)
-* Section 1 - [A tour of SageMathCloud](/functionality/functionality.md) - An overview of what you can *easily* do in SMC?
-* Section 2 - What can't you do in SMC?
-* Section 3 - [Creating a course](./creating_a_course/creating_course.md)
-* Section 4 - Assignments
-* Section 5 - [Upgrading to premium accounts](./premium/premium.md) - Strongly recommended to ensure solid course performance
+* Section 1 - [A tour of SageMathCloud](/functionality/functionality.md) - An overview of some of SageMathCloud's functionality?
+* Section 2 - [Creating a course](./creating_a_course/creating_course.md)
+* Section 3 - Assignments
+* Section 4 - [Upgrading to premium accounts](./premium/premium.md) - Strongly recommended to ensure solid course performance
 
 ## Further resources
 
