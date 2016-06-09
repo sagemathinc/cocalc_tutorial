@@ -10,4 +10,13 @@ Log into SageMathCloud and click on the **projects** icon in the top left hand c
 
 Click on **Create New Project**, fill out the **Title** and **Description** and click on **Create Project**
 
-![Projects icon](./assets/project_playing.png)
+![Create Project](./assets/project_playing.png)
+
+Once you've created it, click on the project title to open it. It will initially be empty so we'll start creating files
+
+### Linux terminal
+
+SageMathCloud provides full access to the Linux terminal. To open a terminal, click on **New** and give your session a name. I've used `terminal session` in the example. Click on **>_ Terminal** to begin your session
+
+![Create Terminal](./assets/open_terminal.png)
+
