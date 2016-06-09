@@ -1,10 +1,6 @@
-Notes for an introduction to Jupyter notebooks and Sage Math Cloud for lecturers.
+An introduction to Sage Math Cloud for lecturers.
 
 There isn't much here yet! Probably best to come back soon!
-
-## Jupyter Notebooks
-
-Lorem ipsum.....
 
 ## SageMathCloud
 
@@ -24,7 +20,7 @@ Paying users get more resources and support - vital if you are to rely on it for
 ## Course material
 
 * Section 0 - [Getting Started](./getting_started/getting_started.md)
-* Section 1 - Overview of what you can *easily* do in SMC?
+* Section 1 - [A tour of SageMathCloud](/functionality/functionality.md) - An overview of what you can *easily* do in SMC?
 * Section 2 - What can't you do in SMC?
 * Section 3 - [Creating a course](./creating_a_course/creating_course.md)
 * Section 4 - Assignments
