@@ -1,4 +1,6 @@
-# Course Management #1
+# Creating a new course
+
+We will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course
 
 ## Creating the course project
 
@@ -40,27 +42,7 @@ Your course page will now look like this
 
 ![Student list](./assets/student_list3.png)
 
-* Email addresses that are followed by **(invited)** do not have a SageMathCloud account yet. **(invited** will disappear as soon as they sign up.
-* You can see when each student last used the course project
+* Email addresses that are followed by **(invited)** do not have a SageMathCloud account yet. **(invited)** will disappear as soon as they sign up.
+* You can see when each student last used the course project. In this case -- never!
 * The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.
 
-## Exercise idea
-
-Split the class into groups. Mimium size 3 per group.
-Get one person to be the instructor -- the other 2+ people, the students.
-
-* Provide example lecture notesbook for them to use.
-* Provide example assignment notebook for them to use.
-
-Exercise proceeds by lecturer distributing the materials to the students.
-
-Students work through the lecture notebook and completes the assignment.
-Lecturer monitors and comments using the collaborative notebook tools
-
-Lecturer marks the assignment and returns them to students
-
-## Resources
-
-A brief video from UCLA on course management in SageMathCloud
-
-[![SMC Course Management](./assets/smc_course_management.png)](https://www.youtube.com/watch?v=oqCVNue0uL0)
