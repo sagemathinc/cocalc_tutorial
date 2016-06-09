@@ -40,11 +40,20 @@ The distribution is based on Ubuntu Linux but it is not possible to install soft
 
 If you need something installed, contact the SageMathCloud team for [some help](#GettingHelp).
 
-When you start a terminal session called `foo`, a file called `foo.term` is created. It's contents are not particularly interesting as they only mean something to the SageMathCloud system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off. 
+When you start a terminal session called `foo`, a file called `foo.term` is created. Its contents are not particularly interesting as they only mean something to the SageMathCloud system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off. 
 
 ### Jupyter Notebooks
 
-TODO - include range of terminals and interactivity.
+To start a new Jupyter notebook, click on **New** and give your notebook a name. I've used `example_notebook` in the example. Click on **Jupyter Notebook** to open the notebook.
+
+![Open Notebook](.assets/create_notebook.png)
+
+The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **kernel**->**change kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Sage Math and Apache Spark. 
+
+![kernel choice](assets/kernel_choice.png)
+
+TODO: SMC Enhancements to the notebook **Publish** **Time Travel**. Backup policy at https://github.com/sagemathinc/smc/wiki/FAQ#backup
+
 
 ### Sage Worksheets
 
