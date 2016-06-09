@@ -40,7 +40,7 @@ The distribution is based on Ubuntu Linux but it is not possible to install soft
 
 If you need something installed, contact the SageMathCloud team for [some help](#GettingHelp).
 
-TODO: Mention the .term file
+When you start a terminal session called `foo`, a file called `foo.term` is created. It's contents are not particularly interesting as they only mean something to the SageMathCloud system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off. 
 
 ### Jupyter Notebooks
 
