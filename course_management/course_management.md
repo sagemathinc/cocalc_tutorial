@@ -1,4 +1,4 @@
-# Populating your course
+# Course management
 
 No matter what you've added in the instructors view of the course, the students will not see any files until you explictly assign them.
 

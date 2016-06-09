@@ -36,7 +36,7 @@ The terminal welcome message gives you an idea of some of the software that's av
 * Version control via git
 * LateX
 
-The distribution is based on Linux but it is not possible to install software yourself using `apt-get`.
+The distribution is based on Ubuntu Linux but it is not possible to install software yourself using `apt-get`.
 
 TODO: Mention the .term file
 
