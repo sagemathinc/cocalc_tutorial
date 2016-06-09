@@ -1,6 +1,8 @@
 # A tour of SageMathCloud
 
-SageMathCloud contains a lot of functionality. In this section, we'll take a look at what it can do
+SageMathCloud contains a lot of functionality including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets along with a wide range of course management facilities. 
+
+In this section, we'll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this session.
 
 ### Create your first project
 
@@ -20,3 +22,9 @@ SageMathCloud provides full access to the Linux terminal. To open a terminal, cl
 
 ![Create Terminal](./assets/open_terminal.png)
 
+This starts up a traditional looking Bash session
+
+![Running Terminal](./assets/terminal.png)
+
+
+ 
