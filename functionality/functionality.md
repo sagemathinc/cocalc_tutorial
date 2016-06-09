@@ -26,5 +26,33 @@ This starts up a traditional looking Bash session
 
 ![Running Terminal](./assets/terminal.png)
 
+The terminal welcome message gives you an idea of some of the software that's available. A partial list includes
+
+* C, C++ and fortran compilers such as [gcc](https://gcc.gnu.org/) and [clang](http://clang.llvm.org/) and gfortran.
+* Mathematical and statistical software such as sage, GNU Octave, R and Gap
+* Text editors including vim, emacs, joe and nano
+* Programming languages such as julia, ocaml
+* The popular alternative to Bash, zsh
+* Version control via git
+* LateX
+
+The distribution is based on Linux but it is not possible to install software yourself using `apt-get`.
+
+TODO: Mention the .term file
+
+TODO: Mention the lack of XWindows support
+
+### Jupyter Notebooks
+
+TODO - include range of terminals and interactivity.
+
+### Sage Worksheets
+
+TODO
+
+### What can't be done in SageMathCloud?
+
+TO DO: Microsoft Word/Powerpoint/Excel/local GUI x11/serious HPC/closed commercial software
+
 
  
