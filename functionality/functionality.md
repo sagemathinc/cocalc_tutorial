@@ -38,9 +38,9 @@ The terminal welcome message gives you an idea of some of the software that's av
 
 The distribution is based on Ubuntu Linux but it is not possible to install software yourself using `apt-get`.
 
-TODO: Mention the .term file
+If you need something installed, contact the SageMathCloud team for [some help](#GettingHelp).
 
-TODO: Mention the lack of XWindows support
+TODO: Mention the .term file
 
 ### Jupyter Notebooks
 
@@ -52,7 +52,16 @@ TODO
 
 ### What can't be done in SageMathCloud?
 
-TO DO: Microsoft Word/Powerpoint/Excel/local GUI x11/serious HPC/closed commercial software
+SageMathCloud does not have any support for X Windows which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.
 
+Since SageMathCloud is Linux based, it is not possible to run Windows applications such as Microsoft Word, Powerpoint and Excel.
+
+It is not possible to install commercial software such as MATLAB or Mathematica - only open source software can be used.
+
+### Getting help <a name="GettingHelp"></a>
+
+If you need help from the SageMathTeam, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most SageMathCloud screens.
+
+![Running Terminal](./assets/help.png)
 
  
