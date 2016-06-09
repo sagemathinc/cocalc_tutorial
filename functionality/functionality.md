@@ -10,4 +10,4 @@ Log into SageMathCloud and click on the **projects** icon in the top left hand c
 
 Click on **Create New Project**, fill out the **Title** and **Description** and click on **Create Project**
 
-![Projects icon](../assets/project_playing.png)
+![Projects icon](./assets/project_playing.png)
