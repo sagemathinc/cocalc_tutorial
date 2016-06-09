@@ -46,11 +46,11 @@ When you start a terminal session called `foo`, a file called `foo.term` is crea
 
 To start a new Jupyter notebook, click on **New** and give your notebook a name. I've used `example_notebook` in the example. Click on **Jupyter Notebook** to open the notebook.
 
-![Open Notebook](.assets/create_notebook.png)
+![Open Notebook](./assets/create_notebook.png)
 
 The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **kernel**->**change kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Sage Math and Apache Spark. 
 
-![kernel choice](assets/kernel_choice.png)
+![kernel choice](./assets/kernel_choice.png)
 
 TODO: SMC Enhancements to the notebook **Publish** **Time Travel**. Backup policy at https://github.com/sagemathinc/smc/wiki/FAQ#backup
 
