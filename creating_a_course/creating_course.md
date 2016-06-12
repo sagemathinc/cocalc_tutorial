@@ -18,6 +18,16 @@ The new project will appear at the top of the project list. Click on its  title 
 
 ![Project list](assets/course_list.png)
 
+## Adding teaching assistants to the course
+
+To add teaching assistants or other teachers to the course, open the course project and click on the **Add Collaborators** icon in the top right hand corner of the screen.
+
+![Course Collaborators](assets/course_collaborators.png)
+
+The **Settings and configuration** screen will open. In the **Collaborators** tab, you can find or add collaborators by name or email address.
+
+![Add Collaborators](assets/collaborators.png)
+
 ## Creating the course file
 
 Once you've opened the course project, you need to create a course management file.
