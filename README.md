@@ -1,11 +1,9 @@
-An introduction to Sage Math Cloud for lecturers.
-
-There isn't much here yet! Probably best to come back soon!
+An introduction to SageMathCloud for lecturers.
 
 ## SageMathCloud
 
 [SageMathCloud](https://cloud.sagemath.com/) is a cloud based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
-It is used for [teaching by Universities around the world](https://github.com/sagemathinc/smc/wiki/Teaching) and the University of Sheffield has used it for several of its undergraduate courses. We will be using for even more courses in the 2016/17 academic year.
+It is used for [teaching by Universities around the world](https://github.com/sagemathinc/smc/wiki/Teaching).
 
 Basic access, without internet access, is free but it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
 Paying users get more resources and support - vital if you are to rely on it for paying students.
