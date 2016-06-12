@@ -28,6 +28,9 @@ The **Settings and configuration** screen will open. In the **Collaborators** ta
 
 ![Add Collaborators](assets/collaborators.png)
 
+If the email address you add as a collaborator is not associated with a SageMathCloud account, an email will be sent to that address with an invite to join.
+Once the owner of that email address gets an account, the new user will be added automatically to all projects with pending invitations.
+
 ## Creating the course file
 
 Almost all aspects of a course such as which students are enrolled and assignment management are controlled by a **.course** file. We'll now create this file.
@@ -67,3 +70,15 @@ Your course page will now look like this
 On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
 
 The student's course project will have its own, individual quotas set for disk storage, internet access and so on. These quotas will be the standard set of quotas that everybody gets for free SageMathCloud projects.
+
+## Upgrading students
+
+The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
+You can request that the students pay a one-time free of $9 for four moths.
+This will move their projects to members only hosts and enable full internet access.
+
+Alternatively, you can pay on your student's behalf.
+Current pricing is available at https://cloud.sagemath.com/policies/pricing.html which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
+The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
+
+![Upgrading students](./assets/upgrading_students.png)
