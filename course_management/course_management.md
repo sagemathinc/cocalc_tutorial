@@ -1,6 +1,15 @@
 # Course management
 
-No matter what you've added in the instructors view of the course, the students will not see any files until you explictly assign them.
+No matter what you've added in the instructors view of the course, the students will not see any files until you explicitly assign them.
+
+## Assigning a folder
+
+Start off by creating a folder called **assignments**. Within this folder create a subfolder called, say, **Assignment1** and populate it with a Jupyter Notebook that contains the question(s) that you want your students to answer.
+
+Open the **.course** file and click on the **Assignments** tab
+
+![The assignment tab](./assets/assignment_course.png)
+
 
 ## Course folder structure
 
