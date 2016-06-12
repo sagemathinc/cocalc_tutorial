@@ -30,13 +30,13 @@ The **Settings and configuration** screen will open. In the **Collaborators** ta
 
 ## Creating the course file
 
-Once you've opened the course project, you need to create a course management file.
+Almost all aspects of a course such as which students are enrolled and assignment management are controlled by a **.course** file. We'll now create this file.
 
-Click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
+Open the course project and, click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
 
 ![New course](./assets/new_managecourse.png)
 
-If you go to the root of the course project directory, you will see that a new file has been created with the extension **.project**. This is the course management file and all aspects of your course are controlled by it.
+If you go to the root of the course project directory, you will see that a new file has been created with the extension **.project**. This is the course management file and most aspects of your course are controlled by it.
 
 ![Course file](assets/course_file.png) 
 
