@@ -26,7 +26,13 @@ Click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY00
 
 ![New course](./assets/new_managecourse.png)
 
+If you go to the root of the course project directory, you will see that a new file has been created with the extension **.project**. This is the course management file and all aspects of your course are controlled by it.
+
+![Course file](assets/course_file.png) 
+
 ## Adding students to the course
+
+Open your course by clicking on the **.course** file.
 
 In the **Students** tab, add a comma separated list of students in the search box and click on the search icon.
 
