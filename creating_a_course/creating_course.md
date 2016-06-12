@@ -52,3 +52,8 @@ Your course page will now look like this
 * You can see when each student last used the course project. In this case -- never!
 * The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.
 
+## What do the students get?
+
+On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
+
+The student's course project will have its own, individual quotas set for disk storage, internet access and so on. These quotas will be the standard set of quotas that everybody gets for free SageMathCloud projects.
