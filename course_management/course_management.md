@@ -2,13 +2,29 @@
 
 No matter what you've added in the instructors view of the course, the students will not see any files until you explicitly assign them.
 
-## Assigning a folder
+## Creating a new assignment
 
-Start off by creating a folder called **assignments**. Within this folder create a subfolder called, say, **Assignment1** and populate it with a Jupyter Notebook that contains the question(s) that you want your students to answer.
+An assignment consists of a folder that contains one or more files to be distributed to your students.
+
+Start off by creating a folder called **assignments** in the root directory of your course project. 
+Within this folder create a subfolder called, say, **Assignment1** and populate it with a Jupyter Notebook that contains the question(s) that you want your students to answer.
 
 Open the **.course** file and click on the **Assignments** tab
 
 ![The assignment tab](./assets/assignment_course.png)
+
+Enter **assignment1** in the search box on the right hand of the screen.
+
+![Assignment search box](./assets/find_assignment.png)
+
+The system will look for any folders with **assignment1** in their path name and  return a set if options. 
+Highlight the one you want and click on **Add Selected Assignment**.
+
+![Find assignment](./assets/find_assignment2.png)
+
+The new assignment will be added to the top of the list of assignments available for this course.
+
+![Find assignment](./assets/find_assignment2.png)
 
 
 ## Course folder structure
