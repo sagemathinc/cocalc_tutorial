@@ -61,15 +61,26 @@ Alternatively, click on the **Collect** icon in the top row to collect from all 
 You should make sure that your project has enough disk space to accommodate this. 
 It may be necessary to purchase an upgrade if you need more than the free allowance (currently 3Gb per project).
 
+Once the assignment has been collected, anything the student subsequently does in **their** copy will not be reflected in **your** copy.
+
 If you click on the **Files** icon and go to the root directory of the course project, you'll see that a new folder will have been created with the name **[your_course_name]-collect**
 
 ![Collect assignment](./assets/filelist_with_collect.png)
+
+Navigating within this folder, you'll find that it has a similar file structure to the original assignment. 
+For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect//assignments/Assignment1`. 
+Entering this folder will give a view of all student's versions of this assignment
+
+![List of collected assignments](./assets/collected assignments.png)
+
+
+
 
 ## Grading
 
 ## Returning an assignment to students
 
-## Course folder structure
+## Suggested Course folder structure
 
 I tend to place course content in one of two categories:
 
