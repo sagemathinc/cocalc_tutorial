@@ -24,7 +24,7 @@ Highlight the one you want and click on **Add Selected Assignment**.
 
 The new assignment will be added to the top of the list of assignments available for this course.
 
-![Find assignment](./assets/find_assignment2.png)
+![Find assignment](./assets/assignment_list.png)
 
 
 ## Course folder structure
