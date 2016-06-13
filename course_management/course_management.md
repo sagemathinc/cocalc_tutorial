@@ -26,6 +26,13 @@ The new assignment will be added to the top of the list of assignments available
 
 ![Find assignment](./assets/assignment_list.png)
 
+## Assigning an assignment to students
+
+## Collecting assignments from students
+
+## Grading
+
+## Returning an assignment to students
 
 ## Course folder structure
 
