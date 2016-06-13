@@ -87,6 +87,18 @@ Simply click on the **Open** icon corresponding to the student you are intereste
 
 ## Grading
 
+You are free to annotate the student's assignment in any way you like.
+The student will get a copy of everything you do once you return it to them. 
+
+When working with Jupyter notebooks, I usually do my annotations in Markdown cells and surround my comments in HTML tags that colour the text red.
+This allows the students to quickly identify my comments.
+
+```
+<font color="red">Great work!</font>
+```
+
+![Feedback](./assets/feedback.png)
+
 ## Returning an assignment to students
 
 ## Suggested Course folder structure
