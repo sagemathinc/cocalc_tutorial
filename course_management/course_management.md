@@ -78,8 +78,12 @@ Navigating inside this folder, you will see all collected files along with a tex
 
 ![Identify student](./assets/Identify_student.png)
 
- 
+At this point, you can open and mark the student's returned assignment.
 
+An easier interface for opening a student's collected assignment is via the **.course** file.
+Simply click on the **Open** icon corresponding to the student you are interested in and you'll be taken to the folder described above.
+
+![Open assignment](./assets/open_assignment.png)
 
 ## Grading
 
