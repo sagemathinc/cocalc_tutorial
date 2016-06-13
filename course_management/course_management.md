@@ -99,6 +99,10 @@ This allows the students to quickly identify my comments.
 
 ![Feedback](./assets/feedback.png)
 
+Once you've finished marking and commenting on the student's notebook, you can enter a great via the **.project** file. Click on the **Enter Grade** button to open up the grade entry text box and enter any text you like.
+
+![Enter Grade](./assets/Enter_grade.png)
+
 ## Returning an assignment to students
 
 ## Suggested Course folder structure
