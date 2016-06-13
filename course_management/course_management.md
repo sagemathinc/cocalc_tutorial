@@ -141,6 +141,17 @@ students = [
 
 ## Returning an assignment to students
 
+Once an assignment has been graded, the *Return* to student button appears. 
+
+![Returned button](./assets/returned_button.png)
+
+Clicking on this sends a copy of the graded assignment back to the student. 
+It appears in their assignments folder like this:
+
+![Returned assignment](./assets/returned_assignment.png)
+
+Note that the student now has both their original assignment **and** a copy of the returned, graded assignment.
+
 ## Suggested Course folder structure
 
 I tend to place course content in one of two categories:
