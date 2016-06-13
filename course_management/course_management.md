@@ -39,6 +39,15 @@ When an assignment is made to a student, a **copy** of the assignment folder wil
 
 Advise the students that all work on the assignment should take place in this folder. Any work performed outside of this folder will not be collected.
 
+## Peer Grading
+
+A very useful function for formative assessment is **peer grading**.
+Use peer grading to randomly (and anonymously) redistribute collected homework to your students, so that they can grade it for you.
+
+Click on the **Peer Grading** icon and follow the instructions to activate this feature.
+
+![Activate peer grading](./assets/peer_grading_activation.png)
+
 ## Collecting assignments from students
 
 ## Grading
