@@ -11,4 +11,4 @@ This makes it much easier to find students in the system.
 
 You don't need to worry about getting accounts for your students ahead of time.
 
-Once you've created your course in SageMathCloud, you just a add list of student email addresses to it. All student's immediately get sent a course invite, and when they create an account with that address, they are good to go.
+Once you've created your course in SageMathCloud, you just a add list of student email addresses to it. All students immediately get sent a course invite, and when they create an account with that address, they are good to go.
