@@ -26,3 +26,10 @@ Paying users get more resources and support - vital if you are to rely on it for
 
 * [Grading in SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
 * [SageMathCloud on github](https://github.com/sagemathinc/smc) - The whole system is open source
+
+## License
+
+This work is licensed under CC-BY 3.0.
+
+* Human readable description of the license - https://creativecommons.org/licenses/by/3.0/
+* Legal text of the license - https://raw.githubusercontent.com/mikecroucher/SMC_tutorial/master/license.txt
