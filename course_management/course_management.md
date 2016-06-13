@@ -6,7 +6,7 @@ No matter what you've added in the instructors view of the course, the students 
 
 An assignment consists of a folder that contains one or more files to be distributed to your students.
 
-Start off by creating a folder called **assignments** in the root directory of your course project. 
+Start off by creating a folder called **assignments** in the root directory of your course project.
 Within this folder create a subfolder called, say, **Assignment1** and populate it with a Jupyter Notebook that contains the question(s) that you want your students to answer.
 
 Open the **.course** file and click on the **Assignments** tab
@@ -17,7 +17,7 @@ Enter **assignment1** in the search box on the right hand of the screen.
 
 ![Assignment search box](./assets/find_assignment.png)
 
-The system will look for any folders with **assignment1** in their path name and  return a set if options. 
+The system will look for any folders with **assignment1** in their path name and  return a set of options. 
 Highlight the one you want and click on **Add Selected Assignment**.
 
 ![Find assignment](./assets/find_assignment2.png)
@@ -28,7 +28,7 @@ The new assignment will be added to the top of the list of assignments available
 
 ## Assigning an assignment to students
 
-Click on the assignment in the assignment list. 
+Click on the assignment in the assignment list.
 When the assignment opens, set the **Due** date and click on the **Assign** button to assign to all students in the course.
 
 Alternatively, you can assign just to individual students.
@@ -50,15 +50,15 @@ Within the assignment, click on the **Peer Grading** icon and follow the instruc
 
 ## Collecting assignments from students
 
-After an assignment has been made, a **Collect** icon appears next to each student. 
-Clicking on one of these will make a copy of the student's assignment folder into your account. 
+After an assignment has been made, a **Collect** icon appears next to each student.
+Clicking on one of these will make a copy of the student's assignment folder into your account.
 The entire folder will be copied including any extra files the student may have created.
 
 Alternatively, click on the **Collect** icon in the top row to collect from all students simultaneously.
 
 ![Collect assignment](./assets/collect_assignment.png)
 
-You should make sure that your project has enough disk space to accommodate this. 
+You should make sure that your project has enough disk space to accommodate this.
 It may be necessary to purchase an upgrade if you need more than the free allowance (currently 3Gb per project).
 
 Once the assignment has been collected, anything the student subsequently does in **their** copy will not be reflected in **your** copy.
@@ -67,13 +67,13 @@ If you click on the **Files** icon and go to the root directory of the course pr
 
 ![Collect assignment](./assets/filelist_with_collect.png)
 
-Navigating within this folder, you'll find that it has a similar file structure to the original assignment. 
-For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect/assignments/Assignment1`. 
+Navigating within this folder, you'll find that it has a similar file structure to the original assignment.
+For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect/assignments/Assignment1`.
 Entering this folder will give a view of all student's versions of this assignment
 
 ![List of collected assignments](./assets/collected_assignments.png)
 
-The folder corresponding to each collected assignment will have been given a unique, random, hexadecimal name. 
+The folder corresponding to each collected assignment will have been given a unique, random, hexadecimal name.
 Navigating inside this folder, you will see all collected files along with a text file whose filename identifies the student.
 
 ![Identify student](./assets/Identify_student.png)
@@ -88,7 +88,7 @@ Simply click on the **Open** icon corresponding to the student you are intereste
 ## Grading
 
 You are free to annotate the student's assignment in any way you like.
-The student will get a copy of everything you do once you return it to them. 
+The student will get a copy of everything you do once you return it to them.
 
 When working with Jupyter notebooks, I usually do my annotations in Markdown cells and surround my comments in HTML tags that colour the text red.
 This allows the students to quickly identify my comments.
@@ -99,15 +99,15 @@ This allows the students to quickly identify my comments.
 
 ![Feedback](./assets/feedback.png)
 
-Once you've finished marking and commenting on the student's notebook, you can enter a grade via the **.project** file. 
-Click on the **Enter Grade** button to open up the grade entry text box and enter the grade. 
+Once you've finished marking and commenting on the student's notebook, you can enter a grade via the **.project** file.
+Click on the **Enter Grade** button to open up the grade entry text box and enter the grade.
 This can be a number or any other string that makes sense for your course.
 
 ![Enter Grade](./assets/Enter_grade.png)
 
 ## Exporting grades
 
-It is possible to export grades from all assignments as either a .csv file or as executable Python code. 
+It is possible to export grades from all assignments as either a .csv file or as executable Python code.
 The **Export grades** function is available in the **Settings** tab of the **.course** file.
 
 ![Export Grades](./assets/Export_grades.png)
@@ -159,7 +159,7 @@ I tend to place course content in one of two categories:
 * Content that you only push out to students (e.g. lecture notes, data)
 * Content that requires pushing out and pulling back (e.g. assignments and homeworks)
 
-The reason for splitting content in this way is to save on disk space. 
+The reason for splitting content in this way is to save on disk space.
 
 When you push content out to the students, a copy is placed in their individual projects. When you pull it back for marking, a fresh copy of each student's assignment is made in **your** project. If the assignment contains large files, the lecturer's project can quickly run out of space for large classes.
 
