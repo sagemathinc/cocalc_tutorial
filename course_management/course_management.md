@@ -28,6 +28,17 @@ The new assignment will be added to the top of the list of assignments available
 
 ## Assigning an assignment to students
 
+Click on the assignment in the assignment list. 
+When the assignment opens, set the **Due** date and click on the **Assign** button to assign to all students in the course.
+
+Alternatively, you can assign just to individual students.
+
+![Find assignment](./assets/send_assignment.png)
+
+When an assignment is made to a student, a **copy** of the assignment folder will appear in their course project.
+
+Advise the students that all work on the assignment should take place in this folder. Any work performed outside of this folder will not be collected.
+
 ## Collecting assignments from students
 
 ## Grading
