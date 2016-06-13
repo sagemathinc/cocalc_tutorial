@@ -1,6 +1,6 @@
 # Creating a new course
 
-We will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course
+We will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course.
 
 ## Creating the course project
 
@@ -41,7 +41,7 @@ Open the course project and, click on **New** and give the course a title. Here,
 
 If you go to the root of the course project directory, you will see that a new file has been created with the extension **.project**. This is the course management file and most aspects of your course are controlled by it.
 
-![Course file](assets/course_file.png) 
+![Course file](assets/course_file.png)
 
 ## Adding students to the course
 
@@ -74,7 +74,7 @@ The student's course project will have its own, individual quotas set for disk s
 ## Upgrading students
 
 The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
-You can request that the students pay a one-time free of $9 for four moths.
+You can request that the students pay a one-time free of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
