@@ -68,12 +68,17 @@ If you click on the **Files** icon and go to the root directory of the course pr
 ![Collect assignment](./assets/filelist_with_collect.png)
 
 Navigating within this folder, you'll find that it has a similar file structure to the original assignment. 
-For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect//assignments/Assignment1`. 
+For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect/assignments/Assignment1`. 
 Entering this folder will give a view of all student's versions of this assignment
 
-![List of collected assignments](./assets/collected assignments.png)
+![List of collected assignments](./assets/collected_assignments.png)
 
+The folder corresponding to each collected assignment will have been given a unique, random, hexadecimal name. 
+Navigating inside this folder, you will see all collected files along with a text file whose filename identifies the student.
 
+![Identify student](./assets/identify_student.png)
+
+ 
 
 
 ## Grading
