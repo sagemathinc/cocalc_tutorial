@@ -76,7 +76,7 @@ Entering this folder will give a view of all student's versions of this assignme
 The folder corresponding to each collected assignment will have been given a unique, random, hexadecimal name. 
 Navigating inside this folder, you will see all collected files along with a text file whose filename identifies the student.
 
-![Identify student](./assets/identify_student.png)
+![Identify student](./assets/Identify_student.png)
 
  
 
