@@ -61,7 +61,7 @@ Alternatively, click on the **Collect** icon in the top row to collect from all 
 You should make sure that your project has enough disk space to accommodate this. 
 It may be necessary to purchase an upgrade if you need more than the free allowance (currently 3Gb per project).
 
-If you click on the **Files** icon and go to the root directory of the course project, you'll see that a new folder will have been created with the name **<your_course_name>-collect**
+If you click on the **Files** icon and go to the root directory of the course project, you'll see that a new folder will have been created with the name **[your_course_name]-collect**
 
 ![Collect assignment](./assets/filelist_with_collect.png)
 
