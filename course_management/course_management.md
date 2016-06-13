@@ -99,9 +99,45 @@ This allows the students to quickly identify my comments.
 
 ![Feedback](./assets/feedback.png)
 
-Once you've finished marking and commenting on the student's notebook, you can enter a great via the **.project** file. Click on the **Enter Grade** button to open up the grade entry text box and enter any text you like.
+Once you've finished marking and commenting on the student's notebook, you can enter a grade via the **.project** file. 
+Click on the **Enter Grade** button to open up the grade entry text box and enter the grade. 
+This can be a number or any other string that makes sense for your course.
 
 ![Enter Grade](./assets/Enter_grade.png)
+
+## Exporting grades
+
+It is possible to export grades from all assignments as either a .csv file or as executable Python code. 
+The **Export grades** function is available in the **Settings** tab of the **.course** file.
+
+![Export Grades](./assets/Export_grades.png)
+
+The .csv file format looks like this:
+
+```
+# Course 'Autumn_2016_PHY001'
+# exported 2016-06-13T13:24:40.141Z
+Name,Email,"assignments/Assignment1","Notes"
+"Mike Croucher","some.email@sheffield.ac.uk","80",""
+"Mike_test ","some_other_email@sheffield.ac.uk","100",""
+"bar@sheffield.ac.uk","bar@sheffield.ac.uk","90",""
+"foo@sheffield.ac.uk","foo@sheffield.ac.uk","70",""
+```
+
+The corresponding Python code looks like this
+
+```
+course = 'Autumn_2016_PHY001'
+exported = '2016-06-13T13:26:19.407Z'
+assignments = ['assignments/Assignment1','Notes']
+students = [
+    {'name':'Mike Croucher', 'email':'some.email@sheffield.ac.uk', 'grades':['80','']},
+    {'name':'Mike_test ', 'email':'some_other_email@sheffield.ac.uk', 'grades':['100','']},
+    {'name':'bar@sheffield.ac.uk', 'email':'bar@sheffield.ac.uk', 'grades':['90','']},
+    {'name':'foo@sheffield.ac.uk', 'email':'foo@sheffield.ac.uk', 'grades':['70','']},
+]
+
+```
 
 ## Returning an assignment to students
 
