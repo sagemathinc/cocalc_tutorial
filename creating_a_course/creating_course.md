@@ -33,13 +33,13 @@ Once the owner of that email address gets an account, the new user will be added
 
 ## Creating the course file
 
-Almost all aspects of a course such as which students are enrolled and assignment management are controlled by a **.course** file. We'll now create this file.
+Almost all aspects of a course, such as which students are enrolled and assignment management, are controlled by a **.course** file. We'll now create this file.
 
-Open the course project and, click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
+Open the course project, click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
 
 ![New course](./assets/new_managecourse.png)
 
-If you go to the root of the course project directory, you will see that a new file has been created with the extension **.project**. This is the course management file and most aspects of your course are controlled by it.
+If you go to the root of the course project directory, you will see that a new file has been created with the extension **.course**. This is the course management file and most aspects of your course are controlled by it.
 
 ![Course file](assets/course_file.png)
 
@@ -63,13 +63,13 @@ Your course page will now look like this
 
 * Email addresses that are followed by **(invited)** do not have a SageMathCloud account yet. **(invited)** will disappear as soon as they sign up.
 * You can see when each student last used the course project. In this case -- never!
-* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.
+* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below).
 
 ## What do the students get?
 
 On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
 
-The student's course project will have its own, individual quotas set for disk storage, internet access and so on. These quotas will be the standard set of quotas that everybody gets for free SageMathCloud projects.
+The student's course project will have its own individual quotas set for disk storage, internet access and so on. These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
 
 ## Upgrading students
 
