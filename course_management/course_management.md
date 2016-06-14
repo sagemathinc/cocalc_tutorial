@@ -42,7 +42,7 @@ Advise the students that all work on the assignment should take place in this fo
 ## Peer Grading
 
 A very useful function for formative assessment is **peer grading**.
-Use peer grading to randomly (and anonymously) redistribute collected homework to your students, so that they can grade it for you.
+Use peer grading to randomly (and anonymously -- but not now due to [a bug](https://github.com/sagemathinc/smc/issues/626)) redistribute collected homework to your students, so that they can grade it for you.
 
 Within the assignment, click on the **Peer Grading** icon and follow the instructions to activate this feature.
 
@@ -51,7 +51,7 @@ Within the assignment, click on the **Peer Grading** icon and follow the instruc
 ## Collecting assignments from students
 
 After an assignment has been made, a **Collect** icon appears next to each student.
-Clicking on one of these will make a copy of the student's assignment folder into your account.
+Clicking on one of these will make a copy of the student's assignment folder to your account.
 The entire folder will be copied including any extra files the student may have created.
 
 Alternatively, click on the **Collect** icon in the top row to collect from all students simultaneously.
@@ -59,7 +59,7 @@ Alternatively, click on the **Collect** icon in the top row to collect from all 
 ![Collect assignment](./assets/collect_assignment.png)
 
 You should make sure that your project has enough disk space to accommodate this.
-It may be necessary to purchase an upgrade if you need more than the free allowance (currently 3Gb per project).
+It may be necessary to purchase an upgrade if you need more than the free allowance (currently 3GB per project).
 
 Once the assignment has been collected, anything the student subsequently does in **their** copy will not be reflected in **your** copy.
 
@@ -73,7 +73,7 @@ Entering this folder will give a view of all student's versions of this assignme
 
 ![List of collected assignments](./assets/collected_assignments.png)
 
-The folder corresponding to each collected assignment will have been given a unique, random, hexadecimal name.
+The folder corresponding to each collected assignment will have been given a unique random name.
 Navigating inside this folder, you will see all collected files along with a text file whose filename identifies the student.
 
 ![Identify student](./assets/Identify_student.png)
@@ -107,7 +107,7 @@ This can be a number or any other string that makes sense for your course.
 
 ## Exporting grades
 
-It is possible to export grades from all assignments as either a .csv file or as executable Python code.
+It is possible to export grades for all assignments as either a .csv file or as executable Python code.
 The **Export grades** function is available in the **Settings** tab of the **.course** file.
 
 ![Export Grades](./assets/Export_grades.png)
@@ -152,7 +152,7 @@ It appears in their assignments folder like this:
 
 Note that the student now has both their original assignment **and** a copy of the returned, graded assignment.
 
-## Suggested Course folder structure
+## Suggested course folder structure
 
 I tend to place course content in one of two categories:
 
@@ -163,7 +163,7 @@ The reason for splitting content in this way is to save on disk space.
 
 When you push content out to the students, a copy is placed in their individual projects. When you pull it back for marking, a fresh copy of each student's assignment is made in **your** project. If the assignment contains large files, the lecturer's project can quickly run out of space for large classes.
 
-Each project has 3Gb of disk space provided for free with more being provided by purchasing upgrades.
+Each project has 3GB of disk space provided for free, with more being provided by purchasing upgrades.
 
 There are many ways one could organise a course in SageMathCloud but the following schema has proven to be useful for many people.
 
