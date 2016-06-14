@@ -33,7 +33,7 @@ Once the owner of that email address gets an account, the new user will be added
 
 ## Creating the course file
 
-Almost all aspects of a course such as which students are enrolled and assignment management are controlled by a **.course** file. We'll now create this file.
+Almost all aspects of a course, such as which students are enrolled and assignment management, are controlled by a **.course** file. We'll now create this file.
 
 Open the course project and, click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
 
