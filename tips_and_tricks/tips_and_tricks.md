@@ -2,13 +2,15 @@
 Here are some things to know that can make your life easier.
 
 ## Chat and helping students
-Every file in SMC has chat available on the right side of the screen.
+Every file in SMC has chat available on the upper right side of the screen.
 
 ![The chat button](./assets/chat_button.png)
 
 Every time one of your students writes something into a chat on any one of their files, you get a little notification.
 
 ![The notification](./assets/instructor_notification.png)
+
+Click...
 ![Notification Bar](./assets/notification_highlighted.png)
 Clicking on this notification will bring you to **their copy** of the assignment  inside **their project**.
 From here, you can reply to their question and look at their work simultaneously.
@@ -44,8 +46,11 @@ Since it supports the terminal, students can also collaborate using git if you d
 
 ## Text fields generally support markdown and LaTeX
 For example in chat:
-![before image]
-![after image]
+
+![before image](./assets/before_latex_render.png)
+
+**Renders as**
+![after image](./assets/after_latex_render.png)
 
 Specifically, it supports [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
