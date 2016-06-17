@@ -42,7 +42,7 @@ Advise the students that all work on the assignment should take place in this fo
 ## Peer Grading
 
 A very useful function for formative assessment is **peer grading**.
-Use peer grading to randomly (and anonymously -- but not now due to [a bug](https://github.com/sagemathinc/smc/issues/626)) redistribute collected homework to your students, so that they can grade it for you.
+Use peer grading to randomly (and anonymously) redistribute collected homework to your students, so that they can grade it for you.
 
 Within the assignment, click on the **Peer Grading** icon and follow the instructions to activate this feature.
 
