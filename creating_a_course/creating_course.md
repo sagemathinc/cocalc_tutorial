@@ -74,7 +74,7 @@ The student's course project will have its own individual quotas set for disk st
 ## Upgrading students
 
 The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
-You can request that the students pay a one-time free of $9 for four months.
+You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
