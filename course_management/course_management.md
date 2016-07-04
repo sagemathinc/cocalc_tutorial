@@ -143,7 +143,7 @@ students = [
 
 Once an assignment has been graded, the *Return* to student button appears. 
 
-![Returned button](./assets/returned_button.png)
+![Returned button](./assets/return_button.png)
 
 Clicking on this sends a copy of the graded assignment back to the student. 
 It appears in their assignments folder like this:
