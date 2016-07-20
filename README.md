@@ -1,5 +1,11 @@
 An introduction to SageMathCloud for lecturers.
 
+## Citing this work
+
+For a list of authors see the contibutors section https://github.com/mikecroucher/SMC_tutorial/graphs/contributors. Also, please use the following Digital Object Identifier.
+
+[![DOI](https://zenodo.org/badge/23386/mikecroucher/SMC_tutorial.svg)](https://zenodo.org/badge/latestdoi/23386/mikecroucher/SMC_tutoria)
+
 ## SageMathCloud
 
 [SageMathCloud](https://cloud.sagemath.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
