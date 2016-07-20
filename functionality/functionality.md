@@ -52,13 +52,6 @@ The notebook starts with a Python 2 kernel by default. Change the kernel by clic
 
 ![kernel choice](./assets/kernel_choice.png)
 
-TODO: SMC Enhancements to the notebook **Publish** **Time Travel**. Backup policy at https://github.com/sagemathinc/smc/wiki/FAQ#backup
-
-
-### Sage Worksheets
-
-TODO
-
 ### What can't be done in SageMathCloud?
 
 SageMathCloud does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on SMC locally on your computer.)
