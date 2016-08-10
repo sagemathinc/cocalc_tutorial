@@ -31,8 +31,13 @@ There are two ways students can receive upgrades for their projects:
 - Select the checkbox for **Member hosting** and **Internet access** and click `Submit changes` to distribute these two upgrades to each student's course project.
     - These upgrades only apply to the student course projects and not to any other projects students may have created.
 
-
+---
 ![](smc-course-upgrades.png)
+
+
+**Screenshot below shows results of distributing upgrades to student projects**
+![](smc-account-upgrades-distributed-student-projects.png)
+---
 
 - If you have purchased a personal subscription and have unused project upgrades, you can share those with your students as well.
 
