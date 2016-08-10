@@ -33,6 +33,14 @@ Paying users get more resources and support - vital if you are to rely on it for
 
 * [Grading in SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
 * [SageMathCloud on GitHub](https://github.com/sagemathinc/smc) - The whole system is open source
+* Videos tutorials on course management features in SageMathCloud
+    * [Why aren't you teaching with SageMathCloud?](https://youtu.be/cq_HEzBMWNA)
+    * [Creating courses in SageMathCloud](https://youtu.be/K2swc6NhpGg)
+    * [Working with course files in SageMathCloud](https://youtu.be/bt-AhVlAf-U)
+    * [Creating assignments in SageMathCloud](https://youtu.be/NqQ0y7o0XUU)
+    * [Grading assignments in SageMathCloud](https://youtu.be/y_GX9XWTZfQ)
+    * [Peergrading in SageMathCloud](https://youtu.be/8MagMw-ol5M)
+    * [Working with your students in SageMathCloud](https://youtu.be/4c9RmoLRSWE)
 
 ## License
 
