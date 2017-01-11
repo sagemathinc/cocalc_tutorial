@@ -1,39 +1,56 @@
-# Tips and Tricks
-Here are some things to know that can make your life easier.
+# Interacting with students
+There are multiple ways in which you can interact with your students or collaborators, in this section we will present some features that you might find useful when managing a course.
 
-## Chat and helping students
-Every file in SMC has chat available on the upper right side of the screen.
+## Real-time chatrooms
+You can create general real-time chat rooms associated to a given project. All the people associated to the project will have access to the chat.
+
+In addition, every file in SMC has a separate chat that can be found on the upper left corner of your screen.
 
 ![The chat button](./assets/chat_button.png)
 
-Every time one of your students writes something into a chat on any one of their files, you get a little notification.
+Every time one of your students writes something into a chat on any one of their files, you will get a notification displayed on the top bar.
 
 ![The notification](./assets/instructor_notification.png)
 
-Which brings up this menu when you click on it.
+When clicking on the notification icon a menu containing the latest updates and chats will be displayed.
+
 ![Notification Bar](./assets/notification_highlighted.png)
 
-Clicking on this chat notification (chats are always at the top) will bring you to **their copy** of the assignment  inside **their project**.
-From there, you can directly reply to their question and look at their work simultaneously.
+The chats are always presented at the top of the notification menu, followed by any updates/additions you or your collaborators have done to the project. Clicking on a chat notification will take you to **the student's copy** of the file inside **his/her project**.
+From there, you can both reply to their questions and look at their work simultaneously.
 
 ![TA assistance example](./assets/student_question.png)
 
-Once you reply, they will see their own notification like the one you saw.
-## Using the shared project
-You can think of the shared project to be like your private course website for the students with automatic forum and code support.
-If you create a .sage-chat file here, all students will get notifications when someone asks something here.
+Once you have replied to the student's question (s)he will receive a notification.
 
-![example image]
+## Live collaborative editing
+Multiple users can collaborate on a project. As soon as a collaborator is added to a a project (see [Creating a Course](./creating_a_course/creating_course.md)) they share both the project and the associated files.
 
-If you want to upload the assignment here, you can make it read only so that students can't change it.
+Live collaborative editing is possible in SMC. If one of your collaborators updates a notebook, the rest can see the changes as they are being made.
 
-![read only example]
+## Creating a shared project
+You can create a common shared project from any of your existing projects. By default everybody (collaborators and students) will have **write** access to the project and the files contained in it.
 
-Every time you update the assignment, you can give the students a notification by typing something into the chat in that copy of the assignment
+You can think of a shared project to be your private course website for the students with automatic forum and code support.
 
-![updated assignment example]
+To create a shared project you need to go to your .course file and click on the **shared project** icon. 
 
-Students can also ask questions and share code snippets here since by default everyone has write privileges to the project.
+![Create shared](./assets/shared1.png)
+
+If you create a .sage-chat file here, all students will receive automatic notifications when questions are posted on the chat.
+
+
+
+If you want to make a file or an assignment read only so that students cannot modify it you can change the file access permissions.
+
+To do so, launch a terminal and type `chmod a-w filename`.
+![Read only files](./assets/read_only.png)
+
+If you want to check the access permissions of all the files contained in a given directory use the command `ls -l` on the terminal.
+
+![Access check](./assets/ls_assignment.png)
+
+If you want to change a file from read only to read and write type `chmod a+w filename` on the terminal.
 
 ## Group Projects
 There are a few ways to facilitate group projects on SMC.
