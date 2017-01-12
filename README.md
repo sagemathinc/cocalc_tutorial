@@ -20,6 +20,7 @@ Paying users get more resources and support - vital if you are to rely on it for
 * Students can use it on any machine, any operating system, anywhere they like.
 * Has built in course-management functionality.
 * Allows collaborative editing of notebooks. (It's like Google Docs for Jupyter notebooks.)
+* Has built in real-time chatrooms for easy interaction with students and collaborators.
 
 ## Course material
 
@@ -27,7 +28,8 @@ Paying users get more resources and support - vital if you are to rely on it for
 * Section 1 - [A Tour of SageMathCloud](/functionality/functionality.md) - An overview of some of SageMathCloud's functionality
 * Section 2 - [Creating a Course](./creating_a_course/creating_course.md) - How to create a course
 * Section 3 - [Course Management](./course_management/course_management.md) - Detailed course management instructions
-* Section 4 - [Tips and Tricks](./tips_and_tricks/tips_and_tricks.md) - Things that can make your life easier
+* Section 4 - [Interacting with students and collaborators](./interactions/interactions.md) - Various ways to interact with students and do collaborative work
+* Section 5 - [Other useful features and tricks](./tips_and_tricks/tips_and_tricks.md) - Things that can make your life easier
 
 ## Further resources
 

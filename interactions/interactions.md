@@ -2,7 +2,7 @@
 There are multiple ways in which you can interact with your students or collaborators, in this section we will present some features that you might find useful when managing a course.
 
 ## Real-time chatrooms
-You can create general real-time chatrooms for your SMC projects. You only need to create a `.sage-chat` by clicking on the **new** button. Once created both the students and collaborators will have access to the chat.
+You can create general real-time chatrooms for your SMC projects. You can create a project chat room by clicking on the **New** button, this will create a file with `.sage-chat` extension.
 
 In addition, every file in SMC has a separate chat that can be found on the upper left corner of your screen.
 
@@ -12,7 +12,7 @@ Every time one of your students writes something into a chat on any one of their
 
 ![The notification](./assets/instructor_notification.png)
 
-When clicking on the notification icon a menu containing the latest updates and chats will be displayed.
+Clicking on the notification button (bell icon on the top of the screen) displays a notification menu with the latest chats and modifications in the project or specific files.
 
 ![Notification Bar](./assets/notification_highlighted.png)
 
@@ -31,15 +31,13 @@ Live collaborative editing is possible in SMC. If one of your collaborators upda
 ## Creating a shared project
 You can create a common shared project from any of your existing projects. You can think of a shared project to be your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have **write** access to the project and its associated files.
 
-To create a shared project you need to go to your .course file and click on the **shared project** icon.
+To create a shared project you need to go to your **.course** file and click on the **Shared 'Project** button.
 
 ![Create shared](./assets/shared1.png)
 
-If you create a .sage-chat file here, all students will receive automatic notifications when questions are posted on the chat.
+If you create a **.sage-chat** file here, all students will receive automatic notifications when questions are posted on the chat.
 
-If you want to make a file or an assignment read only so that students cannot modify it you need to modify the file permissions after creating/uploading it to your project.
-
-To do so, launch a terminal and type `chmod a-w filename`.
+If you want to make a file or an assignment **read only** so that students cannot modify it you need to modify the file permissions. Launch a terminal and type `chmod a-w filename` (in this example the filename is `Assignment1`).
 
 ![Read only files](./assets/read_only.png)
 
@@ -47,10 +45,10 @@ If you want to check the access permissions of all the files contained in a give
 
 ![Access check](./assets/ls_assignment.png)
 
-If you want to change a file from read only to read and write type `chmod a+w filename` on the terminal.
+In the case you want to change a read only file into a read and write type `chmod a+w filename` on the terminal.
 
 ## Group Projects
-There are a few ways to facilitate group projects on SMC.
+There are various ways in which you can facilitate  students group projects in SMC. A couple of options are:
 
 ### One project per team
 Have someone on each group make a project with all the group members as collaborators.
