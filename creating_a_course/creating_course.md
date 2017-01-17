@@ -1,6 +1,6 @@
 # Creating a new course
 
-We will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course.
+In this section we will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course.
 
 ## Creating the course project
 
@@ -69,7 +69,7 @@ Your course page will now look like this
 
 On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
 
-The student's course project will have its own individual quotas set for disk storage, internet access and so on. These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
+The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
 
 ## Upgrading students
 

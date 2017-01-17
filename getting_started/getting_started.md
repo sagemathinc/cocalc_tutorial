@@ -15,7 +15,7 @@ Once you've created your course in SageMathCloud, you just a add list of student
 
 ## Upgrades to student projects
 
-SageMathCloud accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of SageMathCloud's functionality with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and SageMathCloud.  Additionally, basic projects run on free servers which are shared with many other users.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
+SageMathCloud accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of SageMathCloud's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and SageMathCloud.  Additionally, basic projects run on free servers which are shared with many other users.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
 
 There are two ways students can receive upgrades for their projects:
 - Students can pay a \$9/semester fee
