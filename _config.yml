@@ -18,14 +18,5 @@ baseurl: "/SMC_tutorial"
 
 permalink: /:title/
 
-# SASS directory for @IMPORTS
-sass:
-  style :compressed #can use expanded instead
-
-# Plug-ins
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-
 # Base Jekyll-theme
 theme: jekyll-theme-slate
