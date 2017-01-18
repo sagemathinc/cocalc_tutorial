@@ -2,10 +2,17 @@
 # Website configuration flags 
 #
 
+# Name of the site
+name: SMC tutorial
+
 # Includes an icon in the footer for each username
-
+# Includes an icon in the footer for each username you enter
 footer-links:
-	github: trallard
-
+  github: trallard
+  
 theme: jekyll-theme-slate
+
+# Exclude these files
+exclude:
+  - LICENSE
 
