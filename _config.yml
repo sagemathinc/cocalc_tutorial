@@ -1,21 +1,11 @@
 #
-# Website configuration flags
+# Website configuration flags 
 #
-
-# Name (displayed at the header)
-name: SMC tutorial
 
 # Includes an icon in the footer for each username
 
 footer-links:
 	github: trallard
-
-
-exclude: 
-	- Gemfile
-	- Gemfile.lock
-	- LICENSE
-	- CNAME
 
 theme: jekyll-theme-slate
 
