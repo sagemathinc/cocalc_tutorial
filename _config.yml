@@ -3,7 +3,7 @@
 #
 
 # Name of the site
-name: SMC tutorial
+name: Sage Math Cloud tutorial
 
 # Includes an icon in the footer for each username
 # Includes an icon in the footer for each username you enter
@@ -14,10 +14,6 @@ footer-links:
 # (http://username.github.io/repository)
 # the baseurl needs to be added ("/repository")
 baseurl: "/SMC_tutorial"
-
-# Exclude these files
-exclude:
-  - LICENSE
 
 # Base Jekyll-theme
 theme: jekyll-theme-slate
