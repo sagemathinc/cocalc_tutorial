@@ -1,22 +1,12 @@
-#
-# Website configuration flags
-#
+# Site settings
+title: SageMath Cloud tutorial
+motto: A tutorial for anyone wanting to use Sage Math Cloud for teaching
+description: -----
+baseurl: "/SMC_prueba-"
+url: "http://trallard.github.io/SMC_prueba-" # the base hostname & protocol for your site
 
-# Name of the site
-name: Sage Math Cloud tutorial
-description: A tutorial for anyone wanting to use SageMathCloud for teaching
-
-# Includes an icon in the footer for each username
-# Includes an icon in the footer for each username you enter
 footer-links:
   github: trallard
-
-# Since the site is hosted at a Projectrepository
-# (http://username.github.io/repository)
-# the baseurl needs to be added ("/repository")
-baseurl: "/SMC_tutorial"
-
-permalink: /:title/
-
-# Base Jekyll-theme
-theme: jekyll-theme-slate
+  twitter: walkingrandomly
+# Build settings
+markdown: kramdown
