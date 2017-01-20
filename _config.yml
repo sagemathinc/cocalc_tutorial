@@ -2,7 +2,7 @@
 title: SageMath Cloud tutorial
 motto: A tutorial for anyone wanting to use Sage Math Cloud for teaching
 description: -----
-baseurl: "/SMC_prueba-"
+baseurl: "/SMC_tutorial"
 url: "http://trallard.github.io/SMC_prueba-" # the base hostname & protocol for your site
 
 footer-links:
