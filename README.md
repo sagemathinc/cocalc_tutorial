@@ -1,6 +1,6 @@
 ## Citing this work
 
-For a list of authors see the contributors section in [GitHub] https://github.com/mikecroucher/SMC_tutorial/graphs/contributors). Also, please use the following Digital Object Identifier.
+For a list of authors see the contributors section in [GitHub](https://github.com/mikecroucher/SMC_tutorial/graphs/contributors). Also, please use the following Digital Object Identifier.
 
 [![DOI](https://zenodo.org/badge/23386/mikecroucher/SMC_tutorial.svg)](https://zenodo.org/badge/latestdoi/23386/mikecroucher/SMC_tutorial)
 
