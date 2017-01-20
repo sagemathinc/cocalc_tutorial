@@ -57,4 +57,4 @@ They will all then be able to collaborate on the same project and modify files s
 You should note, however, that by using the approach you cannot automatically collect assignments from the team. However, a workaround could be creating an assignment in your main project and have the students copy the file over to their group project.
 
 ### Using Git
-Students can collaborate in their own course-affiliation using git via the terminal in SMC (for more tips on using git see the [Interesting features section](./tips_and_tricks/tips_and_tricks.md)).
+Students can collaborate in their own course-affiliation using git via the terminal in SMC (for more tips on using git see the Other interesting features and tricks section).
