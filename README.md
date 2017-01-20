@@ -1,8 +1,6 @@
-An introduction to SageMathCloud for lecturers.
-
 ## Citing this work
 
-For a list of authors see the contributors section https://github.com/mikecroucher/SMC_tutorial/graphs/contributors. Also, please use the following Digital Object Identifier.
+For a list of authors see the contributors section in [GitHub](https://github.com/mikecroucher/SMC_tutorial/graphs/contributors). Also, please use the following Digital Object Identifier.
 
 [![DOI](https://zenodo.org/badge/23386/mikecroucher/SMC_tutorial.svg)](https://zenodo.org/badge/latestdoi/23386/mikecroucher/SMC_tutorial)
 
@@ -28,7 +26,7 @@ Paying users get more resources and support - vital if you are to rely on it for
 * Section 1 - [A Tour of SageMathCloud](/functionality/functionality.md) - An overview of some of SageMathCloud's functionality
 * Section 2 - [Creating a Course](./creating_a_course/creating_course.md) - How to create a course
 * Section 3 - [Course Management](./course_management/course_management.md) - Detailed course management instructions
-* Section 4 - [Interacting with students and collaborators](./interactions/interactions.md) - Overview of methods to interact with students and collaborators.
+* Section 4 - [Interacting with students and collaborators](./interactions/interactions.md) - Overview of methods to interact with students and collaborators
 * Section 5 - [Other useful features and tricks](./tips_and_tricks/tips_and_tricks.md) - Things that can make your life easier
 
 ## Further resources
