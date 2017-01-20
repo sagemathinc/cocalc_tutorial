@@ -1,4 +1,4 @@
-**You can now access this tutorial on [github-pages]().**
+**You can now access this tutorial on [github-pages](https://mikecroucher.github.io/SMC_tutorial/).**
 
 An introduction to SageMathCloud for lecturers.
 
