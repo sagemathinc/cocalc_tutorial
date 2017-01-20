@@ -124,9 +124,9 @@ blockquote {
 
 
 
-/**
- * Code formatting
- */
+/*******************/
+/* Code formatting */
+/*******************/
 pre,
 code {
     font-size: 15px;
@@ -305,7 +305,7 @@ code, pre {
     font-family: Monaco, Andale Mono, Courier New, monospace;
 }
 code {
-    background-color: #fee9cc;
+    background-color: $thistle-color;
     color: rgba(0, 0, 0, 0.75);
     padding: 1px 3px;
     font-size: 12px;
@@ -325,7 +325,7 @@ pre {
 }
 pre code {
     background-color: #fff;
-    color:#737373;
+    color:$thistle-color;
     font-size: 11px;
     padding: 0;
 }
