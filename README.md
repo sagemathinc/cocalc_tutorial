@@ -1,5 +1,3 @@
-An introduction to SageMathCloud for lecturers.
-
 ## Citing this work
 
 For a list of authors see the contributors section https://github.com/mikecroucher/SMC_tutorial/graphs/contributors. Also, please use the following Digital Object Identifier.
