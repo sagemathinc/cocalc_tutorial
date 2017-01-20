@@ -1,6 +1,6 @@
-An introduction to SageMathCloud for lecturers.
+**You can now access this tutorial on [github-pages]().**
 
-You can now access this tutorial on [github-pages]().
+An introduction to SageMathCloud for lecturers.
 
 ## Citing this work
 
