@@ -13,8 +13,7 @@ For a list of authors see the contributors section https://github.com/mikecrouch
 [SageMathCloud](https://cloud.sagemath.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
 It is used for [teaching by Universities around the world](https://github.com/sagemathinc/smc/wiki/Teaching).
 
-Basic access, without internet access, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
-Paying users get more resources and support - vital if you are to rely on it for paying students.
+Basic access to SageMathcloud is free but, if you want your proejcts to be able to access the internet and have a more perfromant user-experience, we suggest you upgrade to a paid-for plan. Paying users get more resources and support - vital if you are to rely on it for paying students.  Details of SageMathCloud's pricing plans are available at [https://cloud.sagemath.com/policies/pricing.html](https://cloud.sagemath.com/policies/pricing.html)
 
 ## Some Benefits of SageMathCloud
 
