@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This needs to be edited by the Boss
-
-* Add links to the OpenDreamKit website
-* Funding/grant details
-* Links to repo??
+This tutorial is maintained by the [University of Sheffield Research Software Engineering Group](http://rse.shef.ac.uk/). The work is part-funded by the [OpenDreamKit project](http://opendreamkit.org/).
