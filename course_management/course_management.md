@@ -1,9 +1,9 @@
 ---
 layout: page
-step: 2
 next:
   url: /interactions/interactions.html
   title: Interacting with others
+  
 prev:
   url: /creating_a_course/creating_course.html
   title: Creating a Course
