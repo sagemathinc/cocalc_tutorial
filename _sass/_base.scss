@@ -80,7 +80,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .post h2, .post h3, .post h4, .post h5, .post h6 {
@@ -217,7 +217,7 @@ blockquote {
     padding: 0;
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "Helvetica", Arial, sans-serif;
     font-size: 14.5px;
     line-height: 18px;
     color: #737373;
@@ -259,7 +259,9 @@ h6 {
 }
 h1 {
     margin-bottom: 18px;
-    font-size: 30px;
+    font-size: 26px;
+    font-weight: 400;
+    color: $blue-color;
 }
 h2 {
     font-size: 24px;
@@ -325,7 +327,7 @@ pre {
 }
 pre code {
     background-color: #fff;
-    color:$thistle-color;
+    color:$grey-color-dark;
     font-size: 11px;
     padding: 0;
 }
@@ -344,4 +346,50 @@ sup {
     table, pre {
         page-break-inside: avoid;
     }
+}
+
+
+/*******************/
+/*Pagination items*/
+/*******************/
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: $grey-color;
+  text-align: center;
+  position: relative;
+  left: 15%;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid #fdfdfd;
+  background-color: #515865;
+}
+
+a.pagination-item{
+  color: $grey-color-light;
+}
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+  background-color: $thistle-color;
+  text-decoration: underline;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #515865;
+
+}
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: 2.5rem 0;
+  }
+  .pagination-item {
+    float: left;
+    width: 30%;
+  }
 }

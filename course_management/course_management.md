@@ -1,3 +1,13 @@
+---
+layout: page
+step: 2
+next:
+  url: /interactions/interactions.html
+  title: Interacting with others
+prev:
+  url: /creating_a_course/creating_course.html
+  title: Creating a Course
+---
 # Course management
 
 No matter what you've added in the instructors view of the course, the students will not see any files until you explicitly assign them.
@@ -17,7 +27,7 @@ Enter **assignment1** in the search box on the right hand of the screen.
 
 ![Assignment search box](./assets/find_assignment.png)
 
-The system will look for any folders with **assignment1** in their path name and  return a set of options. 
+The system will look for any folders with **assignment1** in their path name and  return a set of options.
 Highlight the one you want and click on **Add Selected Assignment**.
 
 ![Find assignment](./assets/find_assignment2.png)
@@ -141,11 +151,11 @@ students = [
 
 ## Returning an assignment to students
 
-Once an assignment has been graded, the *Return* to student button appears. 
+Once an assignment has been graded, the *Return* to student button appears.
 
 ![Returned button](./assets/return_button.png)
 
-Clicking on this sends a copy of the graded assignment back to the student. 
+Clicking on this sends a copy of the graded assignment back to the student.
 It appears in their assignments folder like this:
 
 ![Returned assignment](./assets/returned_assignment.png)

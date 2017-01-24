@@ -1,3 +1,6 @@
 .DS_Store
 .ipynb_checkpoints
 *.sage-chat
+.Rhistory
+.sass-cache
+.git

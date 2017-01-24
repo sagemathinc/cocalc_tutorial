@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>SageMath Cloud tutorial</title>
+  <meta name="description" content="-----">
+
+  <link rel="stylesheet" href="/SMC_tutorial/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/SMC_tutorial/interactions/interactions.html">
+  <link rel="alternate" type="application/atom+xml" title="SageMath Cloud tutorial" href="http://localhost:4000/SMC_tutorial/feed.xml" />
+  <script src="/SMC_tutorial/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/SMC_tutorial/scripts/pithy.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+
+
+  <body>
+    <header class="header">
+	<div class="header-container">
+	<div class="site-title">SageMath Cloud tutorial </div>
+	<div class="description"> A tutorial for anyone wanting to use Sage Math Cloud for teaching </div>
+
+		<div class="nav">
+			<a href="/SMC_tutorial/about">About</a>
+			<a href="/SMC_tutorial/index.html">Home</a>
+		</div>
+
+	</div>
+</header>
+
+    <br>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="page">
+  <h1 class="page-title"></h1>
+  <h1 id="interacting-with-students-and-collaborators">Interacting with students and collaborators</h1>
+<p>There are multiple ways in which you can interact with your students or collaborators, in this section we will present some features that you might find useful when managing a course.</p>
+
+<h2 id="real-time-chatrooms">Real-time chatrooms</h2>
+<p>You can create general real-time chatrooms for your SMC projects. You can create a project chat room by clicking on the <strong>New</strong> button, this will create a file with <code class="highlighter-rouge">.sage-chat</code> extension.</p>
+
+<p>In addition, every file in SMC has a separate chat that can be found on the upper left corner of your screen.</p>
+
+<p><img src="./assets/chat_button.png" alt="The chat button" /></p>
+
+<p>Every time one of your students writes something into a chat on any one of their files, you will get a notification displayed on the top bar.</p>
+
+<p><img src="./assets/instructor_notification.png" alt="The notification" /></p>
+
+<p>Clicking on the notification button (bell icon on the top of the screen) displays a notification menu with the latest chats and modifications in the project or specific files.</p>
+
+<p><img src="./assets/notification_highlighted.png" alt="Notification Bar" /></p>
+
+<p>The chat notifications are always presented at the top of the menu, followed by any updates you or your collaborators have done to the project. Clicking on a chat notification will take you to <strong>the student’s copy</strong> of the file inside <strong>his/her project</strong>.
+From there, you can both reply to their questions and look at their work simultaneously.</p>
+
+<p><img src="./assets/student_question.png" alt="TA assistance example" /></p>
+
+<p>Once you have replied to the student’s question (s)he will receive a notification.</p>
+
+<h2 id="live-collaborative-editing">Live collaborative editing</h2>
+<p>Multiple users can collaborate on a project. As soon as a collaborator is added to a a project (see <a href="./creating_a_course/creating_course.md">Creating a Course</a>) they share both the project and the associated files.</p>
+
+<p>Live collaborative editing is possible in SMC. If one of your collaborators updates a notebook, the rest can see the changes as they are being made (similar to Google Docs).</p>
+
+<h2 id="creating-a-shared-project">Creating a shared project</h2>
+<p>You can create a common shared project from any of your existing projects. You can think of a shared project to be your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have <strong>write</strong> access to the project and its associated files.</p>
+
+<p>To create a shared project you need to go to your <strong>.course</strong> file and click on the <strong>Shared ‘Project</strong> button.</p>
+
+<p><img src="./assets/shared1.png" alt="Create shared" /></p>
+
+<p>If you create a <strong>.sage-chat</strong> file here, all students will receive automatic notifications when questions are posted on the chat.</p>
+
+<p>If you want to make a file or an assignment <strong>read only</strong> so that students cannot modify it you need to modify the file permissions. Launch a terminal and type <code class="highlighter-rouge">chmod a-w filename</code> (in this example the filename is <code class="highlighter-rouge">Assignment1</code>).</p>
+
+<p><img src="./assets/read_only.png" alt="Read only files" /></p>
+
+<p>If you want to check the access permissions of all the files contained in a given directory use the command <code class="highlighter-rouge">ls -l</code> on the terminal.</p>
+
+<p><img src="./assets/ls_assignment.png" alt="Access check" /></p>
+
+<p>In the case you want to change a read only file into a read and write type <code class="highlighter-rouge">chmod a+w filename</code> on the terminal.</p>
+
+<h2 id="group-projects">Group Projects</h2>
+<p>There are various ways in which you can facilitate  students group projects in SMC. A couple of options are:</p>
+
+<h3 id="one-project-per-team">One project per team</h3>
+<p>Have someone on each group make a project with all the group members as collaborators.
+They will all then be able to collaborate on the same project and modify files simultaneously.</p>
+
+<p>You should note, however, that by using the approach you cannot automatically collect assignments from the team. However, a workaround could be creating an assignment in your main project and have the students copy the file over to their group project.</p>
+
+<h3 id="using-git">Using Git</h3>
+<p>Students can collaborate in their own course-affiliation using git via the terminal in SMC (for more tips on using git see the Interesting features and tricks section).</p>
+
+</div>
+
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/SMC_tutorial/course_management/course_management.html"> &laquo; Course management</a>
+  
+
+  
+    <a class="pagination-item newer" href="/SMC_tutorial/tips_and_tricks/tips_and_tricks.html">Useful tips &raquo; </a>
+  
+</div>
+
+      </div>
+    </div>
+    
+      <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <div id="gotop">Go to top</div>
+        <br>
+        
+
+
+
+<a href="https://github.com/mikecroucher"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/rse_sheffield"><i class="svg-icon twitter"></i></a>
+
+
+
+        <div class="copyright">
+          Maintaned by the RSE group at the University of Sheffield
+        </div>
+      </footer>
+    </div>
+  </div>
+
+    
+  </body>
+
+</html>

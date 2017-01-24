@@ -1,3 +1,14 @@
+---
+layout: page
+step: 3
+next:
+  url: /tips_and_tricks/tips_and_tricks.html
+  title: Useful tips
+
+prev:
+  url: /course_management/course_management.html
+  title: Course management
+---
 # Interacting with students and collaborators
 There are multiple ways in which you can interact with your students or collaborators, in this section we will present some features that you might find useful when managing a course.
 

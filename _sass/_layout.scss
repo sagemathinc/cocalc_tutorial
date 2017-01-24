@@ -20,13 +20,13 @@ html,body {
 	text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
     display:inline;
 		float: right;
 }
 
 .nav li {
-    padding-right: 20px;
+    padding-left: 50px;
     display: inline-block;
     line-height: 1;
 }
@@ -87,34 +87,12 @@ li {
 }
 
 .site-title{
-	padding-top: 10px;
-	font-size: 26px;
+	padding-top: 15px;
+	font-size: 30px;
 	line-height: 1.5em;
 	color: #EEE;
-	font-weight: bold;
-}
-
-.social-links {
-    padding-top: 10px;
-	margin-left: 0px;
-}
-
-.social-links li {
-    display: inline;
-    padding-right: 10px;
-    line-height: 0;
-}
-
-.social-links a {
-    color: #959BA6;
-}
-
-.social-links a:active {
-	opacity: 0.6;
-}
-
-.social-links a:hover {
-	opacity: 0.6;
+	font-weight: 550;
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .page-content {
@@ -205,13 +183,16 @@ li {
 	color: #666;
 }
 
-#gotop {
+#gotop{
     position: fixed;
     right: 20px;
     bottom: 20px;
     padding: 10px 15px;
-    font-size: 20px;
+    font-size: 15px;
     background: #515865;
     color: white;
     cursor: pointer;
 }
+
+
+.gotop li {font-size: 15px}
