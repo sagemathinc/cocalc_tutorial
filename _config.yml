@@ -8,5 +8,7 @@ url: "http://mikecroucher.github.io" # the base hostname & protocol for your sit
 footer-links:
   github: mikecroucher
   twitter: rse_sheffield
+  email: rse@sheffield.ac.uk
+  
 # Build settings
 markdown: kramdown
