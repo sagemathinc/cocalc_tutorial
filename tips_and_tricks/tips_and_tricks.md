@@ -1,6 +1,6 @@
 ---
 layout: page
-step: 5
+
 prev:
   url: /interactions/interactions.html
   title: Interacting with others

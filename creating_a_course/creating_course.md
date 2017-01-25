@@ -1,6 +1,5 @@
 ---
 layout: page
-step: 2
 
 next:
   url: /course_management/course_management.html

@@ -1,6 +1,6 @@
 ---
 layout: page
-step: 3
+
 next:
   url: /tips_and_tricks/tips_and_tricks.html
   title: Useful tips

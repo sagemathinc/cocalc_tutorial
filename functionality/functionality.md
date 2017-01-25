@@ -1,6 +1,6 @@
 ---
 layout: page
-step: 1
+
 next:
   url: /creating_a_course/creating_course.html
   title: Creating a new course

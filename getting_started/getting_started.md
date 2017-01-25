@@ -1,6 +1,6 @@
 ---
 layout: page
-step: 0
+
 next:
     url: /functionality/functionality.html
     title: A Tour of SMC
