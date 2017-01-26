@@ -1,3 +1,15 @@
+---
+layout: page
+
+next:
+  url: /creating_a_course/creating_course.html
+  title: Creating a new course
+
+prev:
+  url: /getting_started/getting_started.html
+  title: Getting started
+---
+
 # A Tour of SageMathCloud
 
 SageMathCloud contains a lot of functionalities, including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, along with a wide range of course management facilities.
@@ -48,7 +60,7 @@ To start a new Jupyter notebook, click on **New** and give your notebook a name.
 
 ![Open Notebook](./assets/create_notebook.png)
 
-The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **kernel**->**change kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Apache Spark. 
+The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **kernel**->**change kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Apache Spark.
 
 ![kernel choice](./assets/kernel_choice.png)
 

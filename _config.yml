@@ -1,12 +1,14 @@
 # Site settings
-title: SageMath Cloud tutorial
-motto: A tutorial for anyone wanting to use Sage Math Cloud for teaching
-description: -----
+title: SageMathCloud tutorial
+motto: A tutorial for anyone wanting to use SageMathCloud for teaching
+description: A tutorial for anyone wanting to use SageMathCloud for teaching
 baseurl: "/SMC_tutorial"
 url: "http://mikecroucher.github.io" # the base hostname & protocol for your site
 
 footer-links:
   github: mikecroucher
   twitter: rse_sheffield
+  email: rse@sheffield.ac.uk
+  
 # Build settings
 markdown: kramdown

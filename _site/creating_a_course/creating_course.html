@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>SageMathCloud tutorial</title>
+  <meta name="description" content="A tutorial for anyone wanting to use SageMathCloud for teaching">
+
+  <link rel="stylesheet" href="/SMC_tutorial/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/SMC_tutorial/creating_a_course/creating_course.html">
+  <link rel="alternate" type="application/atom+xml" title="SageMathCloud tutorial" href="http://localhost:4000/SMC_tutorial/feed.xml" />
+  <script src="/SMC_tutorial/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/SMC_tutorial/scripts/pithy.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+
+
+  <body>
+    <header class="header">
+	<div class="header-container">
+	<div class="site-title">SageMathCloud tutorial </div>
+	<div class="description"> A tutorial for anyone wanting to use SageMathCloud for teaching </div>
+
+		<div class="nav">
+			<a href="/SMC_tutorial/about">About</a>
+			<a href="/SMC_tutorial/index.html">Home</a>
+		</div>
+
+	</div>
+</header>
+
+    <br>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="page">
+  <h1 class="page-title"></h1>
+  <h1 id="creating-a-new-course">Creating a new course</h1>
+
+<p>In this section we will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course.</p>
+
+<h2 id="creating-the-course-project">Creating the course project</h2>
+
+<p>In this section we are going to create a project containing a course.</p>
+
+<p>Log into SageMathCloud and click on the <strong>projects</strong> icon in the top left hand corner of the screen.</p>
+
+<p><img src="./assets/projects.png" alt="Projects icon" /></p>
+
+<p>Click on <strong>Create New Project</strong>, fill out the <strong>Title</strong> and <strong>Description</strong> and click on <strong>Create Project</strong></p>
+
+<p><img src="./assets/create_new_course_project.png" alt="Create new course project" /></p>
+
+<p>The new project will appear at the top of the project list. Click on its  title to open it.</p>
+
+<p><img src="assets/course_list.png" alt="Project list" /></p>
+
+<h2 id="adding-teaching-assistants-to-the-course">Adding teaching assistants to the course</h2>
+
+<p>To add teaching assistants or other teachers to the course, open the course project and click on the <strong>Add Collaborators</strong> icon in the top right hand corner of the screen.</p>
+
+<p><img src="assets/course_collaborators.png" alt="Course Collaborators" /></p>
+
+<p>The <strong>Settings and configuration</strong> screen will open. In the <strong>Collaborators</strong> tab, you can find or add collaborators by name or email address.</p>
+
+<p><img src="assets/collaborators.png" alt="Add Collaborators" /></p>
+
+<p>If the email address you add as a collaborator is not associated with a SageMathCloud account, an email will be sent to that address with an invite to join.
+Once the owner of that email address gets an account, the new user will be added automatically to all projects with pending invitations.</p>
+
+<p>## Creating the course file</p>
+
+<p>Almost all aspects of a course, such as which students are enrolled and assignment management, are controlled by a <strong>.course</strong> file. We’ll now create this file.</p>
+
+<p>Open the course project, click on <strong>New</strong> and give the course a title. Here, I’ve used <code class="highlighter-rouge">Autumn_2016_PHY001</code>. Click on <strong>Manage a Course</strong> to create the course file.</p>
+
+<p><img src="./assets/new_managecourse.png" alt="New course" /></p>
+
+<p>If you go to the root of the course project directory, you will see that a new file has been created with the extension <strong>.course</strong>. This is the course management file and most aspects of your course are controlled by it.</p>
+
+<p><img src="assets/course_file.png" alt="Course file" /></p>
+
+<h2 id="adding-students-to-the-course">Adding students to the course</h2>
+
+<p>Open your course by clicking on the <strong>.course</strong> file.</p>
+
+<p>In the <strong>Students</strong> tab, add a comma separated list of students in the search box and click on the search icon.</p>
+
+<p><img src="./assets/student_list.png" alt="Student list" /></p>
+
+<p>Highlight all of the students in the resulting list and click on <strong>Add N Students</strong> where N is the number of students in your list.</p>
+
+<p><img src="./assets/student_list2.png" alt="Student list" /></p>
+
+<p>All added students will be invited to join your course by email. Any student who does not have an account on SageMathCloud will be invited to create one.</p>
+
+<p>Your course page will now look like this</p>
+
+<p><img src="./assets/student_list3.png" alt="Student list" /></p>
+
+<ul>
+  <li>Email addresses that are followed by <strong>(invited)</strong> do not have a SageMathCloud account yet. <strong>(invited)</strong> will disappear as soon as they sign up.</li>
+  <li>You can see when each student last used the course project. In this case – never!</li>
+  <li>The <strong>! Free</strong> warning next to each student shows that they are running this course on free servers. It is <strong>strongly</strong> recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below).</li>
+</ul>
+
+<h2 id="what-do-the-students-get">What do the students get?</h2>
+
+<p>On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.</p>
+
+<p>The student’s course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.</p>
+
+<p>## Upgrading students</p>
+
+<p>The <strong>Settings</strong> tab of a <strong>.course</strong> file allows you to upgrade student’s course projects in two ways.
+You can request that the students pay a one-time fee of $9 for four months.
+This will move their projects to members only hosts and enable full internet access.</p>
+
+<p>Alternatively, you can pay on your student’s behalf.
+Current pricing is available at https://cloud.sagemath.com/policies/pricing.html which at the time of writing ranged from a <strong>total</strong> of $4 to $8 per student for a 4 month course.
+The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.</p>
+
+<p><img src="./assets/upgrading_students.png" alt="Upgrading students" /></p>
+
+</div>
+
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/SMC_tutorial/functionality/functionality.html"> &laquo; A Tour of SMC</a>
+  
+
+  
+    <a class="pagination-item newer" href="/SMC_tutorial/course_management/course_management.html">Course management &raquo; </a>
+  
+</div>
+
+      </div>
+    </div>
+    
+      <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <div id="gotop">Go to top</div>
+        <br>
+        
+
+
+
+<a href="https://github.com/mikecroucher"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/rse_sheffield"><i class="svg-icon twitter"></i></a>
+
+
+
+        <div class="copyright">
+          Maintaned by the RSE group at the University of Sheffield
+        </div>
+      </footer>
+    </div>
+  </div>
+
+    
+  </body>
+
+</html>

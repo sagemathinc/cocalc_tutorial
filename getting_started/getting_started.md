@@ -1,3 +1,10 @@
+---
+layout: page
+
+next:
+    url: /functionality/functionality.html
+    title: A Tour of SMC
+---
 # Getting started with SageMathCloud
 
 ## Lecturers - Sign up for an account

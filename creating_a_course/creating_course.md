@@ -1,3 +1,14 @@
+---
+layout: page
+
+next:
+  url: /course_management/course_management.html
+  title: Course management
+
+prev:
+  url: /functionality/functionality.html
+  title: A Tour of SMC
+---
 # Creating a new course
 
 In this section we will learn how to create a course project, how to populate it with a course management file and how to invite all of your students to join the course.

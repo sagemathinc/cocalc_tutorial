@@ -1,10 +1,10 @@
 ---
-# Only the main Sass file needs front matter
+# Only the main SASS file needs front matter
 ---
 @charset "utf-8";
 
 // Personal variables (can be customised as you wish)
-$base-font-family: "Raleway",Arial,sans-serif;
+$base-font-family: "Helvetica",Helvetica,Arial,sans-serif;
 $base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -19,7 +19,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $blue-color:	   #4183C4;
-$thistle-color: #CDB5CD;
+$thistle-color: lighten(#bda0cb, 5%);
+
 
 // Width of the content area
 $content-width:    800px;
