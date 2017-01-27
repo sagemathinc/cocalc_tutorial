@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Getting started with SageMathCloud
+title: null
 
 next:
     url: /functionality/functionality.html
     title: A Tour of SMC
 ---
+# Getting started with SageMathCloud
+
 ## Lecturers - Sign up for an account
 
 Basic usage of SageMathCloud is free but before you can start using it, you need to create an account. This can be done at https://cloud.sagemath.com/
