@@ -96,7 +96,8 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #c8b0d4; }
+  background-color: #c8b0d4;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif; }
 
 code {
   padding: 1px 5px; }
@@ -203,7 +204,8 @@ h1 {
   color: #4183C4; }
 
 h2 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: 300; }
 
 h3 {
   font-size: 18px; }
@@ -292,7 +294,7 @@ sup {
   /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica",Helvetica,Arial,sans-serif;
   color: #828282;
   text-align: center;
   position: relative;
@@ -370,7 +372,7 @@ li {
 .nav li a:hover {
   opacity: 0.6;
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 .title li a {
   color: #FFF;
