@@ -3,13 +3,12 @@ layout: page
 next:
   url: /interactions/interactions.html
   title: Interacting with others
-  
+
 prev:
   url: /creating_a_course/creating_course.html
   title: Creating a Course
 ---
 # Course management
-
 No matter what you've added in the instructors view of the course, the students will not see any files until you explicitly assign them.
 
 ## Creating a new assignment

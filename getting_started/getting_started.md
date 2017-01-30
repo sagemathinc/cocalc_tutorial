@@ -7,6 +7,7 @@ next:
     title: A Tour of SMC
 ---
 # Getting started with SageMathCloud
+This section would help you familiarise with some of the Functions of SageMathCloud.
 
 ## Lecturers - Sign up for an account
 
