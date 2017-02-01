@@ -59,6 +59,8 @@ In the **Students** tab, add a comma separated list of students in the search bo
 
 ![Student list](./assets/student_list.png)
 
+If you have a particular large class, the above method may take a very long time. If you have your students' email addresses in an Excel spreadsheet (or Google Sheet) you can copy and paste them directly in the **Add student** box.
+
 Highlight all of the students in the resulting list and click on **Add N Students** where N is the number of students in your list.
 
 ![Student list](./assets/student_list2.png)
