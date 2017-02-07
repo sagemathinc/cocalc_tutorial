@@ -63,7 +63,7 @@ Click on the **New** button and add/paste the link to your repository in the app
 Also you can use the terminal to commit and push changes to your repository in GitHub.
 
 ## Time Travel Diffs
-The editor based documents (e.g. python code, sage worksheets, LaTex documents, etc.) as well as the Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval.
+The editor based documents (e.g. python code, sage worksheets, LaTex documents, etc.) as well as the Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval (and who made those changes)
 
 Open up **Time travel** from any document:
 
@@ -74,3 +74,9 @@ then click on changes and drag the sliders to see the document in a given time i
 ![TT sliders](./assets/time_travel_sliders.png)
 
 If you need to revert the document to a previous state, just drag the sliders to the desired interval and click on **Revert live version to this**, this will revert the document to that specific version and discard any modifications made afterwards.
+
+In addition, various read-only snapshots of the complete filesystem state, which allows users to recover older versions of files that were not edited using the graphical editor (e.g. emacs or terminal).
+
+![Snapshots](./assets/snapshots.png)
+
+You can then use Git on the command line to track all the files or synchronize with the GitHub remote server.
