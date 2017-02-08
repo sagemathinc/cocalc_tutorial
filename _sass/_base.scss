@@ -263,9 +263,9 @@ h1 {
     color: $blue-color;
 }
 h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: $grey-color-dark;
+    font-size: 22px;
+    font-weight: 400;
+    color: darken($blue-color, 15%);
 }
 h3 {
     font-size: 18px;
