@@ -70,10 +70,10 @@ a {
   color: #2a7ae2;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
-  a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #a67fb9; }
+
+li a:hover {
+  text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -205,7 +205,8 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-weight: 300; }
+  font-weight: bold;
+  color: #424242; }
 
 h3 {
   font-size: 18px; }
@@ -342,37 +343,20 @@ html, body {
   color: #707070;
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline;
   float: right; }
-
-.nav li {
-  padding-left: 50px;
-  display: inline-block;
-  line-height: 1; }
-
-li {
-  margin-left: 0px;
-  line-height: 1.7em; }
-
-.nav a {
-  color: #959BA6; }
-
-.nav a:link {
-  opacity: 1;
-  transition: all 0.15s linear 0s;
-  text-decoration: none; }
-
-.nav li a:visited {
-  opacity: 1;
-  transition: all 0.15s linear 0s;
-  text-decoration: none; }
-
-.nav li a:hover {
-  opacity: 0.6;
-  cursor: pointer;
-  text-decoration: underline; }
+  .nav li {
+    padding-left: 30px; }
+  .nav a {
+    color: #959BA6;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 0 5px; }
+    .nav a:hover {
+      background-color: #b1b5bd;
+      color: #4183C4; }
 
 .title li a {
   color: #FFF;
