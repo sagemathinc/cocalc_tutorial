@@ -296,6 +296,7 @@ sup {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "Helvetica",Helvetica,Arial,sans-serif;
+  font-size: 18px;
   color: #828282;
   text-align: center;
   position: relative;
@@ -356,7 +357,8 @@ html, body {
     padding: 0 5px; }
     .nav a:hover {
       background-color: #b1b5bd;
-      color: #4183C4; }
+      color: #4183C4;
+      border-radius: 5px; }
 
 .title li a {
   color: #FFF;
@@ -364,7 +366,7 @@ html, body {
 
 .title li a:link {
   color: #FFF;
-  font-size: 20px; }
+  font-size: 26px; }
 
 .title li a:visited {
   opacity: 1;
@@ -377,7 +379,7 @@ html, body {
 
 .description {
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5em;
   color: #EEE; }
 

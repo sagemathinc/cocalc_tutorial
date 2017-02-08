@@ -36,6 +36,7 @@ html,body {
 			&:hover{
 				background-color: lighten(#959BA6, 10%);
 				color: $blue-color;
+				border-radius: 5px;
 			}
 		}
 }
@@ -48,7 +49,7 @@ html,body {
 
 .title li a:link {
     color: #FFF;
-		font-size: 20px;
+		font-size: 26px;
 }
 
 .title li a:visited {
@@ -64,7 +65,7 @@ html,body {
 
 .description {
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5em;
     color: #EEE;
 }
@@ -174,7 +175,7 @@ html,body {
     font-size: 15px;
     background: #515865;
     color: white;
-    cursor: pointer;
+		cursor: pointer;
 }
 
 
