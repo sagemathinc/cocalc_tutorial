@@ -176,7 +176,8 @@ html,body {
     background: #515865;
     color: white;
 		cursor: pointer;
+		border-radius: 5px;
+		font-weight: 450;
+		&:hover{background-color: $thistle-color;
+						color: #515865;}
 }
-
-
-.gotop li {font-size: 15px}

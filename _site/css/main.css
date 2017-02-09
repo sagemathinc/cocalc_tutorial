@@ -472,10 +472,12 @@ html, body {
   font-size: 15px;
   background: #515865;
   color: white;
-  cursor: pointer; }
-
-.gotop li {
-  font-size: 15px; }
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 450; }
+  #gotop:hover {
+    background-color: #c8b0d4;
+    color: #515865; }
 
 /**
  * Syntax highlighting styles
