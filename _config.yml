@@ -13,5 +13,6 @@ footer-links:
 # Build settings
 markdown: kramdown
 
+# Additional gems
 gems:
   - jekyll-titles-from-headings

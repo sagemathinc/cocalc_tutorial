@@ -353,8 +353,8 @@ html, body {
   .nav a {
     color: #959BA6;
     display: inline-block;
-    line-height: 1.5;
-    padding: 0 5px; }
+    line-height: 2.0;
+    padding: 0 15px; }
     .nav a:hover {
       background-color: #b1b5bd;
       color: #4183C4;

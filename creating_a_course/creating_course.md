@@ -81,14 +81,14 @@ On being invited to a course, each student will have a project created for them 
 
 The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
 
-## Upgrading students
+## Upgrading students
 
 The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
 You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
-Current pricing is available at https://cloud.sagemath.com/policies/pricing.html which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
+Current pricing is available at <https://cloud.sagemath.com/policies/pricing.html> which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
 ![Upgrading students](./assets/upgrading_students.png)

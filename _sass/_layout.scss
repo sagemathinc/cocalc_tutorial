@@ -31,8 +31,8 @@ html,body {
 		a {
 			color: #959BA6;
 			display: inline-block;
-			line-height: 1.5;
-			padding: 0 5px;
+			line-height: 2.0;
+			padding: 0 15px;
 			&:hover{
 				background-color: lighten(#959BA6, 10%);
 				color: $blue-color;

@@ -50,5 +50,6 @@ Paying users get more resources and support - vital if you are to rely on it for
 
 This work is licensed under CC-BY 3.0.
 
-* Human readable description of the license - https://creativecommons.org/licenses/by/3.0/
-* Legal text of the license - https://raw.githubusercontent.com/mikecroucher/SMC_tutorial/master/license.txt
+
+* Human readable description of the license - <https://creativecommons.org/licenses/by/3.0/)>
+* Legal text of the license - <https://raw.githubusercontent.com/mikecroucher/SMC_tutorial/master/license.txt>
