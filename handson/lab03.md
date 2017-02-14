@@ -2,11 +2,11 @@
 layout: page
 permalink: /handson/lab03
 prev:
-  url: /handson/lab02/
+  url: /handson/lab02
   title: Adding people
 
 next:
-    url: /handson/lab04/
+    url: /handson/lab04
     title: Collecting assignments
 ---
 # Assigning coursework to the students
