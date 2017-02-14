@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /handson/lab01
+
 next:
   url: /handson/lab02.html
   title: Adding people

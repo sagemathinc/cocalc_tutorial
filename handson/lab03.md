@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /handson/lab03
-prev:
-  url: /handson/lab02
-  title: Adding people
 
 next:
-    url: /handson/lab04
+    url: /handson/lab04.html
     title: Collecting assignments
+
+prev:
+    url: /handson/lab02.html
+    title: Adding people
 ---
 # Assigning coursework to the students
 In this section  you will learn how to create assignments and assign them to students.

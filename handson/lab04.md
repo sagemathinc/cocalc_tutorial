@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /handson/lab04
+
 prev:
-  url: /handson/lab03/
+  url: /handson/lab03.html
   title: Assignments
 
 ---

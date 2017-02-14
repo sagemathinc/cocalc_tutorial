@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /handson/lab02
+
 next:
-  url: /handson/lab03
+  url: /handson/lab03.html
   title: Assignments
 
 prev:
-    url: /handson/lab01
+    url: /handson/lab01.html
     title: Getting started
 ---
 # Adding people
