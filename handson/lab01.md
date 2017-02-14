@@ -42,7 +42,7 @@ git clone https://github.com/trallard/SMC_HandsOn.git
 
 Once you have done this your project should look something similar to this:
 
-![directories](assets/files.png)
+![after image](./assets/files.png)
 
 If you don't have internet access you can clone the repository on your personal computer and then drag and drop the files into your SageMathCloud project.
 

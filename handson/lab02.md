@@ -3,7 +3,7 @@ layout: page
 permalink: /handson/lab02
 next:
   url: /handson/lab03/
-  title: Adding people
+  title: Assignments 
 
 prev:
     url: /handson/lab01/
