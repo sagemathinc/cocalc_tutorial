@@ -1,15 +1,16 @@
 ---
-layout: default
-title: Hands On Tutorial
-permalink: /handson/
+layout: page
+permalink: /handson/lab01
+next:
+  url: /handson/lab02.html
+  title: Getting started
+
+prev:
+    url: /handson
+    title: Introduction
 ---
-# Hands on session
-This tutorial is intended to help lecturers set up a basic course in SageMathCloud.  It is based on the the SMC tutorial developed by the [RSE team @ Sheffield](http://rse.shef.ac.uk).
-
-For advanced features please refer to the relevant sections in this tutorial or contact the staff at SageMathCloud directly  at help@sagemath.com  
-
-## Getting you started
-1. Create an account in [SageMathCloud](https://cloud.sagemath.com/) using your institutional email.
+# Getting started
+1. If you have not done so, create an account in [SageMathCloud](https://cloud.sagemath.com/) using your institutional email.
 2. Log into your SageMathCloud account and create a new project named **SMC_hands_on** and make sure you add a meaningful description.
 3. Once you have created your project the next thing to do is create a **.course** file (you can name it SMC_hands_on.course as well).
 
@@ -32,7 +33,10 @@ If you have Internet access in your SageMathCloud account (upgraded account) fol
 
 1. Create a terminal session (**>_Terminal**), you can give it whatever name you want.
 2. We have created a GitHub repository for this session, which contains some directories and files to populate your project. In your terminal checkout the repo:
-`git clone https://github.com/trallard/SMC_HandsOn.git`
+
+```bash
+git clone https://github.com/trallard/SMC_HandsOn.git
+```
 
 Once you have done this your project should look something similar to this:
 
@@ -42,9 +46,10 @@ If you don't have internet access you can clone the repository on your personal 
 
 Note that the drag and drop functionality has a size limit so you might need to create your project directories first. You can do this by using the **New** button or typing directly the terminal commands:
 
-`mkdir notes`
-
-`mkdir notes/week1`
+```bash
+mkdir notes
+mkdir notes/week1
+```
 
 ## Adding people
 When you manage a course on SMC you might usually want to add students and collaborators.
@@ -54,6 +59,7 @@ The collaborators will more than likely be your demonstrators and any other lect
 Students are added directly from the **.course** file in home directory. If you have a very small group you can add these manually, otherwise you can copy the contents of a .xls or .csv file directly on the **Add student by name or email address**.
 
 We'll add "students" to the session: locate the *hands_on.csv* file (*in-person tutorial session only*, sorry) provided by the tutor and add your peers as students.
+You can do this by copying and pasting directly on the
 
 As they accept the invitation you will be able to see the students name and email  in your **.course** file. This also provides information on when they last accesses the course.
 

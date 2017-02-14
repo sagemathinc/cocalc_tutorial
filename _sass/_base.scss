@@ -52,6 +52,7 @@ img {
  */
 figure > img {
     display: block;
+    max-width: 100%;
 }
 
 figcaption {
@@ -121,36 +122,6 @@ blockquote {
 }
 
 
-
-/*******************/
-/* Code formatting */
-/*******************/
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: $thistle-color;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-
 /*************/
 /* Wrapper/*
 /************/
@@ -170,7 +141,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /************/
@@ -304,34 +274,47 @@ blockquote p {
     margin-bottom: 0;
     font-style: italic;
 }
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
+
+
+/*******************/
+/* Code formatting */
+/*******************/
+pre,
 code {
-    background-color: $thistle-color;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+code {
+    color: $dark-grey;
+    padding: 1px 5px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    background-color: lighten($thistle-color, 5%);
 }
+
 pre {
+    padding: 8px 12px;
     display: block;
     padding: 14px;
     margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
+    line-height: 14px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    overflow-x: scroll;
+    border: 2.0px solid $thistle-color;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: white;
+    }
 }
-pre code {
-    background-color: #fff;
-    color:$grey-color-dark;
-    font-size: 11px;
-    padding: 0;
-}
+
 sup {
     font-size: 0.83em;
     vertical-align: super;
@@ -369,9 +352,10 @@ sup {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1.25rem;
+  padding: 1.0rem;
   border: 1px solid #fdfdfd;
-  background-color: #515865;
+  background-color:  $dark-grey;
+  border-radius: 30px;
 }
 
 a.pagination-item{

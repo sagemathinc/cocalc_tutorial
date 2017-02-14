@@ -34,9 +34,12 @@ html,body {
 			line-height: 2.0;
 			padding: 0 15px;
 			&:hover{
-				background-color: lighten(#959BA6, 10%);
-				color: $blue-color;
+				background-color: white;
 				border-radius: 5px;
+			&:current-menu-item{
+				background-color: white;
+				border-radius: 5px;
+			}
 			}
 		}
 }

@@ -20,11 +20,13 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $blue-color:	   #4183C4;
 $thistle-color: lighten(#bda0cb, 5%);
+$dark-grey: #515865;
+
+
 
 
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 

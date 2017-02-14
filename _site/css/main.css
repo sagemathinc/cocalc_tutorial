@@ -39,7 +39,8 @@ img {
  * Figures
  */
 figure > img {
-  display: block; }
+  display: block;
+  max-width: 100%; }
 
 figcaption {
   font-size: 17.5px; }
@@ -87,28 +88,6 @@ blockquote {
   font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
-
-/*******************/
-/* Code formatting */
-/*******************/
-pre,
-code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #c8b0d4;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif; }
-
-code {
-  padding: 1px 5px; }
-
-pre {
-  padding: 8px 12px;
-  overflow-x: scroll; }
-  pre > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0; }
 
 /*************/
 /* Wrapper/*
@@ -245,33 +224,39 @@ blockquote p {
   margin-bottom: 0;
   font-style: italic; }
 
-code, pre {
-  font-family: Monaco, Andale Mono, Courier New, monospace; }
+/*******************/
+/* Code formatting */
+/*******************/
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace; }
 
 code {
-  background-color: #c8b0d4;
-  color: rgba(0, 0, 0, 0.75);
-  padding: 1px 3px;
-  font-size: 12px;
+  color: #515865;
+  padding: 1px 5px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  background-color: #d4c1dd; }
 
 pre {
+  padding: 8px 12px;
   display: block;
   padding: 14px;
   margin: 0 0 18px;
-  line-height: 16px;
-  font-size: 11px;
-  border: 1px solid #d9d9d9;
+  line-height: 14px;
   white-space: pre-wrap;
-  word-wrap: break-word; }
-
-pre code {
-  background-color: #fff;
-  color: #424242;
-  font-size: 11px;
-  padding: 0; }
+  word-wrap: break-word;
+  overflow-x: scroll;
+  border: 2px solid #c8b0d4; }
+  pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: white; }
 
 sup {
   font-size: 0.83em;
@@ -305,9 +290,10 @@ sup {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1.25rem;
+  padding: 1.0rem;
   border: 1px solid #fdfdfd;
-  background-color: #515865; }
+  background-color: #515865;
+  border-radius: 30px; }
 
 a.pagination-item {
   color: #e8e8e8; }
@@ -356,9 +342,11 @@ html, body {
     line-height: 2.0;
     padding: 0 15px; }
     .nav a:hover {
-      background-color: #b1b5bd;
-      color: #4183C4;
+      background-color: white;
       border-radius: 5px; }
+      .nav a:hover:current-menu-item {
+        background-color: white;
+        border-radius: 5px; }
 
 .title li a {
   color: #FFF;
