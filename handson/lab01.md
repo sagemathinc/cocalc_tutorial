@@ -3,13 +3,15 @@ layout: page
 permalink: /handson/lab01
 next:
   url: /handson/lab02.html
-  title: Getting started
+  title: Adding people
 
 prev:
-    url: /handson
+    url: /handson/
     title: Introduction
 ---
 # Getting started
+In this first part of the tutorial we will create a basic template for your course material.
+
 1. If you have not done so, create an account in [SageMathCloud](https://cloud.sagemath.com/) using your institutional email.
 2. Log into your SageMathCloud account and create a new project named **SMC_hands_on** and make sure you add a meaningful description.
 3. Once you have created your project the next thing to do is create a **.course** file (you can name it SMC_hands_on.course as well).
@@ -50,17 +52,13 @@ Note that the drag and drop functionality has a size limit so you might need to 
 mkdir notes
 mkdir notes/week1
 ```
+Alternatively:
 
-## Adding people
-When you manage a course on SMC you might usually want to add students and collaborators.
+```bash
+mkdir -p notes/week1
+```
+Note that the repository you have just copied only contains some Jupyter Notebooks and a .csv file containing some data. If you have a GitHub repo containing any sort of SMC supported files (LaTex, Juypter notebooks, Sage worksheets, etc.) you can add them directly by using `git clone repo_url` from the terminal.
 
-The collaborators will more than likely be your demonstrators and any other lecturers in charge of the course. These can be added directly on the settings section of your project (wrench icon).
-
-Students are added directly from the **.course** file in home directory. If you have a very small group you can add these manually, otherwise you can copy the contents of a .xls or .csv file directly on the **Add student by name or email address**.
-
-We'll add "students" to the session: locate the *hands_on.csv* file (*in-person tutorial session only*, sorry) provided by the tutor and add your peers as students.
-You can do this by copying and pasting directly on the
-
-As they accept the invitation you will be able to see the students name and email  in your **.course** file. This also provides information on when they last accesses the course.
-
-Once a student has been added to the project they have their own copy of the project.
+## Exercise
+Create/Import a LaTex document, which will be the "lecture material" for your course. Save it in the notes directory of your course.
+Make a few changes to the document. Even if just changing some layouts bits and stuff.
