@@ -25,18 +25,18 @@ html,body {
 		float: right;
 
 		li {
-			padding-left: 30px;
+			padding-left: 15px;
 		}
 
 		a {
 			color: #959BA6;
 			display: inline-block;
 			line-height: 2.0;
-			padding: 0 15px;
+			padding: 0 10px;
 			&:hover{
 				background-color: white;
 				border-radius: 5px;
-			&:current-menu-item{
+			&:active{
 				background-color: white;
 				border-radius: 5px;
 			}

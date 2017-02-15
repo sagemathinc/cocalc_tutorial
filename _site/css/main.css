@@ -32,8 +32,10 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle; }
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /**
  * Figures
@@ -335,16 +337,16 @@ html, body {
   display: inline;
   float: right; }
   .nav li {
-    padding-left: 30px; }
+    padding-left: 15px; }
   .nav a {
     color: #959BA6;
     display: inline-block;
     line-height: 2.0;
-    padding: 0 15px; }
+    padding: 0 10px; }
     .nav a:hover {
       background-color: white;
       border-radius: 5px; }
-      .nav a:hover:current-menu-item {
+      .nav a:hover:active {
         background-color: white;
         border-radius: 5px; }
 

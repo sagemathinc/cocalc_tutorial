@@ -18,16 +18,26 @@ In this first part of the tutorial we will create a basic template for your cour
 
 ## Structuring your course
 A commonly used structure for SMC courses is as follows:
+
   - notes
+
     - week1
+
   - data
+
     - data set 1
+
   - assignments
+
     - week1
+
     - week2
+
   - lab_sessions (if applicable)
 
 (Note this is a suggested basic structure, which has been proved to be useful for some people. You can always add directories to satisfy your needs e.g. supplementary material, demo codes, etc.).
+
+---
 
 Now let's start populating your course with some content.
 
@@ -59,6 +69,11 @@ mkdir -p notes/week1
 ```
 Note that the repository you have just copied only contains some Jupyter Notebooks and a .csv file containing some data. If you have a GitHub repo containing any sort of SMC supported files (LaTex, Juypter notebooks, Sage worksheets, etc.) you can add them directly by using `git clone repo_url` from the terminal.
 
-## Exercise
-Create/Import a LaTex document, which will be the "lecture material" for your course. Save it in the notes directory of your course.
-Make a few changes to the document. Even if just changing some layouts bits and stuff.
+---
+
+## Exercise 1:
+* Create/Import a LaTex document, which will be the "lecture material" for your course. Save it in the notes directory of your course (we are going to use this later in the session).
+
+* Make a few changes to the document. Even if just changing some layouts bits and stuff.
+
+---

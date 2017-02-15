@@ -34,11 +34,15 @@ Once it has been added to the list of available assignments, click on the assign
 
 If you want to assign this to the entire class just click on **Assign**, if you want to assign it to only a few students click on the **Assign** button next to the student's name.
 
-## Exercise 1: sharing notes
+---
+
+## Exercise 3.1: sharing notes
 Share your course notes and the LaTex file you created previously with some of the students you added in the previous sections.
 
-## Exercise 2: assignments
+## Exercise 3.2: assignments
 Following the procedure described before choose 1-2 students to assign the material in the Assignments folder.
 
-## Exercise 3: completing assignments
+## Exercise 3.3: working on your assignment
 If you have been assigned some coursework by your peers, open the assignment and make some changes (i.e formatting, re wording, changing plots, adding plots)
+
+---

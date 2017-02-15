@@ -61,11 +61,11 @@ In the case you want to change a read only file into a read and write type `chmo
 ## Group Projects
 There are various ways in which you can facilitate  students group projects in SMC. A couple of options are:
 
-### One project per team
+### *One project per team*
 Have someone on each group make a project with all the group members as collaborators.
 They will all then be able to collaborate on the same project and modify files simultaneously.
 
 You should note, however, that by using the approach you cannot automatically collect assignments from the team. However, a workaround could be creating an assignment in your main project and have the students copy the file over to their group project.
 
-### Using Git
+### *Using Git*
 Students can collaborate in their own course-affiliation using git via the terminal in SMC (for more tips on using git see the Interesting features and tricks section).
