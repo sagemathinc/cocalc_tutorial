@@ -18,3 +18,11 @@ gems:
   - jekyll-titles-from-headings
 
 include: ['_pages']
+
+# Post sharing icons
+sharing:
+    twitter: true
+    linkedin: true
+    facebook: true
+    google_plus: true
+    reddit: true

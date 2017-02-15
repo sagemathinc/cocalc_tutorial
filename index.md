@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 ---
 
 ## Citing this work

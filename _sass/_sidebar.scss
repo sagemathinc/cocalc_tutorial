@@ -1,0 +1,32 @@
+/* The side navigation menu */
+.sidenav {
+    height: 17%; /* 100% Full-height */
+    width: 60px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: $dark-grey;
+    padding-top: 10px;
+    border: 2px solid $dark-grey;
+    text-align: center;
+    border-radius: 5px;
+    color: #EEE;
+    opacity: 0.5;
+    font: $base-font-family;
+    font-weight: bold;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 3px 8px 8px 25px;
+    text-decoration: none;
+    color: #EEE;
+    display: block;
+    font-size: 22px;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: black;
+}
