@@ -2,6 +2,6 @@
 .ipynb_checkpoints
 *.sage-chat
 .Rhistory
-.sass-cache
+.sass-cache/
 .git
 _site/
