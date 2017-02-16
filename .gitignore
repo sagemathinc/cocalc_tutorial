@@ -2,3 +2,7 @@
 .ipynb_checkpoints
 *.sage-chat
 .Rhistory
+
+_site/
+
+\.sass-cache/73e69f0ef531aebcb53f36baba06a74572a191ad/
