@@ -41,8 +41,10 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -52,6 +54,7 @@ img {
  */
 figure > img {
     display: block;
+    max-width: 100%;
 }
 
 figcaption {
@@ -95,15 +98,13 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($thistle-color, 15%);
     }
 }
 
+li a:hover{
+  text-decoration: underline;
+}
 
 
 /**
@@ -121,36 +122,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
-
-
-/*******************/
-/* Code formatting */
-/*******************/
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: $thistle-color;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
 
 
 /*************/
@@ -172,7 +143,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /************/
@@ -265,8 +235,9 @@ h1 {
     color: $blue-color;
 }
 h2 {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
+    color: darken($blue-color, 15%);
 }
 h3 {
     font-size: 18px;
@@ -305,34 +276,47 @@ blockquote p {
     margin-bottom: 0;
     font-style: italic;
 }
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
+
+
+/*******************/
+/* Code formatting */
+/*******************/
+pre,
 code {
-    background-color: $thistle-color;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+code {
+    color: $dark-grey;
+    padding: 1px 5px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    background-color: lighten($thistle-color, 5%);
 }
+
 pre {
+    padding: 8px 12px;
     display: block;
     padding: 14px;
     margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
+    line-height: 14px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    overflow-x: scroll;
+    border: 2.0px solid $thistle-color;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: white;
+    }
 }
-pre code {
-    background-color: #fff;
-    color:$grey-color-dark;
-    font-size: 11px;
-    padding: 0;
-}
+
 sup {
     font-size: 0.83em;
     vertical-align: super;
@@ -360,6 +344,7 @@ sup {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "Helvetica",Helvetica,Arial,sans-serif;
+  font-size: 18px;
   color: $grey-color;
   text-align: center;
   position: relative;
@@ -369,9 +354,10 @@ sup {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1.25rem;
+  padding: 1.0rem;
   border: 1px solid #fdfdfd;
-  background-color: #515865;
+  background-color:  $dark-grey;
+  border-radius: 30px;
 }
 
 a.pagination-item{

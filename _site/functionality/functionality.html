@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,16 +22,19 @@
 	<div class="header-container">
 	<div class="site-title">SageMathCloud tutorial </div>
 	<div class="description"> A tutorial for anyone wanting to use SageMathCloud for teaching </div>
-
+	<br/>
 		<div class="nav">
-			<a href="/SMC_tutorial/about">About</a>
-			<a href="/SMC_tutorial/index.html">Home</a>
+			<a href="/SMC_tutorial/index.html"><i class="fa fa-home"></i> Home</a>
+			<a href="/SMC_tutorial/handson"><i class="fa fa-laptop"></i> Hands On</a>
+			<a href="/SMC_tutorial/students"><i class="fa fa-graduation-cap"></i> Students</a>
+			<a href="/SMC_tutorial/about"><i class="fa fa-info-circle"></i> About</a>
 		</div>
-
+		<br/>
 	</div>
 </header>
 
     <br>
+  
     <div class="page-content">
       <div class="wrapper">
         <div class="page">
@@ -41,7 +44,7 @@
 
 <p>In this section, we’ll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this session.</p>
 
-<h3 id="create-your-first-project">Create your first project</h3>
+<h2 id="create-your-first-project">Create your first project</h2>
 
 <p>Log into SageMathCloud and click on the <strong>projects</strong> icon in the top left hand corner of the screen.</p>
 
@@ -53,7 +56,7 @@
 
 <p>Once you’ve created your project, click on the project title to open it. It will initially be empty, so we’ll start creating files.</p>
 
-<h3 id="linux-terminal">Linux terminal</h3>
+<h2 id="linux-terminal">Linux terminal</h2>
 
 <p>SageMathCloud provides full access to the Linux terminal. To open a terminal, click on <strong>New</strong> and give your session a name. I’ve used <code class="highlighter-rouge">terminal session</code> in the example. Click on <strong>&gt;_ Terminal</strong> to begin your session</p>
 
@@ -81,7 +84,7 @@
 
 <p>When you start a terminal session called <code class="highlighter-rouge">foo</code>, a file called <code class="highlighter-rouge">foo.term</code> is created. Its contents are not particularly interesting as they only mean something to the SageMathCloud system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off (unless the session ends due to inactivity).</p>
 
-<h3 id="jupyter-notebooks">Jupyter Notebooks</h3>
+<h2 id="jupyter-notebooks">Jupyter Notebooks</h2>
 
 <p>To start a new Jupyter notebook, click on <strong>New</strong> and give your notebook a name. I’ve used <code class="highlighter-rouge">example_notebook</code> in the example. Click on <strong>Jupyter Notebook</strong> to open the notebook.</p>
 
@@ -97,7 +100,7 @@
 
 <p><img src="./assets/create_worksheet.png" alt="Open worksheet" /></p>
 
-<h3 id="what-cant-be-done-in-sagemathcloud">What can’t be done in SageMathCloud?</h3>
+<h2 id="what-cant-be-done-in-sagemathcloud">What can’t be done in SageMathCloud?</h2>
 
 <p>SageMathCloud does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use <code class="highlighter-rouge">ssh -X ...</code> from a computer with X windows support to display applications that run on SMC locally on your computer.)</p>
 
@@ -105,7 +108,7 @@
 
 <p>You might think it wouldn’t be possible, but it <strong>is</strong> possible to install commercial software such as MATLAB or Mathematica on SageMathCloud if you have an appropriate license (some users do this).</p>
 
-<h3 id="getting-help-a-namegettinghelpa">Getting help <a name="GettingHelp"></a></h3>
+<h2 id="getting-help-a-namegettinghelpa">Getting help <a name="GettingHelp"></a></h2>
 
 <p>If you need help from the SageMath team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most SageMathCloud screens.</p>
 
@@ -116,17 +119,20 @@
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="/SMC_tutorial/getting_started/getting_started.html"> &laquo; Getting started</a>
+    <a class="pagination-item older" href="/SMC_tutorial/getting_started/getting_started.html">
+      <i class="fa fa-arrow-circle-left"></i>  Getting started</a>
+  
   
 
   
-    <a class="pagination-item newer" href="/SMC_tutorial/creating_a_course/creating_course.html">Creating a new course &raquo; </a>
+    <a class="pagination-item newer" href="/SMC_tutorial/creating_a_course/creating_course.html">Creating a new course
+      <i class="fa fa-arrow-circle-right"></i>  </a>
   
 </div>
 
       </div>
     </div>
-    
+
       <div class="wrapper-footer">
     <div class="container">
       <footer class="footer">
@@ -146,13 +152,13 @@
 
 
         <div class="copyright">
-          Maintaned by the <a href= " http://rse.shef.ac.uk"> RSE group at the University of Sheffield. </a>
+          2017 <a href= " http://rse.shef.ac.uk"> RSE @ The University of Sheffield. </a>
         </div>
       </footer>
     </div>
   </div>
 
-    
+
   </body>
 
 </html>

@@ -10,13 +10,14 @@ layout: default
 
 <div class="pagination">
   {% if page.prev %}
-    <a class="pagination-item older" href="{{page.prev.url | prepend:site.baseurl }}"> &laquo; {{ page.prev.title }}</a>
-  {% else %}
-    <a class="pagination-item older" href=""> &laquo; Introduction </a>
+    <a class="pagination-item older" href="{{page.prev.url | prepend:site.baseurl }}">
+      <i class="fa fa-arrow-circle-left"></i>  {{ page.prev.title }}</a>
+  
   {% endif %}
 
   {% if page.next %}
-    <a class="pagination-item newer" href="{{page.next.url | prepend: site.baseurl}}">{{ page.next.title }} &raquo; </a>
+    <a class="pagination-item newer" href="{{page.next.url | prepend: site.baseurl}}">{{ page.next.title }}
+      <i class="fa fa-arrow-circle-right"></i>  </a>
   {% else %}
   {% endif %}
 </div>

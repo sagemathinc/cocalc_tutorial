@@ -30,11 +30,9 @@ The new project will appear at the top of the project list. Click on its  title 
 
 ## Adding teaching assistants to the course
 
-To add teaching assistants or other teachers to the course, open the course project and click on the **Add Collaborators** icon in the top right hand corner of the screen.
+To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see the "Collaborators" panel in course settings.
 
-![Course Collaborators](assets/course_collaborators.png)
-
-The **Settings and configuration** screen will open. In the **Collaborators** tab, you can find or add collaborators by name or email address.
+In the **Collaborators** tab, you can find or add collaborators by name or email address.
 
 ![Add Collaborators](assets/collaborators.png)
 
@@ -61,6 +59,8 @@ In the **Students** tab, add a comma separated list of students in the search bo
 
 ![Student list](./assets/student_list.png)
 
+If you have a particular large class, the above method may take a very long time. If you have your students' email addresses in an Excel spreadsheet (or Google Sheet) you can copy and paste them directly in the **Add student** box.
+
 Highlight all of the students in the resulting list and click on **Add N Students** where N is the number of students in your list.
 
 ![Student list](./assets/student_list2.png)
@@ -81,14 +81,14 @@ On being invited to a course, each student will have a project created for them 
 
 The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
 
-## Upgrading students
+## Upgrading students
 
 The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
 You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
-Current pricing is available at https://cloud.sagemath.com/policies/pricing.html which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
+Current pricing is available at <https://cloud.sagemath.com/policies/pricing.html> which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
 ![Upgrading students](./assets/upgrading_students.png)

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,16 +22,19 @@
 	<div class="header-container">
 	<div class="site-title">SageMathCloud tutorial </div>
 	<div class="description"> A tutorial for anyone wanting to use SageMathCloud for teaching </div>
-
+	<br/>
 		<div class="nav">
-			<a href="/SMC_tutorial/about">About</a>
-			<a href="/SMC_tutorial/index.html">Home</a>
+			<a href="/SMC_tutorial/index.html"><i class="fa fa-home"></i> Home</a>
+			<a href="/SMC_tutorial/handson"><i class="fa fa-laptop"></i> Hands On</a>
+			<a href="/SMC_tutorial/students"><i class="fa fa-graduation-cap"></i> Students</a>
+			<a href="/SMC_tutorial/about"><i class="fa fa-info-circle"></i> About</a>
 		</div>
-
+		<br/>
 	</div>
 </header>
 
     <br>
+  
     <div class="page-content">
       <div class="wrapper">
         <div class="page">
@@ -57,11 +60,9 @@
 
 <h2 id="adding-teaching-assistants-to-the-course">Adding teaching assistants to the course</h2>
 
-<p>To add teaching assistants or other teachers to the course, open the course project and click on the <strong>Add Collaborators</strong> icon in the top right hand corner of the screen.</p>
+<p>To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see the “Collaborators” panel in course settings.</p>
 
-<p><img src="assets/course_collaborators.png" alt="Course Collaborators" /></p>
-
-<p>The <strong>Settings and configuration</strong> screen will open. In the <strong>Collaborators</strong> tab, you can find or add collaborators by name or email address.</p>
+<p>In the <strong>Collaborators</strong> tab, you can find or add collaborators by name or email address.</p>
 
 <p><img src="assets/collaborators.png" alt="Add Collaborators" /></p>
 
@@ -88,6 +89,8 @@ Once the owner of that email address gets an account, the new user will be added
 
 <p><img src="./assets/student_list.png" alt="Student list" /></p>
 
+<p>If you have a particular large class, the above method may take a very long time. If you have your students’ email addresses in an Excel spreadsheet (or Google Sheet) you can copy and paste them directly in the <strong>Add student</strong> box.</p>
+
 <p>Highlight all of the students in the resulting list and click on <strong>Add N Students</strong> where N is the number of students in your list.</p>
 
 <p><img src="./assets/student_list2.png" alt="Student list" /></p>
@@ -110,14 +113,14 @@ Once the owner of that email address gets an account, the new user will be added
 
 <p>The student’s course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.</p>
 
-<p>## Upgrading students</p>
+<h2 id="upgrading-students">Upgrading students</h2>
 
 <p>The <strong>Settings</strong> tab of a <strong>.course</strong> file allows you to upgrade student’s course projects in two ways.
 You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.</p>
 
 <p>Alternatively, you can pay on your student’s behalf.
-Current pricing is available at https://cloud.sagemath.com/policies/pricing.html which at the time of writing ranged from a <strong>total</strong> of $4 to $8 per student for a 4 month course.
+Current pricing is available at <a href="https://cloud.sagemath.com/policies/pricing.html">https://cloud.sagemath.com/policies/pricing.html</a> which at the time of writing ranged from a <strong>total</strong> of $4 to $8 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.</p>
 
 <p><img src="./assets/upgrading_students.png" alt="Upgrading students" /></p>
@@ -127,17 +130,20 @@ The price per student varies according to the size of the student cohort. You ge
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="/SMC_tutorial/functionality/functionality.html"> &laquo; A Tour of SMC</a>
+    <a class="pagination-item older" href="/SMC_tutorial/functionality/functionality.html">
+      <i class="fa fa-arrow-circle-left"></i>  A Tour of SMC</a>
+  
   
 
   
-    <a class="pagination-item newer" href="/SMC_tutorial/course_management/course_management.html">Course management &raquo; </a>
+    <a class="pagination-item newer" href="/SMC_tutorial/course_management/course_management.html">Course management
+      <i class="fa fa-arrow-circle-right"></i>  </a>
   
 </div>
 
       </div>
     </div>
-    
+
       <div class="wrapper-footer">
     <div class="container">
       <footer class="footer">
@@ -157,13 +163,13 @@ The price per student varies according to the size of the student cohort. You ge
 
 
         <div class="copyright">
-          Maintaned by the <a href= " http://rse.shef.ac.uk"> RSE group at the University of Sheffield. </a>
+          2017 <a href= " http://rse.shef.ac.uk"> RSE @ The University of Sheffield. </a>
         </div>
       </footer>
     </div>
   </div>
 
-    
+
   </body>
 
 </html>
