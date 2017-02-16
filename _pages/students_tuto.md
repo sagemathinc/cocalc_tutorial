@@ -63,7 +63,7 @@ There are multiple ways to do it:
 git clone "url"
 ```
 
-## Version control?
+## Version control
 
 One of the best features of SMC is the time travel diff feature. You will notice that your Jupyter notebooks (and many more files) have a **Time Diff** (file history) button.
 
@@ -74,6 +74,8 @@ If you click on this button you will see two sliders that you can move to see pr
 ![button](./assets/control.png)
 
 This is extremely handy if you want to see a previously saved version of the document or revert to it.
+
+Alternatively, you can also use git from the terminal if this is your preferred version control tool.
 
 
 ## Restarting a project
