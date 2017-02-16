@@ -54,6 +54,7 @@ We have added a students' mini tutorial! This might be handy for when you implem
 Just click on the **Students** tab!
 
 ---
+
 ## License
 
 This work is licensed under CC-BY 3.0.

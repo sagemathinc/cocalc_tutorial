@@ -641,10 +641,10 @@ html, body {
 
 /* The side navigation menu */
 .sidenav {
-  width: 60px;
+  width: 50px;
   position: fixed;
   top: 50%;
-  right: 0;
+  right: 1%;
   background-color: #515865;
   text-align: center;
   border-radius: 3px;
@@ -652,7 +652,7 @@ html, body {
   opacity: 0.9;
   font: "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
   padding: 0; }
   .sidenav li {
