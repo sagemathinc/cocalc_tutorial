@@ -75,6 +75,8 @@ If you click on this button you will see two sliders that you can move to see pr
 
 This is extremely handy if you want to see a previously saved version of the document or revert to it.
 
+Alternatively, you can also use git from the terminal if this is your preferred version control tool.
+
 
 ## Restarting a project
 Every time you open a Jupyter notebook or a Sage Worksheet, its state is stored in memory. You might experience a slow navigation or sluggish kernel behaviour (e.g. cells not being evaluated).

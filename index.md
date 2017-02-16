@@ -46,6 +46,14 @@ Paying users get more resources and support - vital if you are to rely on it for
     * [Peergrading in SageMathCloud](https://youtu.be/8MagMw-ol5M)
     * [Working with your students in SageMathCloud](https://youtu.be/4c9RmoLRSWE)
 
+---
+
+## Students' mini tutorials
+We have added a students' mini tutorial! This might be handy for when you implement your lectures.
+
+Just click on the **Students** tab!
+
+---
 ## License
 
 This work is licensed under CC-BY 3.0.

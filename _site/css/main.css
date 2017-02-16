@@ -641,30 +641,41 @@ html, body {
 
 /* The side navigation menu */
 .sidenav {
-  height: 17%;
-  /* 100% Full-height */
   width: 60px;
   position: fixed;
   top: 50%;
   right: 0;
   background-color: #515865;
-  padding-top: 10px;
-  border: 2px solid #515865;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 3px;
   color: #EEE;
-  opacity: 0.5;
+  opacity: 0.9;
   font: "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  padding: 0; }
+  .sidenav li {
+    padding: 0; }
+    .sidenav li:span {
+      vertical-align: middle;
+      line-height: 24px;
+      height: 30px;
+      text-align: center;
+      position: relative; }
+  .sidenav ul {
+    list-style: none; }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 3px 8px 8px 20px;
   text-decoration: none;
   color: #EEE;
   display: block;
-  font-size: 22px; }
+  position: relative;
+  padding: 10px;
+  top: 0; }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus {
-  color: black; }
+  background-color: #c8b0d4;
+  color: #515865; }
