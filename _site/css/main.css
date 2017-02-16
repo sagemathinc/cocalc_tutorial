@@ -643,7 +643,7 @@ html, body {
 .sidenav {
   width: 50px;
   position: fixed;
-  top: 50%;
+  top: 25%;
   right: 1%;
   background-color: #515865;
   text-align: center;
