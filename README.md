@@ -1,6 +1,10 @@
 **You can now access this tutorial on [github-pages](https://mikecroucher.github.io/SMC_tutorial/).**
 
-An introduction to SageMathCloud for lecturers.
+The website version contains a hands-on tutorial and a mini tutorial for students!
+
+---
+
+# An introduction to SageMathCloud for lecturers.
 
 ## Citing this work
 

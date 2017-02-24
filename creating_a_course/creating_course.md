@@ -69,7 +69,7 @@ On being invited to a course, each student will have a project created for them 
 
 The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
 
-## Upgrading students
+## Upgrading students 
 
 The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
 You can request that the students pay a one-time fee of $9 for four months.
