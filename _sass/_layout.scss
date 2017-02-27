@@ -2,36 +2,38 @@ html,body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/**
- * Header
- */
+/*******************/
+/* header          */
+/*******************/
 .header {
     padding: 50px 20px 40px;
-    background-color: #515865;
+    background-color: $dark-grey;
 }
 
 .header-container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0px auto;
 }
 
+/*******************/
+/* Nav panel       */
+/*******************/
 .nav {
-	color: #707070;
-	  text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  text-transform: none;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: $title-font;
     display:inline;
 		float: right;
 
 		li {
-			padding-left: 15px;
+			padding-left: 10%;
 		}
 
 		a {
 			color: #959BA6;
 			display: inline-block;
-			line-height: 2.0;
+			line-height: 2em;
 			padding: 0 10px;
 			&:hover{
 				background-color: white;
@@ -46,13 +48,13 @@ html,body {
 
 
 .title li a {
-    color: #FFF;
-		font-size: 20px;
+    color: white;
+		font-size: ms(8);
 }
 
 .title li a:link {
-    color: #FFF;
-		font-size: 26px;
+    color: white;
+		font-size: ms(8);
 }
 
 .title li a:visited {
@@ -68,18 +70,18 @@ html,body {
 
 .description {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.44em;
     line-height: 1.5em;
-    color: #EEE;
+    color: lighten(#959BA6, 10%);
+		font-family: $title-font;
 }
 
 .site-title{
 	padding-top: 15px;
-	font-size: 30px;
-	line-height: 1.5em;
-	color: #EEE;
-	font-weight: 550;
-	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2.488em;
+	color: white;
+	font-weight: 500;
+	font-family: $title-font;
 }
 
 .page-content {
@@ -116,9 +118,9 @@ html,body {
 	color: #000;
 }
 
-/**
- * Artist
- */
+/**********/
+/* Artist */
+/**********/
 .well {
 	color: #000;
 	font-family: Monaco,"Courier New",monospace;
@@ -162,25 +164,10 @@ html,body {
 	margin-top: 50px;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	background-color: $grey-color-light
+	background-color: #515865;
 }
 .footer {
-    font-size: 11px;
+    font-size: 0.75em;
     text-align: center;
-	color: #666;
-}
-
-#gotop{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 15px;
-    font-size: 15px;
-    background: #515865;
-    color: white;
-		cursor: pointer;
-		border-radius: 5px;
-		font-weight: 450;
-		&:hover{background-color: $thistle-color;
-						color: #515865;}
+	  color: white;
 }

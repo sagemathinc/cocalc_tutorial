@@ -58,7 +58,7 @@ Alternatively, you can restart the entire project, which will clean everything. 
 
 ![Restart project](./assets/restart_project.png)
 
-### Using Git
+## Using Git
 As SMC supports the usage of terminal people can collaborate using Git within a course-affiliated project.
 
 If you already have a project or some files allocated in GitHub you can add them to your project.
