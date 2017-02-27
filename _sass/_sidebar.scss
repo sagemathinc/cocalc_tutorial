@@ -38,12 +38,11 @@
     position: relative;
     padding:10px;
     top:0;
-}
 
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    background-color: white;
-    color: $dark-grey;
-    border: 1px solid $dark-grey;
+    &:hover{
+      background-color: white;
+      color: $dark-grey;
+      border: 1px solid $dark-grey;
+      font-weight: bold;
+    }
 }

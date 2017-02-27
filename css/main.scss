@@ -53,10 +53,6 @@ $on-laptop:        800px;
 }
 
 
-// unitless line height fuction
-@function line-height($font-size, $line-height: $font-size) {
-    @return $line-height/$font-size;
-}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
