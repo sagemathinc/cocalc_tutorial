@@ -27,19 +27,18 @@ The basic SMC accounts get a very limited memory size and no Internet access. It
 ---
 
 ## Access your course content
-When you are first added to a course you will receive an email indicating the name of the course and inviting you to create a SMC account. Make sure to use the same email to that where you received the invitation. If you do not so you will not have access to the material and the upgrades available the course students.
-
+When you are first added to a course you will receive an email indicating the name of the course and inviting you to create a SMC account. Make sure to use the same email to that where you received the invitation. If you do not so you will not have access to the material and the upgrades available the course students.  
 When you log into SMC you will se a panel as the one in the Figure below, click on the course you want to have access to.
 
 ![panel](./assets/projects.png)
 
 Once you open the project you will be redirected to your course directory.
 
-From there you can see all the files you lecturer has shared with you and the assignments.
+From there you can see all the files you lecturer has shared with you and the assignments.  
 
 ![content](./assets/content.png)
 
-## Your assignments
+## Your assignments  
 
 It is more than likely that you will be assigned assignments. When this happens you will have your own copy of the work you need to complete, so you can do all your changes/scripts in there.
 
@@ -86,3 +85,12 @@ To solve this you can stop your notebooks by clicking on the stop button.
 Alternatively, you can restart the entire project, which will clean everything. You just need to go to your project settings and click on Restart project.
 
 ![restart](./assets/restart_project.png)
+
+## Contacting your lecturer or TA
+If you need assistance with a piece of coursework you can contact the using the real-chat features.  
+
+![chat](./assets/student_question.png)
+
+Just click on the speech-bubble icon button located on the upper right hand corner of the piece of work you need help with and start typing straight away.
+
+Your lecturer will be notified when this happens.

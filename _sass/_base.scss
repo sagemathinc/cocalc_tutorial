@@ -36,10 +36,9 @@ ul, ol, dl, figure,
 }
 
 
-
-/**
- * Images
- */
+/*****************/
+/*  Images       */
+/****************/
 img {
     max-width: 80%;
     display: block;
@@ -48,24 +47,21 @@ img {
 }
 
 
-
-/**
- * Figures
- */
+/*****************/
+/* Figures       */
+/*****************/
 figure > img {
     display: block;
     max-width: 100%;
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: 0.833em;
 }
 
-
-
-/**
- * Lists
- */
+/*****************/
+/* Lists         */
+/*****************/
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -77,39 +73,38 @@ li {
     }
 }
 
-
-
-/**
- * Headings
- */
+/*****************/
+/* Headings      */
+/****************/
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 200;
+    font-weight: bold;;
 }
 
 .post h2, .post h3, .post h4, .post h5, .post h6 {
-    font-weight: 600;
+    font-weight: bold;
 }
 
-/**
- * Links
- */
+/****************/
+/* Links        */
+/****************/
 a {
-    color: $brand-color;
+    color: $blue-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($thistle-color, 15%);
+      color: darken($thistle-color, 15%);
+    }
+
+    &:hover {
+      text-decoration: underline;
     }
 }
 
-li a:hover{
-  text-decoration: underline;
-}
 
 
-/**
- * Blockquotes
- */
+/****************/
+/* Block quotes */
+/****************/
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -125,8 +120,8 @@ blockquote {
 
 
 /*************/
-/* Wrapper/*
-/************/
+/* Wrapper   */
+/*************/
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -157,8 +152,6 @@ blockquote {
     }
 }
 
-
-
 /*********/
 /* Icons */
 /*********/
@@ -188,10 +181,10 @@ blockquote {
     padding: 0;
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, "Helvetica", Arial, sans-serif;
-    font-size: 14.5px;
-    line-height: 18px;
-    color: #737373;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
     background-color: white;
 }
 table {
@@ -206,16 +199,6 @@ th {
     padding: 5px 10px;
 }
 
-a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
 p {
     margin-bottom: 9px;
 }
@@ -225,31 +208,32 @@ h3,
 h4,
 h5,
 h6 {
-    color: #404040;
-    line-height: 36px;
+    line-height: 1.8em;
+    font-family: $title-font;
+
 }
 h1 {
     margin-bottom: 18px;
-    font-size: 26px;
+    font-size: 2.074em;
     font-weight: 400;
     color: $blue-color;
 }
 h2 {
-    font-size: 22px;
+    font-size: 1.728em;
     font-weight: 400;
-    color: darken($blue-color, 15%);
+    color: darken($blue-color, 10%);
 }
 h3 {
-    font-size: 18px;
+    font-size: 1.44em;
 }
 h4 {
-    font-size: 16px;
+    font-size: 1.44em;
 }
 h5 {
-    font-size: 14px;
+    font-size: 1.44em;
 }
 h6 {
-    font-size: 13px;
+    font-size: 1.44em;
 }
 hr {
     margin: 0 0 19px;
@@ -283,10 +267,10 @@ blockquote p {
 /*******************/
 pre,
 code {
-    font-size: 15px;
+    font-size: 1em;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: $code-font;
 }
 
 code {
@@ -294,16 +278,14 @@ code {
     padding: 1px 5px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
-    background-color: lighten($thistle-color, 5%);
+    background-color: lighten($thistle-color, 10%);
 }
 
 pre {
     padding: 8px 12px;
     display: block;
-    padding: 14px;
     margin: 0 0 18px;
-    line-height: 14px;
+    line-height: $base-line-height;
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-x: scroll;
@@ -343,8 +325,8 @@ sup {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Helvetica",Helvetica,Arial,sans-serif;
-  font-size: 18px;
+  font-family: $base-font-size;
+  font-size: 0.833em;
   color: $grey-color;
   text-align: center;
   position: relative;
@@ -355,21 +337,19 @@ sup {
 .pagination-item {
   display: block;
   padding: 1.0rem;
-  border: 1px solid #fdfdfd;
+  border: 2px solid $dark-grey;
   background-color:  $dark-grey;
   border-radius: 30px;
 }
 
 a.pagination-item{
-  color: $grey-color-light;
+  color: white;
 }
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: $thistle-color;
-  text-decoration: underline;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #515865;
-
+  background-color: white;
+  color:$dark-grey;
+  text-decoration: none;
 }
 
 @media (min-width: 30em) {
@@ -380,4 +360,25 @@ a.pagination-item:hover {
     float: left;
     width: 30%;
   }
+}
+
+
+/*******************/
+/*Go to top button */
+/*******************/
+#gotop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 1em;
+    background: $dark-grey;
+    color: white;
+		cursor: pointer;
+		border-radius: 5px;
+    border:2px solid white;
+		&:hover {
+      background-color: white;
+      color: $dark-grey;
+      border:2px solid $dark-grey;}
 }

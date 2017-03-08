@@ -3,36 +3,43 @@
 ---
 @charset "utf-8";
 
-// Personal variables (can be customised as you wish)
-$base-font-family: "Helvetica",Helvetica,Arial,sans-serif;
-$base-font-size:   20px;
-$small-font-size:  $base-font-size * 0.875;
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway');
+
+/***** Personal variables ***/
+$base-font-family: 'Raleway', sans-serif;
+$title-font: 'Bree Serif', serif;
+$code-font: "Courier New", Courier, monospace;
+
+
+// Defining a base font
+// $base-font-size:   16px;
+
+//Calculating base font based on the
+// viewport width
+
+$base-font-size: calc(.4vw + .8em);
+
+
+// Base line height and font size
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #737373;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 $blue-color:	   #4183C4;
 $thistle-color: lighten(#bda0cb, 5%);
-$dark-grey: #515865;
-
-
-
+$dark-grey: #515865;   ///used for the nav and footer
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
-// Using media queries with like this:
+// Using media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
@@ -45,11 +52,12 @@ $on-laptop:        800px;
     }
 }
 
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting",
         "svg-icons",
-        "sidebar"
-;
+        "sidebar";

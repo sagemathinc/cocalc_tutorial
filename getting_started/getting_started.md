@@ -11,7 +11,7 @@ This section would help you familiarise with some of the Functions of SageMathCl
 
 ## Lecturers - Sign up for an account
 
-Basic usage of SageMathCloud is free but before you can start using it, you need to create an account. This can be done at https://cloud.sagemath.com/
+Basic usage of SageMathCloud is free but before you can start using it, you need to create an account. This can be done at the [SageMathCloud website](https://cloud.sagemath.com/).
 
 It is strongly suggested that you, and your students, sign up using your institutional email addresses.
 This makes it much easier to find students in the system.
@@ -33,21 +33,23 @@ There are two ways students can receive upgrades for their projects:
 
 **To distribute the project upgrades to the students:**
 - The person who purchases the course package needs to be a collaborator on the project that contains your course.
-- Open the `.course` file and go to the course  `Settings` tab (the wrench icon between the `Handouts` tab and the `Shared Projects` tab).
+- Open the `.course` file and go to the course  `Settings` tab (the wrench icon between the `Handouts` tab and the `Shared Projects` tab).  
+
 ![](course_settings_tab.png)
 
 - Under *Upgrade all student projects (you pay)*,  select `Adjust quotas...`
 - Select the checkbox for **Member hosting** and **Internet access** and click `Submit changes` to distribute these two upgrades to each student's course project.
     - These upgrades only apply to the student course projects and not to any other projects students may have created.
 
----
 ![](smc-course-upgrades.png)
 
 
 **Screenshot below shows results of distributing upgrades to student projects**
+
 ![](smc-account-upgrades-distributed-student-projects.png)
+
 ---
 
-- If you have purchased a personal subscription and have unused project upgrades, you can share those with your students as well.
+If you have purchased a personal subscription and have unused project upgrades, you can share those with your students as well.
 
 Contact [help@sagemath.com](help@sagemath.com) if you have any questions about project upgrades and course packages.

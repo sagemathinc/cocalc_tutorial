@@ -2,7 +2,7 @@
 title: SageMathCloud tutorial
 motto: A tutorial for anyone wanting to use SageMathCloud for teaching
 description: A tutorial for anyone wanting to use SageMathCloud for teaching
-baseurl: "/SMC_tutorial/"
+baseurl: "/SMC_tutorial"
 url: "http://mikecroucher.github.io" # the base hostname & protocol for your site
 
 footer-links:
@@ -16,13 +16,3 @@ markdown: kramdown
 # Additional gems
 gems:
   - jekyll-titles-from-headings
-
-include: ['_pages']
-
-# Post sharing icons
-sharing:
-    twitter: true
-    linkedin: true
-    facebook: true
-    google_plus: true
-    reddit: true
