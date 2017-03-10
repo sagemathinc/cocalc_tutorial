@@ -29,7 +29,7 @@ In the **Collaborators** tab, you can find or add collaborators by name or email
 If the email address you add as a collaborator is not associated with a SageMathCloud account, an email will be sent to that address with an invite to join.
 Once the owner of that email address gets an account, the new user will be added automatically to all projects with pending invitations.
 
-## Creating the course file
+## Creating the course file
 
 Almost all aspects of a course, such as which students are enrolled and assignment management, are controlled by a **.course** file. We'll now create this file.
 
