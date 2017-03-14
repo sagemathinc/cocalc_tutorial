@@ -1,6 +1,7 @@
 ---
 layout: landing
 permalink: /index.html
+title: SageMathCloud tutorial 
 ---
 
 ## Citing this work
