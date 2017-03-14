@@ -4,17 +4,18 @@ title: Students' mini tuto
 permalink: /students/
 ---
 # I have a course on SMC... now what?
+
 **_What is SageMathCloud?_**
 
- SMC is a cloud base service that provides support for courses based on interactive resources such as the Jupyter Notebooks.
+ SMC is a cloud base service that provides support for courses based on interactive resources such as the [Jupyter Notebooks](http://jupyter.org).
 
 **_Why SMC?_**
 
  As you are all aware technology is moving at an incredible speed, so it is only fair that education catches up! SMC is a platform that provides a high amount of versatility when it comes to course material handling and distribution.
 
- Also, being this a cloud service, you can access it from any computer you need to as long as you have internet access on it. This meaning, that you do not need to install anything.
+ Also, being this a cloud service, you can access it from any computer you need to as long as you have internet access on it. Meaning that you do not need to install anything.
 
-It is a totally OpenSource project.
+Plus it is a totally OpenSource project.
 
 **_What happens when I finish the course/my degree?_**
 
@@ -44,15 +45,15 @@ It is more than likely that you will be assigned assignments. When this happens 
 
 Also, note the assignments will have been assigned a **due** date after which submission cannot be made.
 
-It is also possible that as part of the assignment you need to add scripts a report, or additional files. Make sure that they are all self contained in the directory of the assignment. When your coursework is collected the lecturers will get a copy of the assignment directory, so if you misplaced the documents they will not have access to them, and your marks will suffer.
+It is also possible that as part of the assignment you need to add scripts, a report, or additional files. Make sure that they are all self contained in the directory of the assignment. When your coursework is collected the lecturers will get a copy of the assignment directory, so if you misplaced the documents they will not have access to them, and your marks will suffer.
 
 There are multiple ways to do it:
 
-* Drag and drop: If you have the files in your local computer navigate to your assignment folder. Once there click on the **New** button on the upper banner. Drag and drop the files in the corresponding box.
+* **Drag and drop**: If you have the files in your local computer navigate to your assignment folder. Once there click on the **New** button on the upper banner. Drag and drop the files in the corresponding box.
 
 ![drag](./assets/drag.png)
 
-* Content in the internet: If you have your files in a gitHub repository, Dropbox, Google drive, or similar, click on the **New** button. On the file name box paste/write the url to the documents and click on the **Download from the internet** button.
+* **Content in the internet**: If you have your files in a gitHub repository, Dropbox, Google drive, or similar, click on the **New** button. On the file name box paste/write the url to the documents and click on the **Download from the internet** button.
 
 ![Download](./assets/download.png)
 

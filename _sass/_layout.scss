@@ -43,6 +43,7 @@ html,body {
 			&:active{
 				background-color: white;
 				border-radius: 5px;
+				color: $dark-grey;
 			}
 			}
 		}
@@ -167,9 +168,11 @@ html,body {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	background-color: #515865;
+	font-size: 1em;
 }
 .footer {
     font-size: 0.75em;
     text-align: center;
 	  color: white;
+		a{ color: lighten($blue-color, 10%)}
 }
