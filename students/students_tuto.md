@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Students' mini tuto
+title: Students' mini tutorial
 permalink: /students/
 ---
 # I have a course on SMC... now what?
