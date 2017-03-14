@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
   <link rel="shortcut icon" href="{{site.url}}{{site.baseurl}}/assets/favicon.png" >
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ site.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -12,5 +12,7 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script src="/SMC_tutorial/scripts/jquery-1.11.2.min.js"></script>
   <script src="/SMC_tutorial/scripts/pithy.js"></script>
+  <script src="/SMC_tutorial/scripts/current.js"></script>
+
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 </head>
