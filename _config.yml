@@ -2,7 +2,7 @@
 title: CoCalc tutorial
 motto: A tutorial for anyone wanting to use CoCalc for teaching
 description: A tutorial for anyone wanting to use CoCalc for teaching
-baseurl: "/cocalc_tutorial"
+baseurl: ""
 url: "https://tutorial.cocalc.com" # the base hostname & protocol for your site
 
 footer-links:
