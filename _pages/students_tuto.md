@@ -4,7 +4,7 @@ title: Students' mini tuto
 permalink: /students/
 ---
 # I have a course on SMC... now what?
-**_What is SageMathCloud?_**
+**_What is CoCalc?_**
 
  SMC is a cloud base service that provides support for courses based on interactive resources such as the Jupyter Notebooks.
 

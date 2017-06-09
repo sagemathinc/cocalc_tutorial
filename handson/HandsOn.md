@@ -5,7 +5,7 @@ next:
   url: /handson/lab01.html
   title: Getting started
 ---
-# Hands on tutorial: SageMathCloud for lectures
+# Hands on tutorial: CoCalc for lectures
 As part of the [OpenDreamKit Project](http://opendreamkit.org),
 the RSES has developed a hands-on tutorial for lecturers willing to use SMC to deliver their lectures.
 
@@ -30,7 +30,7 @@ If you encounter any problems with this tutorial please rise a [GitHub issue](ht
 
 ## Pre-requisites
 
-- Have a SageMathCloud account beforehand.
+- Have a CoCalc account beforehand.
 
 - Familiarity with the use of command line (very basic) and git.
 

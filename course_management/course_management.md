@@ -174,7 +174,7 @@ When you push content out to the students, a copy is placed in their individual 
 
 Each project has 3GB of disk space provided for free, with more being provided by purchasing upgrades.
 
-There are many ways one could organise a course in SageMathCloud but the following schema has proven to be useful for many people.
+There are many ways one could organise a course in CoCalc but the following schema has proven to be useful for many people.
 
 
 * notes/date1

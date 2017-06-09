@@ -1,1 +1,1 @@
-# What can be done in SageMathCloud?
+# What can be done in CoCalc?

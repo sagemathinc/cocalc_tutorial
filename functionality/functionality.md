@@ -9,14 +9,14 @@ prev:
   url: /getting_started/getting_started.html
   title: Getting started
 ---
-# A Tour of SageMathCloud
-SageMathCloud contains a lot of functionalities, including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, along with a wide range of course management facilities.
+# A Tour of CoCalc
+CoCalc contains a lot of functionalities, including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, along with a wide range of course management facilities.
 
 In this section, we'll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this session.
 
 ## Create your first project
 
-Log into SageMathCloud and click on the **projects** icon in the top left hand corner of the screen.
+Log into CoCalc and click on the **projects** icon in the top left hand corner of the screen.
 
 ![Projects icon](../creating_a_course/assets/projects.png)
 
@@ -28,7 +28,7 @@ Once you've created your project, click on the project title to open it. It will
 
 ## Linux terminal
 
-SageMathCloud provides full access to the Linux terminal. To open a terminal, click on **New** and give your session a name. I've used `terminal session` in the example. Click on **>_ Terminal** to begin your session
+CoCalc provides full access to the Linux terminal. To open a terminal, click on **New** and give your session a name. I've used `terminal session` in the example. Click on **>_ Terminal** to begin your session
 
 ![Create Terminal](./assets/open_terminal.png)
 
@@ -48,9 +48,9 @@ The terminal welcome message gives you an idea of some of the software that's av
 
 The distribution is based on Ubuntu Linux but it is not possible to install software yourself using `apt-get`.
 
-If you need something installed, contact the SageMathCloud team for [some help](#GettingHelp). Anything they install is then available to **all** SageMathCloud projects.
+If you need something installed, contact the CoCalc team for [some help](#GettingHelp). Anything they install is then available to **all** CoCalc projects.
 
-When you start a terminal session called `foo`, a file called `foo.term` is created. Its contents are not particularly interesting as they only mean something to the SageMathCloud system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off (unless the session ends due to inactivity).  
+When you start a terminal session called `foo`, a file called `foo.term` is created. Its contents are not particularly interesting as they only mean something to the CoCalc system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off (unless the session ends due to inactivity).  
 
 ## Jupyter Notebooks
 
@@ -69,16 +69,16 @@ To start a new SageMath Worksheet, click on **New** and give your worksheet a na
 ![Open worksheet](./assets/create_worksheet.png)
 
 
-## What can't be done in SageMathCloud?
+## What can't be done in CoCalc?
 
-SageMathCloud does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on SMC locally on your computer.)
+CoCalc does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on SMC locally on your computer.)
 
-Since SageMathCloud is Linux based, it is not possible to run Windows applications such as Microsoft Word, Powerpoint and Excel.
+Since CoCalc is Linux based, it is not possible to run Windows applications such as Microsoft Word, Powerpoint and Excel.
 
-You might think it wouldn't be possible, but it **is** possible to install commercial software such as MATLAB or Mathematica on SageMathCloud if you have an appropriate license (some users do this).
+You might think it wouldn't be possible, but it **is** possible to install commercial software such as MATLAB or Mathematica on CoCalc if you have an appropriate license (some users do this).
 
 ## Getting help <a name="GettingHelp"></a>
 
-If you need help from the SageMath team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most SageMathCloud screens.
+If you need help from the SageMath team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most CoCalc screens.
 
 ![Running Terminal](./assets/help.png)

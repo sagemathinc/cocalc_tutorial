@@ -1,7 +1,7 @@
 ---
 layout: landing
 permalink: /index.html
-title: SageMathCloud tutorial 
+title: CoCalc tutorial 
 ---
 
 ## Citing this work
@@ -10,15 +10,15 @@ For a list of authors see the contributors section in [GitHub](https://github.co
 
 [![DOI](https://zenodo.org/badge/23386/mikecroucher/SMC_tutorial.svg)](https://zenodo.org/badge/latestdoi/23386/mikecroucher/SMC_tutorial)
 
-## SageMathCloud
+## CoCalc
 
-[SageMathCloud](https://cloud.sagemath.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
+[CoCalc](https://cocalc.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
 It is used for [teaching by Universities around the world](https://github.com/sagemathinc/smc/wiki/Teaching).
 
 Basic access, without internet access, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
 Paying users get more resources and support - vital if you are to rely on it for paying students.
 
-## Some Benefits of SageMathCloud
+## Some Benefits of CoCalc
 
 * No installation or configuration necessary. Everything Just Works.
 * Students can use it on any machine, any operating system, anywhere they like.
@@ -29,7 +29,7 @@ Paying users get more resources and support - vital if you are to rely on it for
 ## Course material
 
 * Section 0 - [Getting Started](./getting_started/getting_started.html)
-* Section 1 - [A Tour of SageMathCloud](./functionality/functionality.html) - An overview of some of SageMathCloud's functionality
+* Section 1 - [A Tour of CoCalc](./functionality/functionality.html) - An overview of some of CoCalc's functionality
 * Section 2 - [Creating a Course](./creating_a_course/creating_course.html) - How to create a course
 * Section 3 - [Course Management](./course_management/course_management.html) - Detailed course management instructions
 * Section 4 - [Interacting with students and collaborators](./interactions/interactions.html) - Overview of methods to interact with students and collaborators
@@ -37,16 +37,16 @@ Paying users get more resources and support - vital if you are to rely on it for
 
 ## Further resources
 
-* [Grading in SageMathCloud](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
-* [SageMathCloud on GitHub](https://github.com/sagemathinc/smc) - The whole system is open source
-* Videos tutorials on course management features in SageMathCloud
-    * [Why aren't you teaching with SageMathCloud?](https://youtu.be/cq_HEzBMWNA)
-    * [Creating courses in SageMathCloud](https://youtu.be/K2swc6NhpGg)
-    * [Working with course files in SageMathCloud](https://youtu.be/bt-AhVlAf-U)
-    * [Creating assignments in SageMathCloud](https://youtu.be/NqQ0y7o0XUU)
-    * [Grading assignments in SageMathCloud](https://youtu.be/y_GX9XWTZfQ)
-    * [Peergrading in SageMathCloud](https://youtu.be/8MagMw-ol5M)
-    * [Working with your students in SageMathCloud](https://youtu.be/4c9RmoLRSWE)
+* [Grading in CoCalc](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
+* [CoCalc on GitHub](https://github.com/sagemathinc/smc) - The whole system is open source
+* Videos tutorials on course management features in CoCalc
+    * [Why aren't you teaching with CoCalc?](https://youtu.be/cq_HEzBMWNA)
+    * [Creating courses in CoCalc](https://youtu.be/K2swc6NhpGg)
+    * [Working with course files in CoCalc](https://youtu.be/bt-AhVlAf-U)
+    * [Creating assignments in CoCalc](https://youtu.be/NqQ0y7o0XUU)
+    * [Grading assignments in CoCalc](https://youtu.be/y_GX9XWTZfQ)
+    * [Peergrading in CoCalc](https://youtu.be/8MagMw-ol5M)
+    * [Working with your students in CoCalc](https://youtu.be/4c9RmoLRSWE)
 
 ---
 

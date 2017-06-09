@@ -12,8 +12,8 @@ prev:
 # Getting started
 In this first part of the tutorial we will create a basic template for your course material.
 
-1. If you have not done so, create an account in [SageMathCloud](https://cloud.sagemath.com/) using your institutional email.
-2. Log into your SageMathCloud account and create a new project named **SMC_hands_on** and make sure you add a meaningful description.
+1. If you have not done so, create an account in [CoCalc](https://cocalc.com/) using your institutional email.
+2. Log into your CoCalc account and create a new project named **SMC_hands_on** and make sure you add a meaningful description.
 3. Once you have created your project the next thing to do is create a **.course** file (you can name it SMC_hands_on.course as well).
 
 ## Structuring your course
@@ -41,7 +41,7 @@ A commonly used structure for SMC courses is as follows:
 
 Now let's start populating your course with some content.
 
-If you have Internet access in your SageMathCloud account (upgraded account) follow the next steps:
+If you have Internet access in your CoCalc account (upgraded account) follow the next steps:
 
 1. Create a terminal session (**>_Terminal**), you can give it whatever name you want.
 2. We have created a GitHub repository for this session, which contains some directories and files to populate your project. In your terminal checkout the repo:
@@ -54,7 +54,7 @@ Once you have done this your project should look something similar to this:
 
 ![after image](./assets/files.png)
 
-If you don't have internet access you can clone the repository on your personal computer and then drag and drop the files into your SageMathCloud project.
+If you don't have internet access you can clone the repository on your personal computer and then drag and drop the files into your CoCalc project.
 
 Note that the drag and drop functionality has a size limit so you might need to create your project directories first. You can do this by using the **New** button or typing directly the terminal commands:
 

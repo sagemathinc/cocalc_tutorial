@@ -6,12 +6,12 @@ next:
     url: /functionality/functionality.html
     title: A Tour of SMC
 ---
-# Getting started with SageMathCloud
-This section would help you familiarise with some of the Functions of SageMathCloud.
+# Getting started with CoCalc
+This section would help you familiarise with some of the Functions of CoCalc.
 
 ## Lecturers - Sign up for an account
 
-Basic usage of SageMathCloud is free but before you can start using it, you need to create an account. This can be done at the [SageMathCloud website](https://cloud.sagemath.com/).
+Basic usage of CoCalc is free but before you can start using it, you need to create an account. This can be done at the [CoCalc website](https://cocalc.com/).
 
 It is strongly suggested that you, and your students, sign up using your institutional email addresses.
 This makes it much easier to find students in the system.
@@ -20,15 +20,15 @@ This makes it much easier to find students in the system.
 
 You don't need to worry about getting accounts for your students ahead of time.
 
-Once you've created your course in SageMathCloud, you just a add list of student email addresses to it. All students immediately get sent a course invite, and when they create an account with that address, they are good to go.
+Once you've created your course in CoCalc, you just a add list of student email addresses to it. All students immediately get sent a course invite, and when they create an account with that address, they are good to go.
 
 ## Upgrades to student projects
 
-SageMathCloud accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of SageMathCloud's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and SageMathCloud.  Additionally, basic projects run on free servers which are shared with many other users.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
+CoCalc accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of CoCalc's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and CoCalc.  Additionally, basic projects run on free servers which are shared with many other users.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
 
 There are two ways students can receive upgrades for their projects:
 - Students can pay a \$9/semester fee
-- You or someone at your school can purchase a [course package](https://cloud.sagemath.com/policies/pricing.html)
+- You or someone at your school can purchase a [course package](https://cocalc.com/policies/pricing.html)
     - Course packages provide you with a number of member hosting upgrades and internet access upgrades that you can distribute to students.
 
 **To distribute the project upgrades to the students:**

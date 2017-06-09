@@ -1,9 +1,9 @@
 # Site settings
-title: SageMathCloud tutorial
-motto: A tutorial for anyone wanting to use SageMathCloud for teaching
-description: A tutorial for anyone wanting to use SageMathCloud for teaching
-baseurl: "/SMC_tutorial"
-url: "http://mikecroucher.github.io" # the base hostname & protocol for your site
+title: CoCalc tutorial
+motto: A tutorial for anyone wanting to use CoCalc for teaching
+description: A tutorial for anyone wanting to use CoCalc for teaching
+baseurl: "/cocalc_tutorial"
+url: "https://tutorial.cocalc.com" # the base hostname & protocol for your site
 
 footer-links:
   github: mikecroucher

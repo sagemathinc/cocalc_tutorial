@@ -16,7 +16,7 @@ In this section we will learn how to create a course project, how to populate it
 
 In this section we are going to create a project containing a course.
 
-Log into SageMathCloud and click on the **projects** icon in the top left hand corner of the screen.
+Log into CoCalc and click on the **projects** icon in the top left hand corner of the screen.
 
 ![Projects icon](./assets/projects.png)
 
@@ -36,7 +36,7 @@ In the **Collaborators** tab, you can find or add collaborators by name or email
 
 ![Add Collaborators](assets/collaborators.png)
 
-If the email address you add as a collaborator is not associated with a SageMathCloud account, an email will be sent to that address with an invite to join.
+If the email address you add as a collaborator is not associated with a CoCalc account, an email will be sent to that address with an invite to join.
 Once the owner of that email address gets an account, the new user will be added automatically to all projects with pending invitations.
 
 ## Creating the course file
@@ -65,21 +65,21 @@ Highlight all of the students in the resulting list and click on **Add N Student
 
 ![Student list](./assets/student_list2.png)
 
-All added students will be invited to join your course by email. Any student who does not have an account on SageMathCloud will be invited to create one.
+All added students will be invited to join your course by email. Any student who does not have an account on CoCalc will be invited to create one.
 
 Your course page will now look like this
 
 ![Student list](./assets/student_list3.png)
 
-* Email addresses that are followed by **(invited)** do not have a SageMathCloud account yet. **(invited)** will disappear as soon as they sign up.
+* Email addresses that are followed by **(invited)** do not have a CoCalc account yet. **(invited)** will disappear as soon as they sign up.
 * You can see when each student last used the course project. In this case -- never!
 * The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below).
 
 ## What do the students get?
 
-On being invited to a course, each student will have a project created for them in their SageMathCloud account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
+On being invited to a course, each student will have a project created for them in their CoCalc account that corresponds to that course. Each project will have you and the course Teaching assistants set as collaborators.
 
-The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free SageMathCloud projects.
+The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free CoCalc projects.
 
 ## Upgrading students
 
@@ -88,7 +88,7 @@ You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
-Current pricing is available at <https://cloud.sagemath.com/policies/pricing.html> which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
+Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
 ![Upgrading students](./assets/upgrading_students.png)
