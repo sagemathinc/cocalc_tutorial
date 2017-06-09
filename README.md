@@ -1,4 +1,4 @@
-**You can now access this tutorial on [github-pages](https://mikecroucher.github.io/SMC_tutorial/).**
+**You can now access this tutorial on [github-pages](https://tutorial.cocalc.com/).**
 
 The website version contains a hands-on tutorial and a mini tutorial for students!
 
@@ -8,7 +8,7 @@ The website version contains a hands-on tutorial and a mini tutorial for student
 
 ## Citing this work
 
-For a list of authors see the contributors section https://github.com/mikecroucher/SMC_tutorial/graphs/contributors. Also, please use the following Digital Object Identifier.
+For a list of authors see the contributors section https://github.com/sagemathinc/cocalc/graphs/contributors. Also, please use the following Digital Object Identifier.
 
 [![DOI](https://zenodo.org/badge/60699967.svg)](https://zenodo.org/badge/latestdoi/60699967)
 
