@@ -1,14 +1,14 @@
 # Site settings
-title: CoCalc tutorial
-motto: A tutorial for anyone wanting to use CoCalc for teaching
-description: A tutorial for anyone wanting to use CoCalc for teaching
+title: CoCalc Tutorial
+motto: A tutorial for anyone wanting to use CoCalc, especially for teaching
+description: A tutorial for anyone wanting to use CoCalc, especially for teaching
 baseurl: ""
 url: "https://tutorial.cocalc.com" # the base hostname & protocol for your site
 
 footer-links:
-  github: mikecroucher
-  twitter: rse_sheffield
-  email: rse@sheffield.ac.uk
+  github: sagemathinc/cocalc
+  twitter: co_calc
+  email: info+tutorial@sagemath.com
 
 # Build settings
 markdown: kramdown
