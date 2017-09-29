@@ -7,7 +7,7 @@ url: "https://tutorial.cocalc.com" # the base hostname & protocol for your site
 
 footer-links:
   github: sagemathinc/cocalc
-  twitter: co_calc
+  twitter: cocalc_com
   email: info+tutorial@sagemath.com
 
 # Build settings
