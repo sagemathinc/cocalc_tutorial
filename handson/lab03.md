@@ -10,7 +10,7 @@ prev:
     url: /handson/lab02.html
     title: Adding people
 ---
-In this section  you will learn how to create assignments and assign them to students.
+In this section  you will learn how to create assignments/handouts and assign them to students.
 
 If you navigate to your `.course` file you should now be able to see the students in your course as well as the following upper banner:
 
@@ -20,9 +20,9 @@ You will notice that you have assignments as well as handouts. Both consist on a
 
 The main difference relies on the actions you and students can perform on the files:
 
-* Handouts: these include the lecture material (notes) and are meant to be accesses by the students at any point during the course
+* **Handouts**: these include the lecture material (notes) and are meant to be accesses by the students at any point during the course. Distributing a handout means to send a copy to the students such that they can work and edit these files independently of each other.
 
-* Assignments: these cover the coursework/projects students will be working on and which you will be collecting and marking
+* Assignments: these cover the coursework/projects students will be working on and which you will be collecting and marking.
 
 ## Creating and assignment
 Open the `.course` file and click on the **Assignments** tab. Enter **Assignment1** on the search box on the right hand of the screen.
