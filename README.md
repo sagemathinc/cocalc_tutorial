@@ -7,7 +7,7 @@ For a list of authors see the contributors section https://github.com/mikecrouch
 ## CoCalc
 
 [CoCalc](https://cocalc.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
-It is used for [teaching by Universities around the world](https://github.com/sagemathinc/smc/wiki/Teaching).
+It is used for [teaching by Universities around the world](https://github.com/sagemathinc/cocalc/wiki/Teaching).
 
 Basic access, without internet access, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
 Paying users get more resources and support - vital if you are to rely on it for paying students.
@@ -31,9 +31,9 @@ Paying users get more resources and support - vital if you are to rely on it for
 
 ## Further resources
 
-* [Grading in CoCalc](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
-* [CoCalc on GitHub](https://github.com/sagemathinc/smc) - The whole system is open source
-* Videos tutorials on course management features in CoCalc
+* [Grading in CoCalc](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses CoCalc in teaching
+* [CoCalc on GitHub](https://github.com/sagemathinc/cocalc) - The whole system is open source
+* **Videos tutorials** on course management features in CoCalc
     * [Why aren't you teaching with CoCalc?](https://youtu.be/cq_HEzBMWNA)
     * [Creating courses in CoCalc](https://youtu.be/K2swc6NhpGg)
     * [Working with course files in CoCalc](https://youtu.be/bt-AhVlAf-U)
