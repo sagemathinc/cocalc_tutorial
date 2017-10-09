@@ -3,15 +3,15 @@ layout: default
 title: Students' mini tutorial
 permalink: /students/
 ---
-# I have a course on SMC... now what?
+# I have a course on CoCalc... now what?
 
 **_What is CoCalc?_**
 
- SMC is a cloud base service that provides support for courses based on interactive resources such as the [Jupyter Notebooks](http://jupyter.org).
+CoCalc is a cloud base service that provides support for courses based on interactive resources such as the [Jupyter Notebooks](http://jupyter.org), [SageMath](http://sagemath.org) Worksheets, LaTeX documents, etc.
 
-**_Why SMC?_**
+**_Why CoCalc?_**
 
- As you are all aware technology is moving at an incredible speed, so it is only fair that education catches up! SMC is a platform that provides a high amount of versatility when it comes to course material handling and distribution.
+ As you are all aware technology is moving at an incredible speed, so it is only fair that education catches up! CoCalc is a platform that provides a high amount of versatility when it comes to course material handling and distribution.
 
  Also, being this a cloud service, you can access it from any computer you need to as long as you have internet access on it. Meaning that you do not need to install anything.
 
@@ -19,17 +19,18 @@ Plus it is a totally OpenSource project.
 
 **_What happens when I finish the course/my degree?_**
 
-Once you have finished your course you will still be able to access the material of past courses. However, your internet access into your account will only be valid for the duration of your course.
+Once you have finished your course you will still be able to access the material of past courses.
+However, any applied upgrades for your course project will only be valid for the duration of the course.
 
 **_What I am getting?_**
 
-The basic SMC accounts get a very limited memory size and no Internet access. It is more than likely that you have been upgraded for your course, if you need to see what resources you have, go to the **Settings** tab of your course.
+The basic CoCalc projects get a limited memory size and no internet access. It is more than likely that you have been upgraded for your course, if you need to see what resources you have, go to the **Settings** tab of your course.
 
 ---
 
 ## Access your course content
-When you are first added to a course you will receive an email indicating the name of the course and inviting you to create a SMC account. Make sure to use the same email to that where you received the invitation. If you do not so you will not have access to the material and the upgrades available the course students.  
-When you log into SMC you will se a panel as the one in the Figure below, click on the course you want to have access to.
+When you are first added to a course you will receive an email indicating the name of the course and inviting you to create a CoCalc account. Make sure to use the same email to that where you received the invitation. If you do not so you will not have access to the material and the upgrades available the course students.  
+When you log into CoCalc you will se a panel as the one in the figure below, click on the course you want to have access to.
 
 ![panel](./assets/projects.png)
 
@@ -43,7 +44,7 @@ From there you can see all the files you lecturer has shared with you and the as
 
 It is more than likely that you will be assigned assignments. When this happens you will have your own copy of the work you need to complete, so you can do all your changes/scripts in there.
 
-Also, note the assignments will have been assigned a **due** date after which submission cannot be made.
+Also, note the assignments will have been collected at a **due** date, after which further changes won't be seen by the teacher.
 
 It is also possible that as part of the assignment you need to add scripts, a report, or additional files. Make sure that they are all self contained in the directory of the assignment. When your coursework is collected the lecturers will get a copy of the assignment directory, so if you misplaced the documents they will not have access to them, and your marks will suffer.
 
@@ -53,11 +54,11 @@ There are multiple ways to do it:
 
 ![drag](./assets/drag.png)
 
-* **Content in the internet**: If you have your files in a gitHub repository, Dropbox, Google drive, or similar, click on the **New** button. On the file name box paste/write the url to the documents and click on the **Download from the internet** button.
+* **Content in the internet**: If you have your files in a GitHub repository, Dropbox, Google drive, or similar, click on the **New** button. On the file name box paste/write the url to the documents and click on the **Download from the internet** button.
 
 ![Download](./assets/download.png)
 
-* Terminal: if you have your files in a gitHub repository you can create a terminal instance and copy the contents using
+* Terminal: if you have your files in a GitHub repository you can create a terminal instance and copy the contents using
 
 ```
 git clone "url"
@@ -65,7 +66,7 @@ git clone "url"
 
 ## Version control
 
-One of the best features of SMC is the time travel diff feature. You will notice that your Jupyter notebooks (and many more files) have a **Time Diff** (file history) button.
+One of the best features of CoCalc is the time travel diff feature. You will notice that your Jupyter notebooks (and many more files) have a **Time Travel** (file history) button.
 
 ![button](./assets/time_diff.png)
 
@@ -81,9 +82,9 @@ Alternatively, you can also use git from the terminal if this is your preferred 
 ## Restarting a project
 Every time you open a Jupyter notebook or a Sage Worksheet, its state is stored in memory. You might experience a slow navigation or sluggish kernel behaviour (e.g. cells not being evaluated).
 
-To solve this you can stop your notebooks by clicking on the stop button.
+To solve this you can stop and terminate your running Jupyter Notebook in the file menu under "Close and Halt".
 
-Alternatively, you can restart the entire project, which will clean everything. You just need to go to your project settings and click on Restart project.
+Alternatively, you can restart the entire project, which will clean everything. You just need to go to your project settings and click and confirm on "Restart project".
 
 ![restart](./assets/restart_project.png)
 
