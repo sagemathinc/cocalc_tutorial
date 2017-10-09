@@ -5,11 +5,11 @@ next:
   url: /handson/lab01.html
   title: Getting started
 ---
-# Hands on tutorial: CoCalc for lectures
+## Hands on tutorial: CoCalc for lectures
 As part of the [OpenDreamKit Project](http://opendreamkit.org),
-the RSES has developed a hands-on tutorial for lecturers willing to use SMC to deliver their lectures.
+the RSES has developed a hands-on tutorial for lecturers willing to use CoCalc to deliver their lectures.
 
-This tutorial is intended to help lecturers to explore the main functionalities of SMC with regards to course management.
+This tutorial is intended to help lecturers to explore the main functionalities of CoCalc with regards to course management.
 
 Through this hands on tutorial you will learn to:
 
@@ -35,6 +35,6 @@ If you encounter any problems with this tutorial please rise a [GitHub issue](ht
 - Familiarity with the use of command line (very basic) and git.
 
 ## Goals
-* Learn what SMC offers in terms of course management and how it can make your lectures better
+* Learn what CoCalc offers in terms of course management and how it can make your lectures better.
 
-* Create a fully operational project that. could be used as a template for future courses.
+* Create a fully operational project that could be used as a template for future courses.
