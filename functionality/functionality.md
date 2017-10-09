@@ -1,5 +1,6 @@
 ---
 layout: page
+title: A Tour of CoCalc
 
 next:
   url: /creating_a_course/creating_course.html
@@ -9,7 +10,7 @@ prev:
   url: /getting_started/getting_started.html
   title: Getting started
 ---
-# A Tour of CoCalc
+
 CoCalc contains a lot of functionalities, including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, along with a wide range of course management facilities.
 
 In this section, we'll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this session.
