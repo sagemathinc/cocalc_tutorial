@@ -1,12 +1,12 @@
 ---
 layout: page
-title: null
+title: Getting started with CoCalc
 
 next:
     url: /functionality/functionality.html
     title: A Tour of SMC
 ---
-# Getting started with CoCalc
+
 This section would help you familiarise with some of the Functions of CoCalc.
 
 ## Lecturers - Sign up for an account
@@ -24,7 +24,7 @@ Once you've created your course in CoCalc, you just a add list of student email 
 
 ## Upgrades to student projects
 
-CoCalc accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of CoCalc's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and CoCalc.  Additionally, basic projects run on free servers which are shared with many other users.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
+CoCalc accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of CoCalc's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and CoCalc.  Additionally, basic projects run on free servers which are shared with many other users and rebooted without a warning during the day.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
 
 There are two ways students can receive upgrades for their projects:
 - Students can pay a \$9/semester fee
