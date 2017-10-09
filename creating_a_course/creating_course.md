@@ -19,7 +19,7 @@ In this section we are going to create a project containing a course.
 
 Log into CoCalc and click on the **projects** icon in the top left hand corner of the screen.
 
-![Projects icon](./assets/projects.png)
+![Projects icon](./assets/projects-cc.png)
 
 Click on **Create New Project**, fill out the **Title** and **Description** and click on **Create Project**
 
