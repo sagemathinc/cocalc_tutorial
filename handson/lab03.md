@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Assigning coursework to the students
 
 next:
     url: /handson/lab04.html
@@ -9,7 +10,6 @@ prev:
     url: /handson/lab02.html
     title: Adding people
 ---
-# Assigning coursework to the students
 In this section  you will learn how to create assignments and assign them to students.
 
 If you navigate to your `.course` file you should now be able to see the students in your course as well as the following upper banner:
@@ -36,13 +36,13 @@ If you want to assign this to the entire class just click on **Assign**, if you 
 
 ---
 
-## Exercise 3.1: sharing notes
+## Exercise 3.1: Sharing notes
 Share your course notes and the LaTex file you created previously with some of the students you added in the previous sections.
 
-## Exercise 3.2: assignments
+## Exercise 3.2: Assignments
 Following the procedure described before choose 1-2 students to assign the material in the Assignments folder.
 
-## Exercise 3.3: working on your assignment
+## Exercise 3.3: Working on your assignment
 If you have been assigned some coursework by your peers, open the assignment and make some changes (i.e formatting, re wording, changing plots, adding plots)
 
 ---
