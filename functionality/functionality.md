@@ -45,12 +45,16 @@ The terminal welcome message gives you an idea of some of the software that's av
 * The popular alternative zsh to Bash
 * Version control via git
 * LaTeX
+* Terminal multiplexer [tmux](https://tmux.github.io/)
 
 The distribution is based on Ubuntu Linux but it is not possible to install software yourself using `apt-get`.
 
 If you need something installed, contact the CoCalc team for [some help](#GettingHelp). Anything they install is then available to **all** CoCalc projects.
 
-When you start a terminal session called `foo`, a file called `foo.term` is created. Its contents are not particularly interesting as they only mean something to the CoCalc system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off (unless the session ends due to inactivity).  
+Alternatively, you can always add custom software installations on top of your home directory.
+You can even use the path `~/.local/` as your "`PREFIX`" and adjust the `PATH` variable in your `~/.bashrc` file. 
+
+When you start a terminal session called `foo`, a file called `foo.term` is created. Its contents are not particularly interesting as they only reference the terminal session in the CoCalc system. The file is useful, however, in that it can be used to re-open a terminal session at the same place you previously left off (unless the session ends due to inactivity).  
 
 ## Jupyter Notebooks
 
@@ -58,7 +62,7 @@ To start a new Jupyter notebook, click on **New** and give your notebook a name.
 
 ![Open Notebook](./assets/create_notebook.png)
 
-The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **kernel**->**change kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Apache Spark.
+The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **Kernel**->**Change Kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Julia.
 
 ![kernel choice](./assets/kernel_choice.png)
 
@@ -71,7 +75,7 @@ To start a new SageMath Worksheet, click on **New** and give your worksheet a na
 
 ## What can't be done in CoCalc?
 
-CoCalc does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on SMC locally on your computer.)
+CoCalc does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on CoCalc locally on your computer.)
 
 Since CoCalc is Linux based, it is not possible to run Windows applications such as Microsoft Word, Powerpoint and Excel.
 
