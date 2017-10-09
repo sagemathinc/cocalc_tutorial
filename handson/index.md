@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Hands on tutorial: CoCalc for lectures
+title: "Hands on tutorial: CoCalc for lectures"
 permalink: /handson/
+
 next:
   url: /handson/lab01.html
   title: Getting started
