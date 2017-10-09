@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Grading and collecting assignments
 
 prev:
   url: /handson/lab03.html
@@ -9,7 +10,6 @@ next:
     url: /handson/lab05.html
     title: Interacting
 ---
-# Grading and collecting assignments
 In this section you will be able to collect and grade some assignments.
 
 ## Collecting assignments
@@ -30,6 +30,14 @@ A convenient way to annotate the assignments is to use the markdown cells and us
 <font color ="red"> Great work! </font>
 ```
 Once you are done you can return to the .project file and mark it by clicking in *Enter grade* and assign an appropriate mark.
+
+**Tipp:** Consecutively opening collected student worksheets does start up background processes for each of them.
+This implies your teacher project will consume an increasing amount of resources,
+which might likely cause troubles with using too much memory.
+The solution for Jupyter Notebooks is close them by also stopping the background process.
+For that, go into "Files" and select "Close and Halt".
+More generally, you can always save and close all open files and then go to the project settings (wrench icon) and click and confirm "Restart project".
+This cleans up the whole environment.
 
 ## Returning an assignment
 After grading an assignment click on the **Return** button and a copy of your modified file will be added to the student's project.
