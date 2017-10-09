@@ -18,7 +18,7 @@ In this section, we'll take a closer look at some of the features not related to
 
 Log into CoCalc and click on the **projects** icon in the top left hand corner of the screen.
 
-![Projects icon](../creating_a_course/assets/projects.png)
+![Projects icon](../creating_a_course/assets/projects-cc.png)
 
 Click on **Create New Project**, fill out the **Title** and **Description** and click on **Create Project**.
 
