@@ -1,16 +1,17 @@
 ---
 layout: page
+title: Other useful features and tricks
 
 prev:
   url: /interactions/interactions.html
   title: Interacting with others
 
 ---
-# Other useful features and tricks
-In this section we will present some SMC features and useful tricks that will make the management of your project easier.
+
+In this section we will present some CoCalc features and useful tricks that will make the management of your project easier.
 
 ## Text fields generally support markdown and LaTeX
-SMC not only facilitates the creation of LaTex documents, but the multiple text sections in SMC support and render LaTex and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
+CoCalc not only facilitates the creation of LaTex documents, but the multiple text sections in CoCalc support and render LaTex and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
 For example, you can use LaTex syntax in the chat rooms:
 
@@ -59,7 +60,7 @@ Alternatively, you can restart the entire project, which will clean everything. 
 ![Restart project](./assets/restart_project.png)
 
 ## Using Git
-As SMC supports the usage of terminal people can collaborate using Git within a course-affiliated project.
+As CoCalc supports the usage of terminal people can collaborate using Git within a course-affiliated project.
 
 If you already have a project or some files allocated in GitHub you can add them to your project.
 Click on the **New** button and add/paste the link to your repository in the appropriate text box. Click on the **Download from Internet** button.
