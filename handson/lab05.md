@@ -1,12 +1,13 @@
 ---
 layout: page
+title: Interacting with others
 
 prev:
   url: /handson/lab04.html
   title: Collecting assignments
 ---
-# Interacting with others
-One of the best features from SMC is the ability to work collaboratively as well as being able to have real-time chat rooms with the students.
+
+One of the best features from CoCalc is the ability to work collaboratively as well as being able to have real-time chat rooms with the students.
 
 In this section you will make use of the cat functions to communicate with students.
 
@@ -14,7 +15,7 @@ First let's talk about the notifications. Every time a file is edited, added, or
 
 ![bell](./assets/instructor_notification.png)
 
-If you click on the bell icon, you will see all the notifications along with an icon identifying the file/instance that was modified, and who changed it.
+If you click on the bell icon, you will see all the notifications along with an icon identifying the file that was modified, and who changed it.
 
 ![notifications](./assets/notifications.png)
 
@@ -22,7 +23,7 @@ If you click on the bell icon, you will see all the notifications along with an 
 
 You can create `.sage-chat` instances for the whole project.
 
-You can use markdown, Latex, or HTML and the messages will render once you send them to the students.
+You can use Markdown, Latex, or HTML and the messages will render once you send them to the students.
 
 ![render](./assets/after_latex_render.png)
 
