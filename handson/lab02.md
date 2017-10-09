@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Adding people
 
 next:
   url: /handson/lab03.html
@@ -9,9 +10,8 @@ prev:
     url: /handson/lab01.html
     title: Getting started
 ---
-# Adding people
-When you manage a course on SMC you might usually want to add students and collaborators.
-When you manage a course on SMC you might usually want to add students and collaborators. In this section we'll add some students and collaborators to your project.
+When you manage a course on CoCalc you might usually want to add students and collaborators.
+In this section we'll add some students and collaborators to your project.
 
 ## Collaborators
 The collaborators will more than likely be your demonstrators and any other lecturers in charge of the course. These can be added directly on the settings section of your project (wrench icon). Collaborators will have full access to all the project content by default.
@@ -26,7 +26,7 @@ We'll add "students" to the session: locate the `hands_on.csv` file (*in-person 
 
 You can do this by copying and pasting directly from the file onto the box. Once they have been added, the students will receive an email inviting them to join the course. When doing this please encourage them to use their institutional email and real name for this account.
 
-Alternatively, if the students already have a SMC account they can be found by
+Alternatively, if the students already have a CoCalc account they can be found by
 typing their name in the box.
 
 ---
