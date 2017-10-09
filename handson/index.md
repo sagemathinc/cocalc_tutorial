@@ -14,6 +14,8 @@ Originally hosted [at this GitHub project](https://github.com/trallard/SMC_Hands
 it is now maintained by CoCalc.
 If you encounter any problems with this tutorial please rise a [GitHub issue](https://github.com/sagemathinc/cocalc_tutorial).
 
+→ **[Start here](/handson/lab01.html)**
+
 ## Content
 
 This tutorial is intended to help lecturers to explore the main functionalities of CoCalc with regards to course management.
