@@ -53,7 +53,7 @@ Paying users get more resources and support - vital if you are to rely on it for
 ## Students' mini tutorials
 We have added a students' mini tutorial! This might be handy for when you implement your lectures.
 
-Just click on the **Students** tab!
+Just click on the [**Students** tab](./students)!
 
 ---
 
