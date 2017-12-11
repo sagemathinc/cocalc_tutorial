@@ -19,8 +19,12 @@ Plus it is a totally OpenSource project.
 
 **_What happens when I finish the course/my degree?_**
 
-Once you have finished your course you will still be able to access the material of past courses.
+Once you have finished your course you will still be able to access the material of past courses in your student projects.
 However, any applied upgrades for your course project will only be valid for the duration of the course.
+
+In cases where your account on CoCalc is managed by the university, make sure you set your password in your account settings.
+This ensures that you'll have access later on.
+Additionally, consider changing your email address of your CoCalc account, once you're no longer associated with the university.
 
 **_What I am getting?_**
 
