@@ -30,6 +30,7 @@ There are two ways students can receive upgrades for their projects:
 - Students can pay a \$9/semester fee
 - You or someone at your school can purchase a [course package](https://cocalc.com/policies/pricing.html)
     - Course packages provide you with a number of member hosting upgrades and internet access upgrades that you can distribute to students.
+    - Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
 
 **To distribute the project upgrades to the students:**
 - The person who purchases the course package needs to be a collaborator on the project that contains your course.

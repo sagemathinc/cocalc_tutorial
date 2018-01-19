@@ -74,7 +74,7 @@ Your course page will now look like this
 
 * Email addresses that are followed by **(invited)** do not have a CoCalc account yet. **(invited)** will disappear as soon as they sign up.
 * You can see when each student last used the course project. In this case -- never!
-* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below).
+* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below). Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
 
 ## What do the students get?
 

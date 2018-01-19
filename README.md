@@ -12,6 +12,8 @@ It is used for [teaching by Universities around the world](https://github.com/sa
 Basic access, without internet access, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
 Paying users get more resources and support - vital if you are to rely on it for paying students.
 
+Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
+
 ## Some Benefits of CoCalc
 
 * No installation or configuration necessary. Everything Just Works.
