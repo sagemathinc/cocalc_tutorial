@@ -95,7 +95,7 @@ The student's course project will have its own individual quotas set for disk st
 ## Upgrading students
 
 The **Configuration** tab of a **.course** file allows you to upgrade student's course projects in two ways.
-You can request that the students pay a one-time fee of $9 for four months.
+You can request that the students pay a one-time fee of $14 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
@@ -103,3 +103,8 @@ Current pricing is available at <https://cocalc.com/policies/pricing.html> which
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
 ![Upgrading students](./assets/upgrading_students.png)
+
+... and after selecting that [you/your institution pays](https://github.com/sagemathinc/cocalc/wiki/prof-pay),
+you can proceed to distribute the upgrades of the course package here:
+
+![Upgrading students2](./assets/upgrading_students2.png)
