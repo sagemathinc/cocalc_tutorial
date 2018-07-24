@@ -65,4 +65,4 @@ This work is licensed under CC-BY 3.0.
 
 
 * Human readable description of the license - <https://creativecommons.org/licenses/by/3.0/>
-* Legal text of the license - <https://raw.githubusercontent.com/mikecroucher/SMC_tutorial/master/license.txt>
+* Legal text of the license - <https://raw.githubusercontent.com/sagemathinc/cocalc_tutorial/gh-pages/license.txt>
