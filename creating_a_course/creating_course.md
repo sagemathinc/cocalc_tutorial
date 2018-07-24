@@ -31,20 +31,25 @@ The new project will appear at the top of the project list. Click on its  title 
 
 ## Adding teaching assistants to the course
 
-To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see the "Collaborators" panel in course settings.
+To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see the "Collaborators" panel in the project settings.
 
 In the **Collaborators** tab, you can find or add collaborators by name or email address.
+These collaborators will also have access to all associated student projects orchestrated by that project.
+Do **not** add any students of yours as project collaborators!
 
 ![Add Collaborators](assets/collaborators.png)
 
-If the email address you add as a collaborator is not associated with a CoCalc account, an email will be sent to that address with an invite to join.
-Once the owner of that email address gets an account, the new user will be added automatically to all projects with pending invitations.
+If the email address you add as a collaborator is not associated with a CoCalc account,
+an email will be sent to that address with instructions how to join.
+Once the acocount with exactly that email address is created, that new user will be added automatically to all projects with pending invitations.
 
 ## Creating the course file
 
 Almost all aspects of a course, such as which students are enrolled and assignment management, are controlled by a **.course** file. We'll now create this file.
 
-Open the course project, click on **New** and give the course a title. Here, I've used `Autumn_2016_PHY001`. Click on **Manage a Course** to create the course file.
+Open the course project, click on **New** and give the course a title.
+Here, I've used `Autumn_2016_PHY001`.
+Click on **Manage a Course** to create the course file.
 
 ![New course](./assets/new_managecourse.png)
 
@@ -56,25 +61,30 @@ If you go to the root of the course project directory, you will see that a new f
 
 Open your course by clicking on the **.course** file.
 
-In the **Students** tab, add a comma separated list of students in the search box and click on the search icon.
+In the **Students** tab, add a comma separated list of students' emails addresses in the search box and click on the search icon.
 
 ![Student list](./assets/student_list.png)
 
 If you have a particular large class, the above method may take a very long time. If you have your students' email addresses in an Excel spreadsheet (or Google Sheet) you can copy and paste them directly in the **Add student** box.
 
-Highlight all of the students in the resulting list and click on **Add N Students** where N is the number of students in your list.
+After parsing the list, you can either explicitly the students to add (press shift or ctrl key for multiple selections),
+or just click the "Add all students" button.
+
+Next, the student projects will be created. Please be patient until all students are processed and do not close CoCalc.
 
 ![Student list](./assets/student_list2.png)
 
-All added students will be invited to join your course by email. Any student who does not have an account on CoCalc will be invited to create one.
+All added students will be invited to join your course by email.
+Any student who does not have an account on CoCalc will be invited to create one.
 
 Your course page will now look like this
 
 ![Student list](./assets/student_list3.png)
 
-* Email addresses that are followed by **(invited)** do not have a CoCalc account yet. **(invited)** will disappear as soon as they sign up.
+* Email addresses that are followed by **(invited)** do not have a CoCalc account yet.
+  **(invited)** will disappear as soon as they sign up.
 * You can see when each student last used the course project. In this case -- never!
-* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the settings page that your students pay a small one-time fee to upgrade their projects (see below). Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
+* The **! Free** warning next to each student shows that they are running this course on free servers. It is **strongly** recommended that you upgrade this to members-only servers for your students.  You can also require in the configuration page that your students pay a small one-time fee to upgrade their projects (see below). Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
 
 ## What do the students get?
 
@@ -84,12 +94,12 @@ The student's course project will have its own individual quotas set for disk st
 
 ## Upgrading students
 
-The **Settings** tab of a **.course** file allows you to upgrade student's course projects in two ways.
+The **Configuration** tab of a **.course** file allows you to upgrade student's course projects in two ways.
 You can request that the students pay a one-time fee of $9 for four months.
 This will move their projects to members only hosts and enable full internet access.
 
 Alternatively, you can pay on your student's behalf.
-Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of $4 to $8 per student for a 4 month course.
+Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of about $7 to $14 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
 ![Upgrading students](./assets/upgrading_students.png)
