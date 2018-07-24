@@ -40,7 +40,8 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 ## Further resources
 
 * [Grading in CoCalc](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses SMC in teaching
-* [CoCalc on GitHub](https://github.com/sagemathinc/smc) - The whole system is open source
+* [CoCalc on GitHub](https://github.com/sagemathinc/cocalc) - The whole system is open source
+* [CoCalc Docker distribution](https://github.com/sagemathinc/cocalc-docker) - install the CoCalc platform on your own machine
 * Videos tutorials on course management features in CoCalc
     * [Why aren't you teaching with CoCalc?](https://youtu.be/cq_HEzBMWNA)
     * [Creating courses in CoCalc](https://youtu.be/K2swc6NhpGg)
