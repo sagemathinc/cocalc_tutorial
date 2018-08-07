@@ -7,7 +7,7 @@ next:
     title: A Tour of SMC
 ---
 
-This section would help you familiarise with some of the Functions of CoCalc.
+This section will introduce you to several functions of CoCalc.
 
 ## Lecturers - Sign up for an account
 
@@ -24,21 +24,21 @@ Once you've created your course in CoCalc, you just a add list of student email 
 
 ## Upgrades to student projects
 
-CoCalc accounts are free for you and your students and you can create as many projects as you desire.  These basic projects have access to all of CoCalc's functionalities with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and CoCalc.  Additionally, basic projects run on free servers which are shared with many other users and rebooted without a warning during the day.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
+CoCalc accounts are free for you and your students. You can create as many projects as you desire.  These basic projects have access to all of CoCalc's functionality with one exception: basic projects are not able to download or upload files to other sites on the internet - you can only upload and download between your computer and CoCalc.  Additionally, basic projects run on free servers which are shared with many other users and rebooted without warning during the day.  You can purchase upgrades for projects that allow internet access and will move the projects to run on members-only servers.
 
 There are two ways students can receive upgrades for their projects:
-- Students can pay a \$9/semester fee
+- Students can pay a \$14/semester fee
 - You or someone at your school can purchase a [course package](https://cocalc.com/policies/pricing.html)
     - Course packages provide you with a number of member hosting upgrades and internet access upgrades that you can distribute to students.
     - Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
 
 **To distribute the project upgrades to the students:**
 - The person who purchases the course package needs to be a collaborator on the project that contains your course.
-- Open the `.course` file and go to the course  `Settings` tab (the wrench icon between the `Handouts` tab and the `Shared Projects` tab).  
+- Open the `.course` file and go to the course  `Configuration` tab (the gears icon between the `Handouts` tab and the `Shared Projects` tab).  
 
 ![](course_settings_tab.png)
 
-- Under *Upgrade all student projects (you pay)*,  select `Adjust quotas...`
+- Under *Upgrade all student projects (institute pays)*,  select `Adjust upgrades...`
 - Select the checkbox for **Member hosting** and **Internet access** and click `Submit changes` to distribute these two upgrades to each student's course project.
     - These upgrades only apply to the student course projects and not to any other projects students may have created.
 
