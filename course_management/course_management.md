@@ -11,7 +11,7 @@ prev:
   title: Creating a Course
 ---
 
-No matter what you've added in the instructors view of the course, the students will not see any files until you explicitly assign them.
+No matter what you've added in the instructor's view of the course, the students will not see any files until you explicitly assign them.
 
 ## Creating a new assignment
 
@@ -80,7 +80,7 @@ If you click on the **Files** icon and go to the root directory of the course pr
 
 Navigating within this folder, you'll find that it has a similar file structure to the original assignment.
 For example, for this demonstration we had the structure `/assignments/Assignment1` which appears in the collected folder as `[your_course_name]-collect/assignments/Assignment1`.
-Entering this folder will give a view of all student's versions of this assignment
+Entering this folder will give a view of all students' versions of this assignment
 
 ![List of collected assignments](./assets/collected_assignments.png)
 
@@ -110,7 +110,7 @@ This allows the students to quickly identify my comments.
 
 ![Feedback](./assets/feedback.png)
 
-Once you've finished marking and commenting on the student's notebook, you can enter a grade via the **.project** file.
+Once you've finished marking and commenting on the student's notebook, you can enter a grade via the **.course** file.
 Click on the **Enter Grade** button to open up the grade entry text box and enter the grade.
 This can be a number or any other string that makes sense for your course.
 
@@ -119,7 +119,7 @@ This can be a number or any other string that makes sense for your course.
 ## Exporting grades
 
 It is possible to export grades for all assignments as either a .csv file or as executable Python code.
-The **Export grades** function is available in the **Settings** tab of the **.course** file.
+The **Export grades** function is available in the **Configuration** tab of the **.course** file.
 
 ![Export Grades](./assets/Export_grades.png)
 
