@@ -45,7 +45,7 @@ Live collaborative editing is possible in CoCalc.
 If one of your collaborators updates a notebook, the rest can see the changes as they are being made (similar to Google Docs).
 
 ## Creating a shared project
-You can create a common shared project for your course. Think of a shared project to be your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have **write** access to the project and its associated files.
+You can create a common shared project for your course. Think of a shared project as your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have **write** access to the project and its associated files.
 
 To create a shared project you need to go to your **.course** file and click on the **Shared Project** button.
 
