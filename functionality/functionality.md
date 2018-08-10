@@ -11,9 +11,9 @@ prev:
   title: Getting started
 ---
 
-CoCalc contains a lot of functionalities, including the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, along with a wide range of course management facilities.
+CoCalc features include the ability to run Linux terminals, Jupyter Notebooks and Sage Worksheets, and a wide range of course management facilities.
 
-In this section, we'll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this session.
+In this section, we'll take a closer look at some of the features not related to course management. Course management features are described elsewhere in this tutorial.
 
 ## Create your first project
 
@@ -76,7 +76,7 @@ To start a new SageMath Worksheet, click on **New** and give your worksheet a na
 
 ## What can't be done in CoCalc?
 
-CoCalc does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.  (You can use `ssh -X ...` from a computer with X windows support to display applications that run on CoCalc locally on your computer.)
+CoCalc does not have integrated web-based support for X Windows, which means that applications that require a GUI cannot be used. This includes things like gedit, Spyder and xclock.
 
 Since CoCalc is Linux based, it is not possible to run Windows applications such as Microsoft Word, Powerpoint and Excel.
 
@@ -84,6 +84,6 @@ You might think it wouldn't be possible, but it **is** possible to install comme
 
 ## Getting help <a name="GettingHelp"></a>
 
-If you need help from the SageMath team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most CoCalc screens.
+If you need help from the CoCalc team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most CoCalc screens.
 
 ![Running Terminal](./assets/help.png)
