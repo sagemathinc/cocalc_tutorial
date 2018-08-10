@@ -11,9 +11,9 @@ prev:
 In this section we will present some CoCalc features and useful tricks that will make the management of your project easier.
 
 ## Text fields generally support markdown and LaTeX
-CoCalc not only facilitates the creation of LaTex documents, but the multiple text sections in CoCalc support and render LaTex and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
+CoCalc not only facilitates the creation of LaTeX documents, but the multiple text sections in CoCalc support and render LaTeX and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
-For example, you can use LaTex syntax in the chat rooms:
+For example, you can use LaTeX syntax in the chat rooms:
 
 ![before image](./assets/before_latex_render.png)
 
@@ -39,7 +39,7 @@ You can also create folders here just by ending with a `/`
 By default, projects have an idle time of 24 hours before they spin down and need to be restarted. However, it may be handy to start everyone's project before a class or presentation so that they are all "hot loaded".
 
 You can easily do this from your course manager:
-first, make sure you are in your course settings and not your project settings.
+first, open the course configuration tab:
 
 ![course settings](./assets/settings.png)
 
@@ -51,7 +51,7 @@ Then scroll down to find and click on the `Start all...` button
 ## Restarting a project
 Every time you open a Jupyter notebook or a Sage Worksheet, its state is stored in memory. This can become quite costly if you open multiple files one after the other (e.g. when you are marking your students' work).
 
-To solve this you can stop every instance using the  stop button (for both Jupyter notebooks and Sage worksheets) once you are done with your marking.
+To solve this, you can stop every instance using the stop button (for both Jupyter notebooks and Sage worksheets) once you are done with your marking.
 
 ![Stop notebook](./assets/stop_notebook.png)
 
@@ -60,7 +60,7 @@ Alternatively, you can restart the entire project, which will clean everything. 
 ![Restart project](./assets/restart_project.png)
 
 ## Using Git
-As CoCalc supports the usage of terminal people can collaborate using Git within a course-affiliated project.
+CoCalc support for the terminal enables students (and instructors) to collaborate using Git within a course-affiliated project.
 
 If you already have a project or some files allocated in GitHub you can add them to your project.
 Click on the **New** button and add/paste the link to your repository in the appropriate text box. Click on the **Download from Internet** button.
@@ -72,7 +72,7 @@ Click on the **New** button and add/paste the link to your repository in the app
 Also you can use the terminal to commit and push changes to your repository in GitHub.
 
 ## Time Travel Diffs
-The editor based documents (e.g. python code, sage worksheets, LaTex documents, etc.) as well as the Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval.
+The editor based documents (e.g. python code, LaTeX documents, markdown files, etc.) as well as Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval.
 
 Open up **Time travel** from any document:
 
@@ -82,4 +82,4 @@ then click on changes and drag the sliders to see the document in a given time i
 
 ![TT sliders](./assets/time_travel_sliders.png)
 
-If you need to revert the document to a previous state, just drag the sliders to the desired interval and click on **Revert live version to this**, this will revert the document to that specific version and discard any modifications made afterwards.
+If you need to revert the document to a previous state, drag the slider to the desired revision and click on **Revert live version to this**. Doing so reverts the document contents to that specific version. If you have checked the **Changes** box to compare two revisions and click on **Revert live version to this**, contents are reverted to the latter of the two revisions being compared.
