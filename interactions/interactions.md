@@ -71,7 +71,7 @@ A couple of options are:
 Have someone in each group make a project with all the group members as collaborators.
 They will all then be able to collaborate on the same project and modify files simultaneously.
 
-You should note, however, that by using this approach you cannot automatically collect assignments from the team. A workaround could be creating an assignment in your main project and have the students copy the file to their group project.
+You should note, however, that by using this approach you cannot automatically collect assignments from the team. A workaround could be creating an assignment in your main project and having the students copy that file to their group project.
 
 ### *Using Git*
 Students can collaborate from within their individual course projects using git via the terminal in CoCalc. See "Using Git" in this tutorial in [Other useful features and tricks](../tips_and_tricks/tips_and_tricks.html).
