@@ -11,7 +11,7 @@ prev:
 In this section we will present some CoCalc features and useful tricks that will make the management of your project easier.
 
 ## Text fields generally support markdown and LaTeX
-CoCalc not only facilitates the creation of LaTeX documents, but the multiple text sections in CoCalc support and render LaTeX and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
+CoCalc not only facilitates the creation of LaTeX documents, but most input areas in CoCalc support and render LaTeX and markdown  (specifically  [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
 For example, you can use LaTeX syntax in the chat rooms:
 

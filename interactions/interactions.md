@@ -61,7 +61,7 @@ If you want to check the access permissions of all the files contained in a give
 
 ![Access check](./assets/ls_assignment.png)
 
-In the case you want to change a read only file into a read and write, type `chmod a+w filename` on the terminal.
+In case you want to change a read only file into a read and write, type `chmod a+w filename` on the terminal.
 
 ## Group Projects
 There are various ways in which you can facilitate students' group projects in CoCalc.
