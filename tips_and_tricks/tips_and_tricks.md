@@ -72,7 +72,7 @@ Click on the **New** button and add/paste the link to your repository in the app
 Also you can use the terminal to commit and push changes to your repository in GitHub.
 
 ## Time Travel Diffs
-The editor based documents (e.g. python code, LaTeX documents, markdown files, etc.) as well as Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval.
+The editor based documents (e.g. Python code, LaTeX documents, markdown files, etc.) as well as Jupyter notebooks and Sage worksheets are Time Travel Diffs supported. The Time Travel Diffs feature allows you to see what happened with a file within a certain time interval.
 
 Open up **Time travel** from any document:
 
@@ -82,4 +82,4 @@ then click on changes and drag the sliders to see the document in a given time i
 
 ![TT sliders](./assets/time_travel_sliders.png)
 
-If you need to revert the document to a previous state, drag the slider to the desired revision and click on **Revert live version to this**. Doing so reverts the document contents to that specific version. If you have checked the **Changes** box to compare two revisions and click on **Revert live version to this**, contents are reverted to the latter of the two revisions being compared.
+If you need to revert the document to a previous state, drag the slider to the desired revision and click on **Revert live version to this**. Doing so reverts the document contents to that specific version. If you have checked the **Changes** box to compare two revisions and click on **Revert live version to this**, contents are reverted to the latter of the two revisions being compared. Note that reverting a file simply creates a new version of the file equal to the old file at that point in time; in particular, no work is lost!
