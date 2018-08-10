@@ -31,9 +31,9 @@ The new project will appear at the top of the project list. Click on its  title 
 
 ## Adding teaching assistants to the course
 
-To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see the "Collaborators" panel in the project settings.
+To add teaching assistants or other teachers to the course, open the course project, click on the settings tab and look down to see "Add people to project" in the project settings.
 
-In the **Collaborators** tab, you can find or add collaborators by name or email address.
+Under **Add people to project**, you can find or add collaborators by name or email address.
 These collaborators will also have access to all associated student projects orchestrated by that project.
 Do **not** add any students of yours as project collaborators!
 
@@ -41,7 +41,7 @@ Do **not** add any students of yours as project collaborators!
 
 If the email address you add as a collaborator is not associated with a CoCalc account,
 an email will be sent to that address with instructions how to join.
-Once the acocount with exactly that email address is created, that new user will be added automatically to all projects with pending invitations.
+Once the account with exactly that email address is created, that new user will be added automatically to all projects with pending invitations.
 
 ## Creating the course file
 
@@ -96,9 +96,9 @@ The student's course project will have its own individual quotas set for disk st
 
 The **Configuration** tab of a **.course** file allows you to upgrade student's course projects in two ways.
 You can request that the students pay a one-time fee of $14 for four months.
-This will move their projects to members only hosts and enable full internet access.
+This will move their projects to members-only hosts and enable full internet access.
 
-Alternatively, you can pay on your student's behalf.
+Alternatively, you can pay on your students' behalf.
 Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of about $7 to $14 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
