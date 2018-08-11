@@ -45,7 +45,7 @@ Live collaborative editing is possible in CoCalc.
 If one of your collaborators updates a notebook, the rest can see the changes as they are being made (similar to Google Docs).
 
 ## Creating a shared project
-You can create a common shared project from any of your existing projects. You can think of a shared project to be your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have **write** access to the project and its associated files.
+You can create a common shared project for your course. Think of a shared project as your private course website for the students with automatic forum and code support. By default everybody (collaborators and students) will have **write** access to the project and its associated files.
 
 To create a shared project you need to go to your **.course** file and click on the **Shared Project** button.
 
@@ -53,25 +53,25 @@ To create a shared project you need to go to your **.course** file and click on 
 
 If you create a **.sage-chat** file here, all students will receive automatic notifications when questions are posted on the chat.
 
-If you want to make a file or an assignment **read only** so that students cannot modify it you need to modify the file permissions. Launch a terminal and type `chmod a-w filename` (in this example the filename is `Assignment1`).
+If you want to make a file or an assignment **read only** so that students cannot modify it, you need to modify the file permissions. Launch a terminal and type `chmod a-w filename` (in this example the filename is `Assignment1`).
 
 ![Read only files](./assets/read_only.png)
 
-If you want to check the access permissions of all the files contained in a given directory use the command `ls -l` on the terminal.
+If you want to check the access permissions of all the files contained in a given directory, use the command `ls -l` on the terminal.
 
 ![Access check](./assets/ls_assignment.png)
 
-In the case you want to change a read only file into a read and write type `chmod a+w filename` on the terminal.
+In case you want to change a read only file into a read and write, type `chmod a+w filename` on the terminal.
 
 ## Group Projects
-There are various ways in which you can facilitate  students group projects in CoCalc.
+There are various ways in which you can facilitate students' group projects in CoCalc.
 A couple of options are:
 
 ### *One project per team*
-Have someone on each group make a project with all the group members as collaborators.
+Have someone in each group make a project with all the group members as collaborators.
 They will all then be able to collaborate on the same project and modify files simultaneously.
 
-You should note, however, that by using the approach you cannot automatically collect assignments from the team. However, a workaround could be creating an assignment in your main project and have the students copy the file over to their group project.
+You should note, however, that by using this approach you cannot automatically collect assignments from the team. A workaround could be creating an assignment in your main project and having the students copy that file to their group project.
 
 ### *Using Git*
-Students can collaborate in their own course-affiliation using git via the terminal in CoCalc (for more tips on using git see the Interesting features and tricks section).
+Students can collaborate from within their individual course projects using git via the terminal in CoCalc. See "Using Git" in this tutorial in [Other useful features and tricks](../tips_and_tricks/tips_and_tricks.html).
