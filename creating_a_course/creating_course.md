@@ -149,7 +149,7 @@ After checking that everything looks right, the instructor clicks `Apply changes
 
 ### Adding more student upgrades
 
-Now suppose a third student arrives after the previous upgrades have been applied. The intstructor again opens the .course file, selects Configuration, and clicks `Adjust upgrades...`. Note the message at the bottom of the dialog that only one of the student projects will be upgraded.
+Now suppose a third student arrives after the previous upgrades have been applied. The instructor again opens the .course file, selects Configuration, and clicks `Adjust upgrades...`. Note the message at the bottom of the dialog that only one of the student projects will be upgraded.
 
 *Without making any changes to the numbers entered,* the instructor again clicks `Apply changes`. The third student project is now upgraded.
 
@@ -163,6 +163,6 @@ First, this is what is seen if the instructor has not yet applied upgrades for t
 
 ![Institute pays3](./assets/inst-pay-03-student-before.png)
 
-Second, this is what is seen if the instructor has added typical upgrades for a Standard course. The exact amounts added will vary for different plans. For example, Basic courses include upgrades for Member Hosting and Internect Access, but not for other resources. Note in the Projects toolbar at very top, that the project is restarting. That is because upgrades were applied by the instructor moments ago.
+Second, this is what is seen if the instructor has added typical upgrades for a Standard course. The exact amounts added will vary for different plans. For example, Basic courses include upgrades for Member Hosting and Internet Access, but not for other resources. Note in the Projects toolbar at very top, that the project is restarting. That is because upgrades were applied by the instructor moments ago.
 
 ![Institute pays4](./assets/inst-pay-04-student-after.png)
