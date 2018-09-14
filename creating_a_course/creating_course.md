@@ -92,20 +92,18 @@ On being invited to a course, each student will have a project created for them 
 
 The student's course project will have its own individual quotas set for disk storage, internet access and so on (e.g. students get 1GB of RAM). These quotas will be the standard set of quotas that everybody gets with free CoCalc projects.
 
-## Upgrading students
+## Upgrading students: 
 
 The **Configuration** tab of a **.course** file allows you to upgrade students' course projects in two ways, indicated by the checkboxes in the image below:
 
 ![Upgrading students](./assets/upgrading_students.png)
 
-**Students pay.** You can request that the students pay a one-time fee of $14 for four months.
+## Upgrading students option 1: Students pay
+
+You can request that the students pay a one-time fee of $14 for four months.
 This will move their projects to members-only hosts and enable full internet access.
 
-If you click "Students will pay for this course", a dialogue opens. A button appears for "Configure how students will pay..."
-
-![Upgrading students](./assets/students-pay-1.png)
-
-Clicking that button causes another checkbox to appear, "Require that students upgrade...":
+If you click "Students will pay for this course", another checkbox appears, "Require that students upgrade...":
 
 ![Upgrading students](./assets/students-pay-2.png)
 
@@ -115,7 +113,9 @@ When you check that checkbox, a calendar form opens. The default is to require s
 
 See the [CoCalc wiki page about the student pay option](https://github.com/sagemathinc/cocalc/wiki/student-pay) for additional details on this approach.
 
-**Teacher or Institution pays.** Alternatively, you can pay on your students' behalf.
+## Upgrading students: Teacher or institution pays
+
+Alternatively, you can pay on your students' behalf.
 Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of about $7 to $14 per student for a 4 month course.
 The price per student varies according to the size of the student cohort. You get significant per-student discounts when you buy in bulk.
 
@@ -124,3 +124,45 @@ The price per student varies according to the size of the student cohort. You ge
 you can proceed to distribute the upgrades of the course package here:
 
 ![Upgrading students2](./assets/upgrading_students2.png)
+
+Clicking "Adjust upgrades..." lets you allocate any available upgrades in your account.
+
+### Entering initial student upgrades
+
+The following screenshots assume the instructor has purchased a One Week Standard Extra Small subscription, with upgrades for 10 projects, and applied upgrades to the TEACHING project, leaving upgrades for 9 student projects.
+Two students have been added to the "MATH 101" .course file.
+
+After clicking `Adjust upgrades...` as shown above, this is what the instructor sees:
+
+![Institute pays1](./assets/inst-pay-01-no-upgr.png)
+
+The instructor enters the usual upgrades *per student* for Standard subscriptions:
+- Member Hosting
+- Internet Access
+- Idle imeout 2.4 hours
+- Shared RAM 1000 MB
+- Shared CPU 1 core
+
+After checking that everything looks right, the instructor clicks `Apply changes`.
+
+![Institute pays2](./assets/inst-pay-02-add-upgr.png)
+
+### Adding more student upgrades
+
+Now suppose a third student arrives after the previous upgrades have been applied. The intstructor again opens the .course file, selects Configuration, and clicks `Adjust upgrades...`. Note the message at the bottom of the dialog that only one of the student projects will be upgraded.
+
+*Without making any changes to the numbers entered,* the instructor again clicks `Apply changes`. The third student project is now upgraded.
+
+![Institute pays6](./assets/inst-pay-06-before3rd.png)
+
+### What the student sees
+
+Here is what a student will see upon opening his/her student project for the course.
+
+First, this is what is seen if the instructor has not yet applied upgrades for the student project. Note the red banner warning that the project is not upgraded.
+
+![Institute pays3](./assets/inst-pay-03-student-before.png)
+
+Second, this is what is seen if the instructor has added typical upgrades for a Standard course. The exact amounts added will vary for different plans. For example, Basic courses include upgrades for Member Hosting and Internect Access, but not for other resources. Note in the Projects toolbar at very top, that the project is restarting. That is because upgrades were applied by the instructor moments ago.
+
+![Institute pays4](./assets/inst-pay-04-student-after.png)
