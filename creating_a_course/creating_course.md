@@ -134,18 +134,18 @@ Two students have been added to the "MATH 101" .course file.
 
 After clicking `Adjust upgrades...` as shown above, this is what the instructor sees:
 
-![Institute pays1](./assets/inst-pay-01-no-upgr.png)
+<img alt="Institute pays 1" src="./assets/inst-pay-01-no-upgr.png" width="60%">
 
 The instructor enters the usual upgrades *per student* for Standard subscriptions:
-- Member Hosting
-- Internet Access
-- Idle imeout 2.4 hours
-- Shared RAM 1000 MB
-- Shared CPU 1 core
+- Member Hosting: ✓
+- Internet Access: ✓
+- Idle Timeout: 2.4 hours
+- Shared RAM: 1000 MB
+- Shared CPU: 1 core
+
+<img alt="Institute pays 2" src="./assets/inst-pay-02-add-upgr.png" width="60%">
 
 After checking that everything looks right, the instructor clicks `Apply changes`.
-
-![Institute pays2](./assets/inst-pay-02-add-upgr.png)
 
 ### Adding more student upgrades
 
@@ -153,7 +153,7 @@ Now suppose a third student arrives after the previous upgrades have been applie
 
 *Without making any changes to the numbers entered,* the instructor again clicks `Apply changes`. The third student project is now upgraded.
 
-![Institute pays6](./assets/inst-pay-06-before3rd.png)
+<img alt="Institute pays 3" src="./assets/inst-pay-06-before3rd.png" width="60%">
 
 ### What the student sees
 
@@ -161,8 +161,9 @@ Here is what a student will see upon opening his/her student project for the cou
 
 First, this is what is seen if the instructor has not yet applied upgrades for the student project. Note the red banner warning that the project is not upgraded.
 
-![Institute pays3](./assets/inst-pay-03-student-before.png)
+<img alt="What student sees before upgrade" src="./assets/inst-pay-03-student-before.png" width="60%">
 
 Second, this is what is seen if the instructor has added typical upgrades for a Standard course. The exact amounts added will vary for different plans. For example, Basic courses include upgrades for Member Hosting and Internet Access, but not for other resources. Note in the Projects toolbar at very top, that the project is restarting. That is because upgrades were applied by the instructor moments ago.
 
-![Institute pays4](./assets/inst-pay-04-student-after.png)
+<img alt="What student sees after upgrade" src="./assets/inst-pay-04-student-after.png" width="60%">
+
