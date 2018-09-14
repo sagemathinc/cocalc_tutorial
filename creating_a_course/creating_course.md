@@ -149,9 +149,9 @@ After checking that everything looks right, the instructor clicks `Apply changes
 
 ### Adding more student upgrades
 
-Now suppose a third student arrives after the previous upgrades have been applied. The intstructor again opens the .course file, selects Configuration, and clicks `Adjust upgrades...`. Note the message at the bottom of the dialog that only 1 of the student projects will be upgraded.
+Now suppose a third student arrives after the previous upgrades have been applied. The intstructor again opens the .course file, selects Configuration, and clicks `Adjust upgrades...`. Note the message at the bottom of the dialog that only one of the student projects will be upgraded.
 
-*Without making any changes to the numbers entered,* the instructor again clicks `Apply changes`. The third student's project is now upgraded.
+*Without making any changes to the numbers entered,* the instructor again clicks `Apply changes`. The third student project is now upgraded.
 
 ![Institute pays6](./assets/inst-pay-06-before3rd.png)
 
