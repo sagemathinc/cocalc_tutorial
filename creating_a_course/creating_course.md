@@ -98,7 +98,7 @@ The **Configuration** tab of a **.course** file allows you to upgrade students' 
 
 ![Upgrading students](./assets/upgrading_students.png)
 
-## Upgrading students option 1: Students pay
+## Upgrading students (option 1): Students pay
 
 You can request that the students pay a one-time fee of $14 for four months.
 This will move their projects to members-only hosts and enable full internet access.
@@ -113,7 +113,7 @@ When you check that checkbox, a calendar form opens. The default is to require s
 
 See the [CoCalc wiki page about the student pay option](https://github.com/sagemathinc/cocalc/wiki/student-pay) for additional details on this approach.
 
-## Upgrading students: Teacher or institution pays
+## Upgrading students (option 2): Teacher or institution pays
 
 Alternatively, you can pay on your students' behalf.
 Current pricing is available at <https://cocalc.com/policies/pricing.html> which at the time of writing ranged from a **total** of about $7 to $14 per student for a 4 month course.
