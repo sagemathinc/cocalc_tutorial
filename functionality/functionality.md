@@ -29,13 +29,13 @@ Once you've created your project, click on the project title to open it. It will
 
 ## Linux terminal
 
-CoCalc provides full access to the Linux terminal. To open a terminal, click on **New** and give your session a name. I've used `terminal session` in the example. Click on **>_ Terminal** to begin your session
+CoCalc provides full access to the Linux terminal. To open a terminal, click on **New** and give your session a name. I've used `joe` in the example. Click on **>_ Terminal** to begin your session
 
 ![Create Terminal](./assets/open_terminal.png)
 
 This starts up a traditional looking Bash session
 
-![Running Terminal](./assets/terminal.png)
+<img alt="Running Terminal" src="./assets/terminal.png" width="70%">
 
 The terminal welcome message gives you an idea of some of the software that's available. A partial list includes:
 
