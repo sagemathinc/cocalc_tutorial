@@ -67,9 +67,9 @@ The notebook starts with a Python 2 kernel by default. Change the kernel by clic
 
 ![kernel choice](./assets/kernel_choice.png)
 
-## SageMath Worksheets
+## Sage Worksheets
 
-To start a new SageMath Worksheet, click on **New** and give your worksheet a name (`example_worksheet` in our case ). Click on **Sage Worksheet** to open the worksheet.
+To start a new Sage Worksheet, click on **New** and give your worksheet a name (`example_worksheet` in our case ). Click on **Sage Worksheet** to open the worksheet.
 
 ![Open worksheet](./assets/create_worksheet.png)
 
