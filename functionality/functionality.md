@@ -63,9 +63,9 @@ To start a new Jupyter notebook, click on **New** and give your notebook a name.
 
 ![Open Notebook](./assets/create_notebook.png)
 
-The notebook starts with a Python 2 kernel by default. Change the kernel by clicking on **Kernel**->**Change Kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Julia.
+The notebook starts with a SageMath kernel by default. Change the kernel by clicking on **Kernel** and selecting the kernel you want. There are several available including Python 3, R, Julia, Octave, SageMath and Julia. The image below shows an expanded menu with all the kernels available at the time of this writing:
 
-![kernel choice](./assets/kernel_choice.png)
+<img alt="kernel choice" src="./assets/kernel_choice.png" width="40%">
 
 ## Sage Worksheets
 
