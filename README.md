@@ -47,4 +47,4 @@ This work is licensed under CC-BY 3.0.
 
 ## Citing this work
 
-For a list of authors see the [contributors section](graphs/contributors).
+For a list of authors see the [contributors section](https://github.com/sagemathinc/cocalc_tutorial/graphs/contributors).
