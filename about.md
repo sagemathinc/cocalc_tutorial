@@ -6,14 +6,14 @@ permalink: /about/
 
 # About
 
-This tutorial is maintained by the [University of Sheffield Research Software Engineering Group](http://rse.shef.ac.uk/). The work is part-funded by the [OpenDreamKit project](http://opendreamkit.org/).
+This tutorial was created by the [University of Sheffield Research Software Engineering Group](http://rse.shef.ac.uk/) and was part-funded by the [OpenDreamKit project](http://opendreamkit.org/).
+
+The tutorial is now maintained by Sagemath, Inc., the company behind [CoCalc](https://cocalc.com)
 
 ## Citing this work
 
-For a list of authors see the contributors section [of the GitHub repository](https://github.com/mikecroucher/SMC_tutorial/graphs/contributors). Also, please use the following Digital Object Identifier.
-
-[![DOI](https://zenodo.org/badge/60699967.svg)](https://zenodo.org/badge/latestdoi/60699967)
+For a list of authors see the [contributors section](https://github.com/sagemathinc/cocalc_tutorial/graphs/contributors).
 
 ## Reporting issues
 
-If you encounter any problems with the website and/or the tutorial itself, please raise a [Github issue](https://github.com/mikecroucher/SMC_tutorial).
+If you encounter any problems with the website and/or the tutorial itself, please raise a [Github issue](https://github.com/sagemathinc/cocalc_tutorial).
