@@ -84,6 +84,6 @@ You might think it wouldn't be possible, but it **is** possible to install comme
 
 ## Getting help <a name="GettingHelp"></a>
 
-If you need help from the CoCalc team, you can create a support ticket by emailing help@sagemath.com or clicking on the help icon in the top right hand corner of most CoCalc screens.
+If you need help from the CoCalc team, you can create a support ticket by emailing [help@sagemath.com](mailto:help@sagemath.com) or clicking on the help icon in the top right hand corner of most CoCalc screens.
 
 ![Running Terminal](./assets/help.png)
