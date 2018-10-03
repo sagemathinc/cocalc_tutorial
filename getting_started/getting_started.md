@@ -53,4 +53,4 @@ There are two ways students can receive upgrades for their projects:
 
 If you have purchased a personal subscription and have unused project upgrades, you can share those with your students as well.
 
-Contact [help@sagemath.com](help@sagemath.com) if you have any questions about project upgrades and course packages.
+Contact [help@sagemath.com](mailto:help@sagemath.com) if you have any questions about project upgrades and course packages.
