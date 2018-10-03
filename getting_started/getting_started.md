@@ -4,7 +4,7 @@ title: Getting started with CoCalc
 
 next:
     url: /functionality/functionality.html
-    title: A Tour of SMC
+    title: A Tour of CoCalc
 ---
 
 This section will introduce you to several functions of CoCalc.
