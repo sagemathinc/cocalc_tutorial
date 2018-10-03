@@ -16,4 +16,4 @@ For a list of authors see the [contributors section](https://github.com/sagemath
 
 ## Reporting issues
 
-If you encounter any problems with the website and/or the tutorial itself, please raise a [Github issue](https://github.com/sagemathinc/cocalc_tutorial) or send email to help@sagemath.com.
+If you encounter any problems with the website and/or the tutorial itself, please raise a [Github issue](https://github.com/sagemathinc/cocalc_tutorial) or send email to [help@sagemath.com](help@sagemath.com).
