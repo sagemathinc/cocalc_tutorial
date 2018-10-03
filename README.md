@@ -1,9 +1,3 @@
-## Citing this work
-
-For a list of authors see the contributors section https://github.com/mikecroucher/SMC_tutorial/graphs/contributors. Also, please use the following Digital Object Identifier.
-
-[![DOI](https://zenodo.org/badge/60699967.svg)](https://zenodo.org/badge/latestdoi/60699967)
-
 ## CoCalc
 
 [CoCalc](https://cocalc.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
@@ -48,5 +42,9 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 
 This work is licensed under CC-BY 3.0. 
 
-* Human readable description of the license - (https://creativecommons.org/licenses/by/3.0/)
-* Legal text of the license - (https://raw.githubusercontent.com/mikecroucher/SMC_tutorial/master/license.txt)
+* [Human readable description of the license](https://creativecommons.org/licenses/by/3.0/)
+* [Legal text of the license](license.txt)
+
+## Citing this work
+
+For a list of authors see the [contributors section](graphs/contributors).
