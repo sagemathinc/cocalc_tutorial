@@ -4,12 +4,6 @@ permalink: /index.html
 title: CoCalc tutorial 
 ---
 
-## Citing this work
-
-For a list of authors see the contributors section in [GitHub](https://github.com/sagemathinc/cocalc_tutorial/graphs/contributors). Also, please use the following Digital Object Identifier.
-
-[![DOI](https://zenodo.org/badge/23386/mikecroucher/SMC_tutorial.svg)](https://zenodo.org/badge/latestdoi/23386/mikecroucher/SMC_tutorial)
-
 ## CoCalc
 
 [CoCalc](https://cocalc.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
@@ -62,8 +56,13 @@ Just click on the [**Students** tab](./students)!
 
 ## License
 
-This work is licensed under CC-BY 3.0.
+This work is licensed under CC-BY 3.0. 
+
+* [Human readable description of the license](https://creativecommons.org/licenses/by/3.0/)
+* [Legal text of the license](license.txt)
+
+## Citing this work
+
+For a list of authors see the [contributors section](https://github.com/sagemathinc/cocalc_tutorial/graphs/contributors).
 
 
-* Human readable description of the license - <https://creativecommons.org/licenses/by/3.0/>
-* Legal text of the license - <https://raw.githubusercontent.com/sagemathinc/cocalc_tutorial/gh-pages/license.txt>
