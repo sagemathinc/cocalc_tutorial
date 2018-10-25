@@ -36,7 +36,7 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 * [Grading in CoCalc](http://www.beezers.org/blog/bb/2015/09/grading-in-sagemathcloud/) - Blog post from a lecturer who uses CoCalc in teaching
 * [CoCalc on GitHub](https://github.com/sagemathinc/cocalc) - The whole system is open source
 * [CoCalc Docker distribution](https://github.com/sagemathinc/cocalc-docker) - install the CoCalc platform on your own machine
-* Videos tutorials on course management features in CoCalc
+* Video tutorials on course management features in CoCalc
     * [Why aren't you teaching with CoCalc?](https://youtu.be/cq_HEzBMWNA)
     * [Creating courses in CoCalc](https://youtu.be/K2swc6NhpGg)
     * [Working with course files in CoCalc](https://youtu.be/bt-AhVlAf-U)
@@ -44,7 +44,7 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
     * [Grading assignments in CoCalc](https://youtu.be/y_GX9XWTZfQ)
     * [Peergrading in CoCalc](https://youtu.be/8MagMw-ol5M)
     * [Working with your students in CoCalc](https://youtu.be/4c9RmoLRSWE)
-
+* [Course Management FAQ](https://github.com/sagemathinc/cocalc/wiki/Course-Management-FAQ)
 ---
 
 ## Students' mini tutorials
