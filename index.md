@@ -44,7 +44,8 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
     * [Grading assignments in CoCalc](https://youtu.be/y_GX9XWTZfQ)
     * [Peergrading in CoCalc](https://youtu.be/8MagMw-ol5M)
     * [Working with your students in CoCalc](https://youtu.be/4c9RmoLRSWE)
-* [Course Management FAQ](https://github.com/sagemathinc/cocalc/wiki/Course-Management-FAQ)
+* The [Course Management FAQ](https://github.com/sagemathinc/cocalc/wiki/Course-Management-FAQ)
+
 ---
 
 ## Students' mini tutorials
