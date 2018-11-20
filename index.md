@@ -9,7 +9,7 @@ title: CoCalc tutorial
 [CoCalc](https://cocalc.com/) is a cloud-based service that provides infrastructure and services that are useful for running courses based on Jupyter Notebooks.
 It is used for [teaching by Universities around the world](https://github.com/sagemathinc/cocalc/wiki/Teaching).
 
-Basic access, without internet access, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
+Basic access, without internet access and low-grade hosting quality, is free; however, it is well-worth paying for premium access if you are going to support a class full of students or need internet access.
 Paying users get more resources and support - vital if you are to rely on it for paying students.
 
 Read more about how [how to pay for a course](https://github.com/sagemathinc/cocalc/wiki/prof-pay) in the CoCalc Wiki.
@@ -24,12 +24,18 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 
 ## Course material
 
-* Section 0 - [Getting Started](./getting_started/getting_started.html)
-* Section 1 - [A Tour of CoCalc](./functionality/functionality.html) - An overview of some of CoCalc's functionality
-* Section 2 - [Creating a Course](./creating_a_course/creating_course.html) - How to create a course
-* Section 3 - [Course Management](./course_management/course_management.html) - Detailed course management instructions
-* Section 4 - [Interacting with students and collaborators](./interactions/interactions.html) - Overview of methods to interact with students and collaborators
-* Section 5 - [Other useful features and tricks](./tips_and_tricks/tips_and_tricks.html) - Things that can make your life easier
+**All material moved to the more comprehensive [CoCalc Manual](https://doc.cocalc.com/)**
+
+* [Getting Started](https://doc.cocalc.com/getting-started.html)
+
+* [A Tour of CoCalc](./functionality/functionality.html) - An overview of some of CoCalc's functionality
+
+* [Instructor guide](https://doc.cocalc.com/teaching-instructors.html)
+  * [How to create a course](https://doc.cocalc.com/teaching-create-course.html)
+  * [Course Management](https://doc.cocalc.com/teaching-course-management.html)
+  * [How to interact with students and collaboration](https://doc.cocalc.com/teaching-interactions.html)
+  * [Tips and Tricks for teaching](https://doc.cocalc.com/teaching-tips_and_tricks.html)
+
 
 ## Further resources
 
