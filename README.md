@@ -21,8 +21,6 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 
 * [Getting Started](https://doc.cocalc.com/getting-started.html)
 
-* [A Tour of CoCalc](./functionality/functionality.html) - An overview of some of CoCalc's functionality
-
 * [Instructor guide](https://doc.cocalc.com/teaching-instructors.html)
   * [How to create a course](https://doc.cocalc.com/teaching-create-course.html)
   * [Course Management](https://doc.cocalc.com/teaching-course-management.html)
