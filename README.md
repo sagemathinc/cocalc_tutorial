@@ -17,13 +17,18 @@ Read more about how [how to pay for a course](https://github.com/sagemathinc/coc
 * Has built in real-time chatrooms for easy interaction with students and collaborators.
 
 ## Course material
+**All material moved to the more comprehensive [CoCalc Manual](https://doc.cocalc.com/)**
 
-* Section 0 - [Getting Started](./getting_started/getting_started.md)
-* Section 1 - [A Tour of CoCalc](/functionality/functionality.md) - An overview of some of CoCalc's functionality
-* Section 2 - [Creating a Course](./creating_a_course/creating_course.md) - How to create a course
-* Section 3 - [Course Management](./course_management/course_management.md) - Detailed course management instructions
-* Section 4 - [Interacting with students and collaborators](./interactions/interactions.md) - Overview of methods to interact with students and collaborators
-* Section 5 - [Other useful features and tricks](./tips_and_tricks/tips_and_tricks.md) - Things that can make your life easier
+* [Getting Started](https://doc.cocalc.com/getting-started.html)
+
+* [A Tour of CoCalc](./functionality/functionality.html) - An overview of some of CoCalc's functionality
+
+* [Instructor guide](https://doc.cocalc.com/teaching-instructors.html)
+  * [How to create a course](https://doc.cocalc.com/teaching-create-course.html)
+  * [Course Management](https://doc.cocalc.com/teaching-course-management.html)
+  * [How to interact with students and collaboration](https://doc.cocalc.com/teaching-interactions.html)
+  * [Tips and Tricks for teaching](https://doc.cocalc.com/teaching-tips_and_tricks.html)
+
 
 ## Further resources
 
